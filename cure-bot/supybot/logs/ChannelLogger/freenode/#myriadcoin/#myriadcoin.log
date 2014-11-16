@@ -1,0 +1,516 @@
+2014-09-16T01:21:57  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #myriadcoin
+2014-09-16T03:01:55  *** neuroMode_ is now known as neuroMode
+2014-09-16T03:25:32  *** DigiByteDev <DigiByteDev!~JARED@69.80.98.33> has joined #myriadcoin
+2014-09-16T04:31:24  *** DigiByteDev <DigiByteDev!~JARED@69.80.98.33> has quit IRC (Ping timeout: 245 seconds)
+2014-09-16T05:00:46  *** jwinterm_ <jwinterm_!~quassel@108-76-180-35.lightspeed.rcsntx.sbcglobal.net> has joined #myriadcoin
+2014-09-16T05:04:30  *** jwinterm <jwinterm!~quassel@108-76-180-35.lightspeed.rcsntx.sbcglobal.net> has quit IRC (Ping timeout: 246 seconds)
+2014-09-16T05:11:47  *** jwinterm_ is now known as jwinterm
+2014-09-16T05:46:04  *** DigiByteDev <DigiByteDev!~JARED@206.222.178.191> has joined #myriadcoin
+2014-09-16T05:56:20  *** DigiByteDev <DigiByteDev!~JARED@206.222.178.191> has quit IRC (Ping timeout: 272 seconds)
+2014-09-16T08:41:50  <OGF> some nigger lips
+2014-09-16T08:55:28  *** DigiByteDev <DigiByteDev!~JARED@128.90.93.16> has joined #myriadcoin
+2014-09-16T09:00:40  <neuroMode> lol
+2014-09-16T09:00:42  <neuroMode> wat
+2014-09-16T11:14:57  *** Pontos <Pontos!Pontos@unaffiliated/pontos> has joined #myriadcoin
+2014-09-16T11:18:42  *** DigiByteDev <DigiByteDev!~JARED@128.90.93.16> has quit IRC (Ping timeout: 272 seconds)
+2014-09-16T11:45:30  *** Pontos <Pontos!Pontos@unaffiliated/pontos> has left #myriadcoin
+2014-09-16T12:02:48  *** DigiByteDev <DigiByteDev!~JARED@128.90.93.191> has joined #myriadcoin
+2014-09-16T12:05:45  *** DigiByteDev <DigiByteDev!~JARED@128.90.93.191> has quit IRC (Client Quit)
+2014-09-16T17:59:44  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #myriadcoin
+2014-09-16T18:23:58  *** foodies <foodies!evil@86.126.15.219> has joined #myriadcoin
+2014-09-16T20:50:11  *** OGFChicago <OGFChicago!OGF@c-67-184-43-235.hsd1.il.comcast.net> has joined #myriadcoin
+2014-09-16T20:51:29  *** OGF <OGF!~OGF@unaffiliated/ogf> has quit IRC (Ping timeout: 245 seconds)
+2014-09-16T21:13:03  *** DigiByteDev <DigiByteDev!~JARED@14.19.158.248> has joined #myriadcoin
+2014-09-17T20:40:43  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #myriadcoin
+2014-09-18T04:55:22  *** jrwr <jrwr!~jrwr@198.52.200.10> has quit IRC (Ping timeout: 245 seconds)
+2014-09-18T04:56:35  *** jrwr <jrwr!~jrwr@198.52.200.10> has joined #myriadcoin
+2014-09-18T08:45:07  *** Takeshi_ <Takeshi_!uid37825@gateway/web/irccloud.com/x-bcnsakgzxfdrodco> has quit IRC (Read error: Connection reset by peer)
+2014-09-18T08:45:55  *** Takeshi <Takeshi!uid37825@gateway/web/irccloud.com/x-jdozxgurrwyegwna> has joined #myriadcoin
+2014-09-18T16:25:59  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #myriadcoin
+2014-09-18T19:35:30  *** ahmed_ is now known as BitJohn
+2014-09-18T19:37:23  *** BitJohn is now known as ahmed_
+2014-09-18T19:37:34  *** ahmed_ is now known as Mintpal-Joe
+2014-09-18T19:41:00  *** Mintpal-Joe is now known as ahmed_
+2014-09-18T23:03:40  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #myriadcoin
+2014-09-18T23:03:40  -rajaniemi.freenode.net- [freenode-info] if you're at a conference and other people are having trouble connecting, please mention it to staff: http://freenode.net/faq.shtml#gettinghelp
+2014-09-18T23:27:41  *** neuroMode_ is now known as neuroMode
+2014-09-19T00:39:16  *** ahmed_ is now known as ahmed_ZzZz
+2014-09-19T01:15:51  *** CryptoExpert` <CryptoExpert`!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #myriadcoin
+2014-09-19T01:16:35  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has quit IRC (Ping timeout: 260 seconds)
+2014-09-19T01:16:35  *** CryptoExpert` is now known as CryptoExpert
+2014-09-19T04:20:51  *** jrwr <jrwr!~jrwr@198.52.200.10> has quit IRC (Ping timeout: 240 seconds)
+2014-09-19T04:30:43  *** jrwr <jrwr!~jrwr@198.52.200.10> has joined #myriadcoin
+2014-09-19T04:35:34  *** jrwr <jrwr!~jrwr@198.52.200.10> has quit IRC (Excess Flood)
+2014-09-19T04:38:43  *** jrwr <jrwr!~jrwr@198.52.200.10> has joined #myriadcoin
+2014-09-19T13:01:48  *** ahmed_ZzZz is now known as ahmed_university
+2014-09-19T15:46:41  *** neuroMode_ <neuroMode_!uid39147@gateway/web/irccloud.com/x-dzuxxwmbkhxudawt> has joined #myriadcoin
+2014-09-19T15:48:14  *** Takeshi <Takeshi!uid37825@gateway/web/irccloud.com/x-jdozxgurrwyegwna> has quit IRC (Ping timeout: 272 seconds)
+2014-09-19T15:48:14  *** neuroMode <neuroMode!uid39147@gateway/web/irccloud.com/x-agwbvbkaqomzdfur> has quit IRC (Ping timeout: 272 seconds)
+2014-09-19T15:48:40  *** Takeshi <Takeshi!uid37825@gateway/web/irccloud.com/x-fzpsursmoqxllgvm> has joined #myriadcoin
+2014-09-19T15:48:56  *** neuroMode_ is now known as neuroMode
+2014-09-19T16:27:53  *** jwinterm_ <jwinterm_!~quassel@108-76-180-35.lightspeed.rcsntx.sbcglobal.net> has joined #myriadcoin
+2014-09-19T16:31:34  *** rdekley <rdekley!sid32464@gateway/web/irccloud.com/x-yzodcjushmxilwde> has quit IRC (Ping timeout: 250 seconds)
+2014-09-19T16:31:38  *** jwinterm <jwinterm!~quassel@108-76-180-35.lightspeed.rcsntx.sbcglobal.net> has quit IRC (Ping timeout: 250 seconds)
+2014-09-19T16:34:33  *** rdekley <rdekley!sid32464@gateway/web/irccloud.com/x-asblpsphukureotp> has joined #myriadcoin
+2014-09-19T18:07:11  *** ahmed_university is now known as ahmed_
+2014-09-19T19:29:25  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #myriadcoin
+2014-09-19T21:47:43  *** jwinterm_ is now known as jwinterm
+2014-09-20T01:06:08  *** ahmed_ is now known as ahmed_ZzZz
+2014-09-20T01:41:18  *** moriarty <moriarty!~e@unaffiliated/moriarty> has joined #myriadcoin
+2014-09-20T01:41:20  *** moriarty <moriarty!~e@unaffiliated/moriarty> has left #myriadcoin
+2014-09-20T06:51:11  *** ahmed_ZzZz <ahmed_ZzZz!uid14086@gateway/web/irccloud.com/x-drbweoeucifdewgy> has quit IRC (Read error: Connection reset by peer)
+2014-09-20T06:51:18  *** rdekley <rdekley!sid32464@gateway/web/irccloud.com/x-asblpsphukureotp> has quit IRC (Ping timeout: 260 seconds)
+2014-09-20T06:51:23  *** neuroMode <neuroMode!uid39147@gateway/web/irccloud.com/x-dzuxxwmbkhxudawt> has quit IRC (Ping timeout: 260 seconds)
+2014-09-20T06:51:37  *** Takeshi <Takeshi!uid37825@gateway/web/irccloud.com/x-fzpsursmoqxllgvm> has quit IRC (Ping timeout: 272 seconds)
+2014-09-20T07:13:23  *** neuroMode_ <neuroMode_!uid39147@gateway/web/irccloud.com/x-tnkkjowyoywqnmgf> has joined #myriadcoin
+2014-09-20T07:13:52  *** rdekley <rdekley!sid32464@gateway/web/irccloud.com/x-ibpozxuqwshqbbwc> has joined #myriadcoin
+2014-09-20T07:14:20  *** Takeshi <Takeshi!uid37825@gateway/web/irccloud.com/x-fnixsqfqaeqnxiia> has joined #myriadcoin
+2014-09-20T07:20:01  *** ahmed_ <ahmed_!uid14086@gateway/web/irccloud.com/x-ryukmfeojoiziwjx> has joined #myriadcoin
+2014-09-20T08:39:48  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #myriadcoin
+2014-09-20T17:45:01  *** neuroMode_ is now known as neuroMode
+2014-09-20T18:01:44  *** ahmed_ is now known as guest9919
+2014-09-20T18:02:09  *** guest9919 is now known as ub3rl33t
+2014-09-20T18:06:23  *** ub3rl33t is now known as larrabo
+2014-09-20T18:07:35  *** larrabo is now known as eightbitcoder
+2014-09-20T18:08:48  *** eightbitcoder is now known as ahmed_
+2014-09-20T18:12:25  *** ahmed_ is now known as ChenSeav
+2014-09-20T18:27:11  *** ChenSeav is now known as ahmed_
+2014-09-20T20:56:28  *** Rack <Rack!a2cdd6d2@gateway/web/freenode/ip.162.205.214.210> has quit IRC (Ping timeout: 246 seconds)
+2014-09-20T20:58:06  *** Rack <Rack!a2cdd6d2@gateway/web/freenode/ip.162.205.214.210> has joined #myriadcoin
+2014-09-20T21:49:42  *** CryptoExpert` <CryptoExpert`!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #myriadcoin
+2014-09-20T21:49:42  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has quit IRC (Ping timeout: 272 seconds)
+2014-09-20T21:49:43  *** CryptoExpert` is now known as CryptoExpert
+2014-09-20T23:55:47  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #myriadcoin
+2014-09-21T02:56:47  *** ahmed_ is now known as ahmed_ZzZz
+2014-09-21T03:06:26  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #myriadcoin
+2014-09-21T07:11:29  *** Doulby <Doulby!~Doulby@rof76-1-82-233-229-5.fbx.proxad.net> has joined #myriadcoin
+2014-09-21T08:48:38  *** Doulby <Doulby!~Doulby@rof76-1-82-233-229-5.fbx.proxad.net> has quit IRC (Read error: Connection reset by peer)
+2014-09-21T08:49:38  *** Doulby <Doulby!~Doulby@rof76-1-82-233-229-5.fbx.proxad.net> has joined #myriadcoin
+2014-09-21T08:50:57  *** Doulby <Doulby!~Doulby@rof76-1-82-233-229-5.fbx.proxad.net> has quit IRC (Remote host closed the connection)
+2014-09-21T14:41:58  *** ahmed_ZzZz is now known as ahmed_
+2014-09-21T17:33:20  *** jrwr <jrwr!~jrwr@198.52.200.10> has quit IRC (Changing host)
+2014-09-21T17:33:20  *** jrwr <jrwr!~jrwr@unaffiliated/jrwr> has joined #myriadcoin
+2014-09-21T22:08:16  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #myriadcoin
+2014-09-21T22:56:50  *** rdekley changes topic to "☆☆ Please join ##myriadcoin for official Myriad channel (double-hash) ☆☆"
+2014-09-22T00:13:15  *** ahmed_ is now known as ahmed_ZzZz
+2014-09-22T03:11:29  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #myriadcoin
+2014-09-22T03:11:39  *** DigiByteDev <DigiByteDev!~JARED@207-207-24-66.fwd.datafoundry.com> has joined #myriadcoin
+2014-09-22T03:48:06  *** jrwr <jrwr!~jrwr@unaffiliated/jrwr> has quit IRC (Excess Flood)
+2014-09-22T03:49:36  *** jrwr <jrwr!~jrwr@198.52.200.10> has joined #myriadcoin
+2014-09-22T05:12:40  *** DigiByteDev <DigiByteDev!~JARED@207-207-24-66.fwd.datafoundry.com> has quit IRC (Ping timeout: 260 seconds)
+2014-09-22T08:23:46  *** jrwr <jrwr!~jrwr@198.52.200.10> has quit IRC (Excess Flood)
+2014-09-22T08:24:36  *** jrwr <jrwr!~jrwr@198.52.200.10> has joined #myriadcoin
+2014-09-22T08:57:08  *** DigiByteDev <DigiByteDev!~JARED@207-207-17-9.fwd.datafoundry.com> has joined #myriadcoin
+2014-09-22T12:36:28  *** DigiByteDev <DigiByteDev!~JARED@207-207-17-9.fwd.datafoundry.com> has quit IRC (Quit: Leaving)
+2014-09-22T14:25:37  *** DigiByteDev <DigiByteDev!~JARED@207-207-21-97.fwd.datafoundry.com> has joined #myriadcoin
+2014-09-22T15:14:59  *** DigiByteDev <DigiByteDev!~JARED@207-207-21-97.fwd.datafoundry.com> has quit IRC (Quit: Leaving)
+2014-09-22T16:11:06  *** ahmed_ZzZz is now known as ahmed_
+2014-09-22T21:07:28  *** jrwr <jrwr!~jrwr@198.52.200.10> has quit IRC (Excess Flood)
+2014-09-22T21:08:36  *** jrwr <jrwr!~jrwr@198.52.200.10> has joined #myriadcoin
+2014-09-22T23:18:42  *** KBomba <KBomba!~Bombadil@unaffiliated/kbomba> has joined #myriadcoin
+2014-09-22T23:41:02  *** OGF <OGF!~OGF@unaffiliated/ogf> has joined #myriadcoin
+2014-09-23T00:14:24  *** neuroMode is now known as yourmom
+2014-09-23T00:14:33  *** yourmom is now known as neuroMode
+2014-09-23T01:34:23  *** DigiByteDev <DigiByteDev!~JARED@207-207-21-196.fwd.datafoundry.com> has joined #myriadcoin
+2014-09-23T01:54:10  *** DigiByteDev <DigiByteDev!~JARED@207-207-21-196.fwd.datafoundry.com> has quit IRC (Quit: Leaving)
+2014-09-23T02:22:05  *** jwinterm <jwinterm!~quassel@108-76-180-35.lightspeed.rcsntx.sbcglobal.net> has quit IRC (Quit: No Ping reply in 180 seconds.)
+2014-09-23T02:23:20  *** jwinterm <jwinterm!~quassel@108-76-180-35.lightspeed.rcsntx.sbcglobal.net> has joined #myriadcoin
+2014-09-23T03:03:24  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #myriadcoin
+2014-09-23T03:43:34  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #myriadcoin
+2014-09-23T03:46:58  *** DigiByte <DigiByte!~JARED@14.16.146.140> has joined #myriadcoin
+2014-09-23T03:50:05  *** DigiByteDev <DigiByteDev!~JARED@207-207-24-221.fwd.datafoundry.com> has quit IRC (Ping timeout: 272 seconds)
+2014-09-23T03:56:38  *** DigiByte <DigiByte!~JARED@14.16.146.140> has quit IRC (Ping timeout: 246 seconds)
+2014-09-23T04:50:27  *** jrwr <jrwr!~jrwr@198.52.200.10> has quit IRC (Excess Flood)
+2014-09-23T04:51:38  *** jrwr <jrwr!~jrwr@198.52.200.10> has joined #myriadcoin
+2014-09-23T07:10:28  *** CryptoExpert` <CryptoExpert`!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #myriadcoin
+2014-09-23T07:10:29  *** CryptoExpert` is now known as CryptoExpert
+2014-09-23T08:39:57  *** OGF <OGF!~OGF@unaffiliated/ogf> has quit IRC (Read error: Connection reset by peer)
+2014-09-23T10:15:27  *** CryptoExpert` <CryptoExpert`!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #myriadcoin
+2014-09-23T10:15:28  *** CryptoExpert` is now known as CryptoExpert
+2014-09-23T13:07:50  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #myriadcoin
+2014-09-23T15:06:14  *** neuroMode <neuroMode!uid39147@gateway/web/irccloud.com/x-tnkkjowyoywqnmgf> has quit IRC (Ping timeout: 272 seconds)
+2014-09-23T15:07:53  *** neuroMode <neuroMode!uid39147@gateway/web/irccloud.com/x-ystrwobovltnayyy> has joined #myriadcoin
+2014-09-23T18:11:34  *** CryptoExpert` <CryptoExpert`!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #myriadcoin
+2014-09-23T18:11:35  *** CryptoExpert` is now known as CryptoExpert
+2014-09-23T18:55:35  *** jwinterm <jwinterm!~quassel@108-76-180-35.lightspeed.rcsntx.sbcglobal.net> has quit IRC (Ping timeout: 245 seconds)
+2014-09-23T19:02:04  *** foodies is now known as Darkseid
+2014-09-23T23:36:17  *** jwinterm <jwinterm!~quassel@108-76-180-35.lightspeed.rcsntx.sbcglobal.net> has joined #myriadcoin
+2014-09-24T00:05:40  *** jwinterm <jwinterm!~quassel@108-76-180-35.lightspeed.rcsntx.sbcglobal.net> has quit IRC (Read error: Connection reset by peer)
+2014-09-24T00:06:07  *** jwinterm <jwinterm!~quassel@108-76-180-35.lightspeed.rcsntx.sbcglobal.net> has joined #myriadcoin
+2014-09-24T00:41:00  *** moriarty <moriarty!~e@unaffiliated/moriarty> has joined #myriadcoin
+2014-09-24T00:41:03  *** moriarty <moriarty!~e@unaffiliated/moriarty> has left #myriadcoin
+2014-09-24T02:19:20  *** jwinterm_ <jwinterm_!~quassel@108-76-180-35.lightspeed.rcsntx.sbcglobal.net> has joined #myriadcoin
+2014-09-24T02:22:14  *** jwinterm <jwinterm!~quassel@108-76-180-35.lightspeed.rcsntx.sbcglobal.net> has quit IRC (Ping timeout: 272 seconds)
+2014-09-24T02:28:14  *** jwinterm_ <jwinterm_!~quassel@108-76-180-35.lightspeed.rcsntx.sbcglobal.net> has quit IRC (Read error: Connection reset by peer)
+2014-09-24T08:50:57  *** DigiByteDev <DigiByteDev!~JARED@207-207-17-231.fwd.datafoundry.com> has joined #myriadcoin
+2014-09-24T09:12:14  *** DigiByteDev <DigiByteDev!~JARED@207-207-17-231.fwd.datafoundry.com> has quit IRC (Ping timeout: 244 seconds)
+2014-09-24T14:44:38  *** DigiByteDev <DigiByteDev!~JARED@42-98-205-069.static.netvigator.com> has joined #myriadcoin
+2014-09-24T14:52:28  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #myriadcoin
+2014-09-24T15:49:26  *** Darkseid <Darkseid!evil@86.126.15.219> has quit IRC (Ping timeout: 260 seconds)
+2014-09-24T16:05:08  *** Darkseid <Darkseid!~evil@86.126.15.219> has joined #myriadcoin
+2014-09-24T16:57:02  *** DigiByteDev <DigiByteDev!~JARED@42-98-205-069.static.netvigator.com> has quit IRC (Quit: Leaving)
+2014-09-24T17:19:54  *** KBomba <KBomba!~Bombadil@unaffiliated/kbomba> has quit IRC (Quit: ChatZilla 0.9.90.1 [Firefox 32.0.2/20140917194002])
+2014-09-24T23:48:53  *** ahmed_ is now known as ahmed_ZzZz
+2014-09-25T04:18:35  *** DigiByteDev <DigiByteDev!~JARED@103.253.8.62> has joined #myriadcoin
+2014-09-25T05:33:03  *** DigiByteDev <DigiByteDev!~JARED@103.253.8.62> has quit IRC (Quit: Leaving)
+2014-09-25T06:47:34  *** Rack <Rack!a2cdd6d2@gateway/web/freenode/ip.162.205.214.210> has quit IRC (Ping timeout: 246 seconds)
+2014-09-25T06:47:48  *** Takeshi <Takeshi!uid37825@gateway/web/irccloud.com/x-fnixsqfqaeqnxiia> has quit IRC (Ping timeout: 272 seconds)
+2014-09-25T06:49:31  *** Takeshi <Takeshi!uid37825@gateway/web/irccloud.com/x-bozvpcfpjsmhlyrl> has joined #myriadcoin
+2014-09-25T09:03:12  *** ahmed_ZzZz is now known as ahmed_
+2014-09-25T12:10:28  *** Rack <Rack!a2cdd6d2@gateway/web/freenode/ip.162.205.214.210> has joined #myriadcoin
+2014-09-26T01:12:26  *** ahmed_ is now known as ahmed_ZzZz
+2014-09-26T11:39:28  *** DigiByteDev <DigiByteDev!~JARED@64.9.130.59> has joined #myriadcoin
+2014-09-26T12:04:09  *** DigiByteDev <DigiByteDev!~JARED@64.9.130.59> has quit IRC (Ping timeout: 244 seconds)
+2014-09-26T12:24:26  *** simondlr <simondlr!~simondlr@196-215-135-12.dynamic.isadsl.co.za> has joined #myriadcoin
+2014-09-26T12:24:58  *** simondlr <simondlr!~simondlr@196-215-135-12.dynamic.isadsl.co.za> has left #myriadcoin ("Leaving...")
+2014-09-26T13:55:13  *** DigiByteDev <DigiByteDev!~JARED@69.80.103.173> has joined #myriadcoin
+2014-09-26T14:12:20  *** DigiByteDev <DigiByteDev!~JARED@69.80.103.173> has quit IRC (Quit: Leaving)
+2014-09-26T16:13:58  *** ahmed_ZzZz is now known as ahmed_
+2014-09-26T19:55:39  *** Rack <Rack!a2cdd6d2@gateway/web/freenode/ip.162.205.214.210> has quit IRC (Ping timeout: 246 seconds)
+2014-09-26T20:27:53  *** Rack <Rack!a2cdd6d2@gateway/web/freenode/ip.162.205.214.210> has joined #myriadcoin
+2014-09-27T00:29:17  *** ahmed_ is now known as ahmed_ZzZz
+2014-09-27T02:37:24  *** neuroMode <neuroMode!uid39147@gateway/web/irccloud.com/x-ystrwobovltnayyy> has quit IRC (Ping timeout: 260 seconds)
+2014-09-27T02:38:00  *** ahmed_ZzZz <ahmed_ZzZz!uid14086@gateway/web/irccloud.com/x-ryukmfeojoiziwjx> has quit IRC (Ping timeout: 272 seconds)
+2014-09-27T04:26:32  *** DigiByteDev <DigiByteDev!~JARED@206.222.164.104> has joined #myriadcoin
+2014-09-27T05:33:53  *** ahmed_ZzZz <ahmed_ZzZz!sid14086@gateway/web/irccloud.com/x-jklintepbutdgjwn> has joined #myriadcoin
+2014-09-27T05:53:35  *** neuroMode <neuroMode!uid39147@gateway/web/irccloud.com/x-nkakstufoeaidnsp> has joined #myriadcoin
+2014-09-27T06:08:24  *** DigiByteDev <DigiByteDev!~JARED@206.222.164.104> has quit IRC (Quit: Leaving)
+2014-09-27T08:23:28  *** DigiByteDev <DigiByteDev!~JARED@69.80.103.16> has joined #myriadcoin
+2014-09-27T08:25:42  *** ahmed_ZzZz <ahmed_ZzZz!sid14086@gateway/web/irccloud.com/x-jklintepbutdgjwn> has quit IRC (K-Lined)
+2014-09-27T08:25:43  *** Takeshi <Takeshi!uid37825@gateway/web/irccloud.com/x-bozvpcfpjsmhlyrl> has quit IRC (K-Lined)
+2014-09-27T08:25:44  *** rdekley <rdekley!sid32464@gateway/web/irccloud.com/x-ibpozxuqwshqbbwc> has quit IRC (K-Lined)
+2014-09-27T08:25:44  *** neuroMode <neuroMode!uid39147@gateway/web/irccloud.com/x-nkakstufoeaidnsp> has quit IRC (K-Lined)
+2014-09-27T08:28:30  *** DigiByteDev <DigiByteDev!~JARED@69.80.103.16> has quit IRC (Quit: Leaving)
+2014-09-27T09:14:51  *** DigiByteDev <DigiByteDev!~JARED@69.80.101.85> has joined #myriadcoin
+2014-09-27T09:42:02  *** neuroMode <neuroMode!uid39147@gateway/web/irccloud.com/x-ragdoisdrjrstsyh> has joined #myriadcoin
+2014-09-27T10:44:21  *** ahmed_ZzZz <ahmed_ZzZz!sid14086@gateway/web/irccloud.com/x-lctgswubzuhzbtlo> has joined #myriadcoin
+2014-09-27T11:03:44  *** rdekley <rdekley!sid32464@gateway/web/irccloud.com/x-xcxzcsibtepitxeb> has joined #myriadcoin
+2014-09-27T11:36:57  *** DigiByte <DigiByte!~JARED@183.2.86.62> has joined #myriadcoin
+2014-09-27T11:37:59  *** DigiByteDev <DigiByteDev!~JARED@69.80.101.85> has quit IRC (Ping timeout: 272 seconds)
+2014-09-27T12:18:48  *** DigiByte <DigiByte!~JARED@183.2.86.62> has quit IRC (Ping timeout: 240 seconds)
+2014-09-27T18:14:49  *** DigiByte <DigiByte!~JARED@183.2.87.20> has joined #myriadcoin
+2014-09-27T18:26:31  *** ahmed_ZzZz is now known as ahmed_
+2014-09-27T18:28:14  *** DigiByte <DigiByte!~JARED@183.2.87.20> has quit IRC (Ping timeout: 272 seconds)
+2014-09-27T20:38:18  *** davidgw <davidgw!~davidgw@199.102.52.141> has joined #myriadcoin
+2014-09-27T20:38:29  *** davidgw <davidgw!~davidgw@199.102.52.141> has left #myriadcoin
+2014-09-27T21:32:18  *** rdekley <rdekley!sid32464@gateway/web/irccloud.com/x-xcxzcsibtepitxeb> has quit IRC (Read error: Connection reset by peer)
+2014-09-27T21:32:45  *** rdekley <rdekley!sid32464@gateway/web/irccloud.com/x-uqpciyfwkyzrutqv> has joined #myriadcoin
+2014-09-27T21:55:50  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #myriadcoin
+2014-09-28T00:24:12  *** DigiByte <DigiByte!~JARED@183.2.87.20> has joined #myriadcoin
+2014-09-28T00:37:37  *** DigiByte <DigiByte!~JARED@183.2.87.20> has quit IRC (Ping timeout: 245 seconds)
+2014-09-28T00:39:56  *** Takeshi <Takeshi!sid37825@gateway/web/irccloud.com/x-jngwbghwkmccgjxz> has joined #myriadcoin
+2014-09-28T00:47:02  *** CryptoExpert` <CryptoExpert`!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #myriadcoin
+2014-09-28T00:48:35  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has quit IRC (Read error: Connection reset by peer)
+2014-09-28T00:48:35  *** CryptoExpert` is now known as CryptoExpert
+2014-09-28T04:28:48  *** OGFChicago <OGFChicago!~OGF@c-67-184-43-235.hsd1.il.comcast.net> has joined #myriadcoin
+2014-09-28T04:28:55  <OGFChicago> woah 9 people in here now?
+2014-09-28T04:28:58  <OGFChicago> fuck ?
+2014-09-28T04:29:09  <OGFChicago> oh derp
+2014-09-28T04:38:20  *** DigiByteDev <DigiByteDev!~JARED@14.19.156.110> has joined #myriadcoin
+2014-09-28T04:50:03  *** DigiByteDev <DigiByteDev!~JARED@14.19.156.110> has quit IRC (Ping timeout: 260 seconds)
+2014-09-28T05:18:20  *** OGFChicago <OGFChicago!~OGF@c-67-184-43-235.hsd1.il.comcast.net> has left #myriadcoin ("Leaving")
+2014-09-28T08:26:46  *** meziti <meziti!~meziti@5248D8A5.cm-4-1d.dynamic.ziggo.nl> has joined #myriadcoin
+2014-09-28T08:26:49  <meziti> morning
+2014-09-28T08:27:14  *** meziti <meziti!~meziti@5248D8A5.cm-4-1d.dynamic.ziggo.nl> has left #myriadcoin
+2014-09-28T09:02:14  *** DigiByteDev <DigiByteDev!~JARED@69.80.96.56> has joined #myriadcoin
+2014-09-28T11:23:10  *** DigiByteDev <DigiByteDev!~JARED@69.80.96.56> has quit IRC (Quit: Leaving)
+2014-09-28T13:54:20  *** DigiByteDev <DigiByteDev!~JARED@64.9.146.34> has joined #myriadcoin
+2014-09-28T15:04:01  *** Zucca <Zucca!~zucca@dsl-hkibrasgw4-50df5a-146.dhcp.inet.fi> has joined #myriadcoin
+2014-09-28T15:04:14  <Zucca> WEll...
+2014-09-28T18:17:17  *** DigiByteDev <DigiByteDev!~JARED@64.9.146.34> has quit IRC (Ping timeout: 240 seconds)
+2014-09-28T21:03:09  *** vesipyks <vesipyks!52831772@gateway/web/freenode/ip.82.131.23.114> has joined #myriadcoin
+2014-09-28T21:04:20  *** vesipyks <vesipyks!52831772@gateway/web/freenode/ip.82.131.23.114> has quit IRC (Client Quit)
+2014-09-28T22:54:40  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #myriadcoin
+2014-09-28T23:38:23  <ahmed_> Zucca: wrong room
+2014-09-28T23:38:28  <ahmed_> ##myriadcoin
+2014-09-28T23:58:18  *** ahmed_ is now known as ahmed_ZzZz
+2014-09-29T01:38:07  *** DigiByteDev <DigiByteDev!~JARED@14.19.157.246> has joined #myriadcoin
+2014-09-29T01:41:17  *** DigiByteDev <DigiByteDev!~JARED@14.19.157.246> has quit IRC (Client Quit)
+2014-09-29T11:03:47  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #myriadcoin
+2014-09-29T11:22:23  *** ahmed_ZzZz is now known as ahmed_uni
+2014-09-29T12:00:03  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #myriadcoin
+2014-09-29T12:00:04  -cameron.freenode.net- [freenode-info] please register your nickname...don't forget to auto-identify! http://freenode.net/faq.shtml#nicksetup
+2014-09-29T13:18:32  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #myriadcoin
+2014-09-29T14:40:26  *** joe_b <joe_b!~Adium@pool-108-6-113-108.nycmny.fios.verizon.net> has joined #myriadcoin
+2014-09-29T14:41:16  *** joe_b <joe_b!~Adium@pool-108-6-113-108.nycmny.fios.verizon.net> has left #myriadcoin
+2014-09-29T16:38:08  <Zucca> Yeah.
+2014-09-29T16:38:16  *** Zucca <Zucca!~zucca@dsl-hkibrasgw4-50df5a-146.dhcp.inet.fi> has left #myriadcoin ("Yikes!")
+2014-09-29T23:18:06  *** ahmed_uni is now known as ahmed_
+2014-09-29T23:37:50  <Darkseid> k
+2014-09-30T03:10:44  *** DigiByteDev <DigiByteDev!~JARED@113.28.135.125> has joined #myriadcoin
+2014-09-30T03:23:50  *** DigiByteDev <DigiByteDev!~JARED@113.28.135.125> has quit IRC (Read error: Connection reset by peer)
+2014-09-30T04:20:41  *** DigiByteDev <DigiByteDev!~JARED@103.253.8.62> has joined #myriadcoin
+2014-09-30T05:03:42  *** CryptoExpert` <CryptoExpert`!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #myriadcoin
+2014-09-30T05:05:06  *** CryptoExpert` is now known as CryptoExpert
+2014-09-30T10:07:15  *** DigiByteDev <DigiByteDev!~JARED@103.253.8.62> has quit IRC (Read error: Connection reset by peer)
+2014-09-30T10:55:04  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #myriadcoin
+2014-09-30T15:00:27  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #myriadcoin
+2014-10-01T00:37:26  *** moriarty <moriarty!~e@unaffiliated/moriarty> has joined #myriadcoin
+2014-10-01T00:37:28  *** moriarty <moriarty!~e@unaffiliated/moriarty> has left #myriadcoin
+2014-10-01T08:00:26  *** DigiByteDev <DigiByteDev!~JARED@69.80.103.34> has joined #myriadcoin
+2014-10-01T08:07:15  *** DigiByte <DigiByte!~JARED@14.19.159.129> has joined #myriadcoin
+2014-10-01T08:07:45  *** DigiByteDev <DigiByteDev!~JARED@69.80.103.34> has quit IRC (Ping timeout: 240 seconds)
+2014-10-01T08:15:05  *** DigiByte <DigiByte!~JARED@14.19.159.129> has quit IRC (Quit: Leaving)
+2014-10-01T10:26:38  *** DigiByteDev <DigiByteDev!~JARED@128.90.92.17> has joined #myriadcoin
+2014-10-01T15:16:21  *** DigiByteDev <DigiByteDev!~JARED@128.90.92.17> has quit IRC (Quit: Leaving)
+2014-10-01T15:25:17  *** DigiByteDev <DigiByteDev!~JARED@128.90.88.172> has joined #myriadcoin
+2014-10-01T16:27:27  *** DigiByteDev <DigiByteDev!~JARED@128.90.88.172> has quit IRC (Quit: Leaving)
+2014-10-01T16:28:03  *** DigiByteDev <DigiByteDev!~JARED@128.90.88.172> has joined #myriadcoin
+2014-10-01T16:28:25  *** DigiByteDev <DigiByteDev!~JARED@128.90.88.172> has quit IRC (Remote host closed the connection)
+2014-10-01T16:44:08  *** DigiByteDev <DigiByteDev!~JARED@128.90.92.171> has joined #myriadcoin
+2014-10-01T18:05:23  *** InfoFront <InfoFront!32f702cd@gateway/web/cgi-irc/kiwiirc.com/ip.50.247.2.205> has joined #myriadcoin
+2014-10-01T18:05:41  *** InfoFront <InfoFront!32f702cd@gateway/web/cgi-irc/kiwiirc.com/ip.50.247.2.205> has left #myriadcoin
+2014-10-01T18:29:23  *** DigiByteDev <DigiByteDev!~JARED@128.90.92.171> has quit IRC (Quit: Leaving)
+2014-10-01T19:13:30  *** DigiByteDev <DigiByteDev!~JARED@128.90.88.210> has joined #myriadcoin
+2014-10-01T19:15:59  *** Takeshi <Takeshi!sid37825@gateway/web/irccloud.com/x-jngwbghwkmccgjxz> has quit IRC (Ping timeout: 272 seconds)
+2014-10-01T19:18:03  *** Takeshi <Takeshi!sid37825@gateway/web/irccloud.com/x-tsnzgzzfnebilluo> has joined #myriadcoin
+2014-10-01T19:39:01  *** Takeshi <Takeshi!sid37825@gateway/web/irccloud.com/x-tsnzgzzfnebilluo> has quit IRC (Ping timeout: 260 seconds)
+2014-10-01T19:42:45  *** Takeshi <Takeshi!sid37825@gateway/web/irccloud.com/x-vvqzhrvtxedwwyem> has joined #myriadcoin
+2014-10-01T19:55:44  *** neuroMode <neuroMode!uid39147@gateway/web/irccloud.com/x-ragdoisdrjrstsyh> has quit IRC (Ping timeout: 260 seconds)
+2014-10-01T19:57:32  *** neuroMode <neuroMode!uid39147@gateway/web/irccloud.com/x-ebbikmeyxjpamkdi> has joined #myriadcoin
+2014-10-01T20:27:58  *** DigiByteDev <DigiByteDev!~JARED@128.90.88.210> has quit IRC (Ping timeout: 246 seconds)
+2014-10-01T21:54:31  *** jrwr <jrwr!~jrwr@198.52.200.10> has quit IRC (Changing host)
+2014-10-01T21:54:31  *** jrwr <jrwr!~jrwr@unaffiliated/jrwr> has joined #myriadcoin
+2014-10-02T00:31:59  *** jrwr <jrwr!~jrwr@unaffiliated/jrwr> has quit IRC (Excess Flood)
+2014-10-02T00:32:47  *** jrwr <jrwr!~jrwr@unaffiliated/jrwr> has joined #myriadcoin
+2014-10-02T00:36:25  *** jrwr <jrwr!~jrwr@unaffiliated/jrwr> has quit IRC (Excess Flood)
+2014-10-02T00:36:47  *** jrwr <jrwr!~jrwr@198.52.200.10> has joined #myriadcoin
+2014-10-02T00:36:49  *** jrwr <jrwr!~jrwr@198.52.200.10> has quit IRC (Changing host)
+2014-10-02T00:36:49  *** jrwr <jrwr!~jrwr@unaffiliated/jrwr> has joined #myriadcoin
+2014-10-02T00:41:01  *** jrwr <jrwr!~jrwr@unaffiliated/jrwr> has quit IRC (Excess Flood)
+2014-10-02T00:43:17  *** jrwr <jrwr!~jrwr@198.52.200.10> has joined #myriadcoin
+2014-10-02T03:45:09  *** DigiByteDev <DigiByteDev!~JARED@128.90.88.62> has joined #myriadcoin
+2014-10-02T03:45:35  *** DigiByteDev <DigiByteDev!~JARED@128.90.88.62> has quit IRC (Client Quit)
+2014-10-02T03:52:43  *** DigiByteDev <DigiByteDev!~JARED@128.90.88.208> has joined #myriadcoin
+2014-10-02T04:46:05  *** DigiByte <DigiByte!~JARED@14.19.156.135> has joined #myriadcoin
+2014-10-02T04:49:11  *** DigiByteDev <DigiByteDev!~JARED@128.90.88.208> has quit IRC (Ping timeout: 272 seconds)
+2014-10-02T05:26:29  *** DigiByte <DigiByte!~JARED@14.19.156.135> has quit IRC (Quit: Leaving)
+2014-10-02T15:12:35  *** jrwr <jrwr!~jrwr@198.52.200.10> has quit IRC (Changing host)
+2014-10-02T15:12:35  *** jrwr <jrwr!~jrwr@unaffiliated/jrwr> has joined #myriadcoin
+2014-10-02T16:14:01  *** foodies <foodies!evil@84.232.207.14> has joined #myriadcoin
+2014-10-02T16:15:53  *** Darkseid <Darkseid!~evil@86.126.15.219> has quit IRC (Ping timeout: 245 seconds)
+2014-10-02T16:18:29  *** Darkseid <Darkseid!evil@84.232.207.89> has joined #myriadcoin
+2014-10-02T16:20:21  *** foodies <foodies!evil@84.232.207.14> has quit IRC (Ping timeout: 272 seconds)
+2014-10-02T20:24:15  *** CryptoExpert` <CryptoExpert`!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #myriadcoin
+2014-10-02T20:24:16  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has quit IRC (Read error: Connection reset by peer)
+2014-10-02T20:24:16  *** CryptoExpert` is now known as CryptoExpert
+2014-10-02T20:30:56  *** jrwr <jrwr!~jrwr@unaffiliated/jrwr> has quit IRC (Excess Flood)
+2014-10-02T20:31:46  *** jrwr <jrwr!~jrwr@198.52.200.10> has joined #myriadcoin
+2014-10-02T20:35:09  *** jrwr <jrwr!~jrwr@198.52.200.10> has quit IRC (Excess Flood)
+2014-10-02T20:37:17  *** jrwr <jrwr!~jrwr@unaffiliated/jrwr> has joined #myriadcoin
+2014-10-02T21:09:57  *** jrwr <jrwr!~jrwr@unaffiliated/jrwr> has quit IRC (Excess Flood)
+2014-10-02T21:11:46  *** jrwr <jrwr!~jrwr@198.52.200.10> has joined #myriadcoin
+2014-10-02T21:43:11  *** jrwr <jrwr!~jrwr@198.52.200.10> has quit IRC (Changing host)
+2014-10-02T21:43:11  *** jrwr <jrwr!~jrwr@unaffiliated/jrwr> has joined #myriadcoin
+2014-10-03T01:13:00  *** jrwr <jrwr!~jrwr@unaffiliated/jrwr> has quit IRC (Excess Flood)
+2014-10-03T01:14:47  *** jrwr <jrwr!~jrwr@198.52.200.10> has joined #myriadcoin
+2014-10-03T01:19:08  *** Darkseid is now known as foodies
+2014-10-03T01:19:44  *** jrwr <jrwr!~jrwr@198.52.200.10> has quit IRC (Excess Flood)
+2014-10-03T01:20:18  *** jrwr <jrwr!~jrwr@198.52.200.10> has joined #myriadcoin
+2014-10-03T01:44:11  *** jrwr <jrwr!~jrwr@198.52.200.10> has quit IRC (Excess Flood)
+2014-10-03T01:48:17  *** jrwr <jrwr!~jrwr@unaffiliated/jrwr> has joined #myriadcoin
+2014-10-03T01:49:48  *** jrwr <jrwr!~jrwr@unaffiliated/jrwr> has joined #myriadcoin
+2014-10-03T01:52:01  *** jrwr <jrwr!~jrwr@unaffiliated/jrwr> has quit IRC (Excess Flood)
+2014-10-03T01:52:17  *** jrwr <jrwr!~jrwr@198.52.200.10> has joined #myriadcoin
+2014-10-03T01:55:07  *** jrwr <jrwr!~jrwr@198.52.200.10> has quit IRC (Excess Flood)
+2014-10-03T01:58:58  *** jrwr <jrwr!~jrwr@198.52.200.10> has joined #myriadcoin
+2014-10-03T02:04:20  *** jrwr <jrwr!~jrwr@198.52.200.10> has quit IRC (Quit: Oh noes!)
+2014-10-03T02:06:18  *** jrwr <jrwr!~jrwr@198.52.200.10> has joined #myriadcoin
+2014-10-03T02:32:11  *** jrwr <jrwr!~jrwr@198.52.200.10> has quit IRC (Excess Flood)
+2014-10-03T02:33:17  *** jrwr <jrwr!~jrwr@198.52.200.10> has joined #myriadcoin
+2014-10-03T02:36:13  *** jrwr <jrwr!~jrwr@198.52.200.10> has quit IRC (Excess Flood)
+2014-10-03T02:38:48  *** jrwr <jrwr!~jrwr@198.52.200.10> has joined #myriadcoin
+2014-10-03T02:40:13  *** jrwr <jrwr!~jrwr@198.52.200.10> has quit IRC (Excess Flood)
+2014-10-03T02:42:17  *** jrwr <jrwr!~jrwr@198.52.200.10> has joined #myriadcoin
+2014-10-03T02:44:10  *** jrwr <jrwr!~jrwr@198.52.200.10> has quit IRC (Excess Flood)
+2014-10-03T02:45:48  *** jrwr <jrwr!~jrwr@198.52.200.10> has joined #myriadcoin
+2014-10-03T02:48:11  *** jrwr <jrwr!~jrwr@198.52.200.10> has quit IRC (Excess Flood)
+2014-10-03T02:51:17  *** jrwr <jrwr!~jrwr@unaffiliated/jrwr> has joined #myriadcoin
+2014-10-03T11:01:36  *** DigiByteDev <DigiByteDev!~JT@14.19.156.135> has joined #myriadcoin
+2014-10-03T11:10:56  *** DigiByteDev <DigiByteDev!~JT@14.19.156.135> has quit IRC (Quit: Leaving)
+2014-10-03T22:55:15  *** jrwr <jrwr!~jrwr@unaffiliated/jrwr> has quit IRC (Excess Flood)
+2014-10-03T22:58:51  *** jrwr <jrwr!~jrwr@198.52.200.10> has joined #myriadcoin
+2014-10-03T23:02:29  *** jrwr <jrwr!~jrwr@198.52.200.10> has left #myriadcoin
+2014-10-04T00:46:24  *** DigiByteDev <DigiByteDev!~JT@128.90.92.229> has joined #myriadcoin
+2014-10-04T02:09:50  *** jrwr <jrwr!~jrwr@unaffiliated/jrwr> has joined #myriadcoin
+2014-10-04T02:09:50  *** jrwr <jrwr!~jrwr@unaffiliated/jrwr> has quit IRC (Excess Flood)
+2014-10-04T02:12:21  *** jrwr <jrwr!~jrwr@198.52.200.10> has joined #myriadcoin
+2014-10-04T03:25:30  *** guest_____ <guest_____!bfb4e785@gateway/web/freenode/ip.191.180.231.133> has joined #myriadcoin
+2014-10-04T03:28:43  *** guest_____ <guest_____!bfb4e785@gateway/web/freenode/ip.191.180.231.133> has left #myriadcoin
+2014-10-04T03:59:14  *** DigiByte <DigiByte!~JT@14.19.156.135> has joined #myriadcoin
+2014-10-04T04:00:27  *** DigiByteDev <DigiByteDev!~JT@128.90.92.229> has quit IRC (Ping timeout: 260 seconds)
+2014-10-04T04:40:56  *** DigiMan <DigiMan!~JT@14.19.158.195> has joined #myriadcoin
+2014-10-04T04:44:12  *** DigiByte <DigiByte!~JT@14.19.156.135> has quit IRC (Ping timeout: 245 seconds)
+2014-10-04T07:40:56  *** DigiMan <DigiMan!~JT@14.19.158.195> has quit IRC (Quit: Leaving)
+2014-10-04T08:06:41  *** DigiByteDev <DigiByteDev!~JT@128.90.92.56> has joined #myriadcoin
+2014-10-04T10:58:38  *** DigiByteDev <DigiByteDev!~JT@128.90.92.56> has quit IRC (Quit: Leaving)
+2014-10-04T18:14:20  *** jrwr <jrwr!~jrwr@198.52.200.10> has quit IRC (Changing host)
+2014-10-04T18:14:21  *** jrwr <jrwr!~jrwr@unaffiliated/jrwr> has joined #myriadcoin
+2014-10-04T20:03:42  *** jrwr <jrwr!~jrwr@unaffiliated/jrwr> has quit IRC (Ping timeout: 240 seconds)
+2014-10-04T20:07:54  *** jrwr <jrwr!~jrwr@198.52.200.10> has joined #myriadcoin
+2014-10-04T20:38:15  *** jrwr <jrwr!~jrwr@198.52.200.10> has quit IRC (Excess Flood)
+2014-10-04T20:39:54  *** jrwr <jrwr!~jrwr@198.52.200.10> has joined #myriadcoin
+2014-10-04T22:08:50  *** jrwr <jrwr!~jrwr@198.52.200.10> has left #myriadcoin ("Leaving")
+2014-10-04T22:09:22  *** jrwr <jrwr!~jrwr@198.52.200.10> has joined #myriadcoin
+2014-10-04T22:10:04  *** jrwr <jrwr!~jrwr@198.52.200.10> has left #myriadcoin ("Leaving")
+2014-10-04T23:15:50  *** foodies <foodies!evil@84.232.207.89> has quit IRC (Ping timeout: 258 seconds)
+2014-10-05T01:05:04  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #myriadcoin
+2014-10-05T13:50:43  *** Darkseid <Darkseid!~evil@84.232.207.252> has joined #myriadcoin
+2014-10-05T16:24:58  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #myriadcoin
+2014-10-05T18:55:17  *** pescotapa <pescotapa!bfb4e785@gateway/web/cgi-irc/kiwiirc.com/ip.191.180.231.133> has joined #myriadcoin
+2014-10-05T18:55:25  *** pescotapa <pescotapa!bfb4e785@gateway/web/cgi-irc/kiwiirc.com/ip.191.180.231.133> has left #myriadcoin
+2014-10-06T02:30:42  *** Rack <Rack!a2cdd6d2@gateway/web/freenode/ip.162.205.214.210> has quit IRC (Quit: Page closed)
+2014-10-06T03:35:37  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #myriadcoin
+2014-10-06T03:47:29  *** Rack <Rack!a2cdd6d2@gateway/web/freenode/ip.162.205.214.210> has joined #myriadcoin
+2014-10-06T05:00:33  *** DigiByteDev <DigiByteDev!~JT@128.90.88.207> has joined #myriadcoin
+2014-10-06T05:06:46  *** DigiByteDev <DigiByteDev!~JT@128.90.88.207> has quit IRC (Quit: Leaving)
+2014-10-06T07:30:12  *** DigiByteDev <DigiByteDev!~JT@128.90.92.193> has joined #myriadcoin
+2014-10-06T07:47:50  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #myriadcoin
+2014-10-06T09:51:29  *** DigiByteDev <DigiByteDev!~JT@128.90.92.193> has quit IRC (Quit: Leaving)
+2014-10-06T10:16:51  *** OGF <OGF!~OGF@unaffiliated/ogf> has joined #myriadcoin
+2014-10-06T11:12:49  *** CryptoExpert` <CryptoExpert`!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #myriadcoin
+2014-10-06T11:12:50  *** CryptoExpert` is now known as CryptoExpert
+2014-10-06T14:05:29  *** foodies <foodies!evil@84.232.207.40> has joined #myriadcoin
+2014-10-06T14:06:26  *** Darkseid <Darkseid!~evil@84.232.207.252> has quit IRC (Ping timeout: 246 seconds)
+2014-10-06T15:04:37  *** DigiByteDev <DigiByteDev!~JT@128.90.92.193> has joined #myriadcoin
+2014-10-06T18:15:00  *** DigiByteDev <DigiByteDev!~JT@128.90.92.193> has quit IRC (Quit: Leaving)
+2014-10-06T19:50:44  *** OGFChicago <OGFChicago!~OGF@c-67-184-43-235.hsd1.il.comcast.net> has joined #myriadcoin
+2014-10-06T19:53:11  *** OGF <OGF!~OGF@unaffiliated/ogf> has quit IRC (Ping timeout: 250 seconds)
+2014-10-06T20:11:55  *** OGFChicago is now known as OGF
+2014-10-06T20:12:02  *** OGF <OGF!~OGF@c-67-184-43-235.hsd1.il.comcast.net> has quit IRC (Changing host)
+2014-10-06T20:12:02  *** OGF <OGF!~OGF@unaffiliated/ogf> has joined #myriadcoin
+2014-10-07T02:04:27  *** foodies <foodies!evil@84.232.207.40> has quit IRC ()
+2014-10-07T02:04:36  *** Darkseid <Darkseid!evil@84.232.207.40> has joined #myriadcoin
+2014-10-07T02:44:17  *** OGFChicago <OGFChicago!~OGF@c-67-184-43-235.hsd1.il.comcast.net> has joined #myriadcoin
+2014-10-07T02:46:40  *** OGF <OGF!~OGF@unaffiliated/ogf> has quit IRC (Ping timeout: 244 seconds)
+2014-10-07T04:36:51  *** OGFChicago is now known as OGF
+2014-10-07T04:36:55  *** OGF <OGF!~OGF@c-67-184-43-235.hsd1.il.comcast.net> has quit IRC (Changing host)
+2014-10-07T04:36:56  *** OGF <OGF!~OGF@unaffiliated/ogf> has joined #myriadcoin
+2014-10-07T08:52:51  *** ahmed_ is now known as ahmed_airport
+2014-10-07T09:01:29  *** ahmed_airport is now known as Aforis
+2014-10-07T09:02:09  *** OGF is now known as Guy
+2014-10-07T09:02:22  *** Aforis is now known as Howie
+2014-10-07T09:02:22  *** Guy is now known as Guguys
+2014-10-07T09:03:01  *** Guguys is now known as OHSHIts
+2014-10-07T09:03:19  *** Howie is now known as educatedwarrior_
+2014-10-07T09:04:12  *** OHSHIts is now known as OGF
+2014-10-07T09:04:32  *** OGF is now known as jwscool2
+2014-10-07T09:04:54  *** educatedwarrior_ is now known as ahmed_
+2014-10-07T09:14:28  *** jwscool2 is now known as OGF
+2014-10-07T14:06:38  *** Darkseid <Darkseid!evil@84.232.207.40> has quit IRC (Ping timeout: 260 seconds)
+2014-10-07T14:23:19  *** Darkseid <Darkseid!~evil@84.232.207.40> has joined #myriadcoin
+2014-10-07T16:48:06  *** Guest92057 <Guest92057!58700f0e@gateway/web/cgi-irc/kiwiirc.com/ip.88.112.15.14> has joined #myriadcoin
+2014-10-07T16:48:20  <Guest92057> this coin dead too?
+2014-10-07T17:02:57  *** Guest92057 <Guest92057!58700f0e@gateway/web/cgi-irc/kiwiirc.com/ip.88.112.15.14> has quit IRC (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+2014-10-07T17:56:11  *** OGFChicago <OGFChicago!OGF@c-67-184-43-235.hsd1.il.comcast.net> has joined #myriadcoin
+2014-10-07T17:57:38  *** OGF <OGF!~OGF@unaffiliated/ogf> has quit IRC (Ping timeout: 260 seconds)
+2014-10-07T19:17:13  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #myriadcoin
+2014-10-07T21:07:52  *** OGFChicago is now known as OGF
+2014-10-07T21:08:05  *** OGF <OGF!OGF@c-67-184-43-235.hsd1.il.comcast.net> has quit IRC (Changing host)
+2014-10-07T21:08:06  *** OGF <OGF!OGF@unaffiliated/ogf> has joined #myriadcoin
+2014-10-08T03:52:25  *** OGF <OGF!OGF@unaffiliated/ogf> has quit IRC (Ping timeout: 272 seconds)
+2014-10-08T04:08:05  *** OGF <OGF!~OGF@c-67-184-44-49.hsd1.il.comcast.net> has joined #myriadcoin
+2014-10-08T04:08:05  *** OGF <OGF!~OGF@c-67-184-44-49.hsd1.il.comcast.net> has quit IRC (Changing host)
+2014-10-08T04:08:05  *** OGF <OGF!~OGF@unaffiliated/ogf> has joined #myriadcoin
+2014-10-08T04:10:32  *** OGFChicago <OGFChicago!~OGF@c-67-184-44-49.hsd1.il.comcast.net> has joined #myriadcoin
+2014-10-08T04:13:25  *** OGF <OGF!~OGF@unaffiliated/ogf> has quit IRC (Ping timeout: 244 seconds)
+2014-10-08T04:30:50  *** OGFChicago <OGFChicago!~OGF@c-67-184-44-49.hsd1.il.comcast.net> has quit IRC (Ping timeout: 240 seconds)
+2014-10-08T07:58:50  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #myriadcoin
+2014-10-08T12:13:38  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #myriadcoin
+2014-10-08T16:16:42  *** ahmed_ is now known as ahmed_vegas
+2014-10-08T19:19:32  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #myriadcoin
+2014-10-09T04:01:00  *** DigiByteDev <DigiByteDev!~jared@103.253.8.62> has joined #myriadcoin
+2014-10-09T04:23:27  *** neuroMode <neuroMode!uid39147@gateway/web/irccloud.com/x-ebbikmeyxjpamkdi> has quit IRC (Quit: Connection closed for inactivity)
+2014-10-09T07:49:51  *** DigiByteDev <DigiByteDev!~jared@103.253.8.62> has quit IRC (Quit: DigiByteDev)
+2014-10-09T15:11:05  *** moriarty <moriarty!~e@unaffiliated/moriarty> has joined #myriadcoin
+2014-10-09T15:11:06  *** moriarty <moriarty!~e@unaffiliated/moriarty> has left #myriadcoin
+2014-10-09T19:32:52  *** Darkseid <Darkseid!~evil@84.232.207.40> has quit IRC (Ping timeout: 272 seconds)
+2014-10-09T20:23:18  *** Darkseid <Darkseid!evil@84.232.207.40> has joined #myriadcoin
+2014-10-10T04:36:19  *** DigiByteDev <DigiByteDev!~jared@128.90.92.178> has joined #myriadcoin
+2014-10-10T04:50:27  *** DigiByteDev_ <DigiByteDev_!~jared@128.90.88.11> has joined #myriadcoin
+2014-10-10T04:50:49  *** DigiByteDev <DigiByteDev!~jared@128.90.92.178> has quit IRC (Ping timeout: 260 seconds)
+2014-10-10T04:50:50  *** DigiByteDev_ is now known as DigiByteDev
+2014-10-10T05:32:51  *** DigiByteDev <DigiByteDev!~jared@128.90.88.11> has quit IRC (Quit: DigiByteDev)
+2014-10-10T08:30:58  *** neuroMode <neuroMode!uid39147@gateway/web/irccloud.com/x-zbdsahkuaanxxdza> has joined #myriadcoin
+2014-10-10T13:47:56  *** DigiByteDev <DigiByteDev!~jared@14.19.157.237> has joined #myriadcoin
+2014-10-10T15:32:35  *** DigiByteDev <DigiByteDev!~jared@14.19.157.237> has left #myriadcoin
+2014-10-10T16:10:44  *** DigiByteDev <DigiByteDev!~jared@14.19.158.231> has joined #myriadcoin
+2014-10-10T16:11:36  *** DigiByteDev <DigiByteDev!~jared@14.19.158.231> has left #myriadcoin
+2014-10-10T19:54:58  *** Darkseid <Darkseid!evil@84.232.207.40> has quit IRC (Ping timeout: 272 seconds)
+2014-10-10T20:04:48  *** DigiByteDev <DigiByteDev!~jared@128.90.88.102> has joined #myriadcoin
+2014-10-11T03:23:26  *** neuroMode <neuroMode!uid39147@gateway/web/irccloud.com/x-zbdsahkuaanxxdza> has quit IRC (Quit: Connection closed for inactivity)
+2014-10-11T12:09:29  *** DigiByteDev <DigiByteDev!~jared@128.90.88.102> has quit IRC (Quit: DigiByteDev)
+2014-10-11T13:22:01  *** DigiByteDev <DigiByteDev!~jared@128.90.88.71> has joined #myriadcoin
+2014-10-11T14:31:50  *** DigiByteDev <DigiByteDev!~jared@128.90.88.71> has quit IRC (Quit: DigiByteDev)
+2014-10-11T14:46:20  *** DigiByteDev <DigiByteDev!~jared@14.19.157.237> has joined #myriadcoin
+2014-10-11T15:57:05  *** DigiByteDev <DigiByteDev!~jared@14.19.157.237> has quit IRC (Quit: DigiByteDev)
+2014-10-11T16:13:03  *** DigiByteDev <DigiByteDev!~jared@206.222.164.63> has joined #myriadcoin
+2014-10-11T16:19:28  *** DigiByteDev <DigiByteDev!~jared@206.222.164.63> has quit IRC (Quit: DigiByteDev)
+2014-10-11T17:48:06  *** DigiByteDev <DigiByteDev!~jared@64.9.146.201> has joined #myriadcoin
+2014-10-11T19:04:24  *** DigiByteDev_ <DigiByteDev_!~jared@14.19.157.237> has joined #myriadcoin
+2014-10-11T19:04:25  *** DigiByteDev <DigiByteDev!~jared@64.9.146.201> has quit IRC (Ping timeout: 250 seconds)
+2014-10-11T19:04:26  *** DigiByteDev_ is now known as DigiByteDev
+2014-10-12T03:54:26  *** DigiByteDev_ <DigiByteDev_!~jared@128.90.92.185> has joined #myriadcoin
+2014-10-12T03:54:39  *** DigiByteDev <DigiByteDev!~jared@14.19.157.237> has quit IRC (Ping timeout: 272 seconds)
+2014-10-12T03:54:39  *** DigiByteDev_ is now known as DigiByteDev
+2014-10-12T04:24:44  *** DigiByteDev_ <DigiByteDev_!~jared@14.19.156.173> has joined #myriadcoin
+2014-10-12T04:25:03  *** DigiByteDev <DigiByteDev!~jared@128.90.92.185> has quit IRC (Ping timeout: 272 seconds)
+2014-10-12T04:25:03  *** DigiByteDev_ is now known as DigiByteDev
+2014-10-12T05:28:34  *** DigiByteDev_ <DigiByteDev_!~jared@128.90.88.96> has joined #myriadcoin
+2014-10-12T05:28:52  *** DigiByteDev <DigiByteDev!~jared@14.19.156.173> has quit IRC (Ping timeout: 245 seconds)
+2014-10-12T05:28:52  *** DigiByteDev_ is now known as DigiByteDev
+2014-10-12T06:34:15  *** DigiByteDev <DigiByteDev!~jared@128.90.88.96> has quit IRC (Ping timeout: 272 seconds)
+2014-10-12T06:39:42  *** DigiByteDev <DigiByteDev!~jared@128.90.88.249> has joined #myriadcoin
+2014-10-12T07:59:17  *** DigiByteDev <DigiByteDev!~jared@128.90.88.249> has quit IRC (Quit: DigiByteDev)
+2014-10-12T08:25:06  *** DigiByteDev <DigiByteDev!~jared@69.80.100.176> has joined #myriadcoin
+2014-10-12T08:46:45  *** DigiByteDev <DigiByteDev!~jared@69.80.100.176> has quit IRC (Ping timeout: 255 seconds)
+2014-10-12T11:32:42  *** DigiByteDev <DigiByteDev!~jared@128.90.88.220> has joined #myriadcoin
+2014-10-12T12:57:09  *** DigiByteDev <DigiByteDev!~jared@128.90.88.220> has quit IRC (Quit: DigiByteDev)
+2014-10-12T12:58:20  *** DigiByteDev <DigiByteDev!~jared@128.90.88.220> has joined #myriadcoin
+2014-10-13T06:35:07  *** DigiByteDev <DigiByteDev!~jared@128.90.88.220> has quit IRC (Ping timeout: 272 seconds)
+2014-10-13T06:40:11  *** DigiByteDev <DigiByteDev!~jared@14.19.156.173> has joined #myriadcoin
+2014-10-13T06:54:13  *** DigiByteDev <DigiByteDev!~jared@14.19.156.173> has quit IRC (Quit: DigiByteDev)
+2014-10-13T06:56:21  *** DigiByteDev <DigiByteDev!~jared@128.90.88.220> has joined #myriadcoin
+2014-10-13T07:22:22  *** DigiByteDev <DigiByteDev!~jared@128.90.88.220> has quit IRC (Quit: DigiByteDev)
+2014-10-13T07:28:03  *** DigiByteDev <DigiByteDev!~jared@183.1.12.193> has joined #myriadcoin
+2014-10-13T07:36:03  *** DigiByteDev <DigiByteDev!~jared@183.1.12.193> has quit IRC (Ping timeout: 272 seconds)
+2014-10-13T07:36:09  *** DigiByteDev_ <DigiByteDev_!~jared@128.90.92.44> has joined #myriadcoin
+2014-10-13T07:40:15  *** DigiByteDev_ <DigiByteDev_!~jared@128.90.92.44> has quit IRC (Client Quit)
+2014-10-13T09:01:36  *** DigiByteDev <DigiByteDev!~jared@14.19.156.173> has joined #myriadcoin
+2014-10-13T09:06:28  *** DigiByteDev <DigiByteDev!~jared@14.19.156.173> has quit IRC (Ping timeout: 255 seconds)
+2014-10-13T09:07:25  *** DigiByteDev <DigiByteDev!~jared@14.19.156.173> has joined #myriadcoin
+2014-10-13T12:47:23  *** DigiByteDev <DigiByteDev!~jared@14.19.156.173> has quit IRC (Quit: DigiByteDev)
+2014-10-13T12:58:06  *** DigiByteDev <DigiByteDev!~jared@14.19.157.5> has joined #myriadcoin
+2014-10-13T13:02:55  *** DigiByteDev_ <DigiByteDev_!~jared@128.90.88.154> has joined #myriadcoin
+2014-10-13T13:03:37  *** DigiByteDev <DigiByteDev!~jared@14.19.157.5> has quit IRC (Ping timeout: 255 seconds)
+2014-10-13T13:03:37  *** DigiByteDev_ is now known as DigiByteDev
+2014-10-13T13:21:58  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #myriadcoin
+2014-10-13T18:04:38  *** DigiByteDev <DigiByteDev!~jared@128.90.88.154> has quit IRC (Quit: DigiByteDev)
+2014-10-13T21:06:11  *** ahmed_vegas is now known as ahmed_
+2014-10-13T23:07:58  *** DigiByteDev <DigiByteDev!~jared@128.90.88.16> has joined #myriadcoin
+2014-10-13T23:42:10  *** DigiByteDev <DigiByteDev!~jared@128.90.88.16> has quit IRC (Quit: DigiByteDev)
+2014-10-14T03:02:41  *** Rack <Rack!a2cdd6d2@gateway/web/freenode/ip.162.205.214.210> has quit IRC (Quit: Page closed)
+2014-10-14T03:05:45  *** Rack <Rack!a2cdd6d2@gateway/web/freenode/ip.162.205.214.210> has joined #myriadcoin
+2014-10-14T03:48:49  *** rdekley_ <rdekley_!sid32464@gateway/web/irccloud.com/x-ypuoiguhetsdotfa> has joined #myriadcoin
+2014-10-14T03:53:55  *** rdekley <rdekley!sid32464@gateway/web/irccloud.com/x-tgaonvwfmtlfddqy> has quit IRC (*.net *.split)
+2014-10-14T06:51:03  *** DigiByteDev <DigiByteDev!~jared@128.90.88.55> has joined #myriadcoin
+2014-10-14T11:20:35  *** DigiByteDev <DigiByteDev!~jared@128.90.88.55> has quit IRC (Quit: DigiByteDev)
+2014-10-14T11:31:22  *** DigiByteDev <DigiByteDev!~jared@14.19.159.70> has joined #myriadcoin
+2014-10-14T14:15:27  *** DigiByteDev <DigiByteDev!~jared@14.19.159.70> has quit IRC (Quit: DigiByteDev)
+2014-10-14T14:16:51  *** DigiByteDev <DigiByteDev!~jared@128.90.92.44> has joined #myriadcoin
+2014-10-14T19:26:36  *** DigiByteDev <DigiByteDev!~jared@128.90.92.44> has quit IRC (Quit: DigiByteDev)
+2014-10-15T00:36:27  *** DigiByteDev <DigiByteDev!~jared@14.16.152.81> has joined #myriadcoin
+2014-10-15T01:06:38  *** DigiByteDev <DigiByteDev!~jared@14.16.152.81> has quit IRC (Ping timeout: 240 seconds)
+2014-10-15T01:07:22  *** tempest135 <tempest135!46b84ee5@gateway/web/freenode/ip.70.184.78.229> has joined #myriadcoin
+2014-10-15T01:08:08  *** tempest135 <tempest135!46b84ee5@gateway/web/freenode/ip.70.184.78.229> has left #myriadcoin
+2014-10-15T02:29:34  *** rdekley_ <rdekley_!sid32464@gateway/web/irccloud.com/x-ypuoiguhetsdotfa> has quit IRC (Ping timeout: 260 seconds)
+2014-10-15T02:29:34  *** Takeshi <Takeshi!sid37825@gateway/web/irccloud.com/x-vvqzhrvtxedwwyem> has quit IRC (Ping timeout: 260 seconds)
+2014-10-15T02:33:07  *** rdekley__ <rdekley__!sid32464@gateway/web/irccloud.com/x-peryblrcbngnntyb> has joined #myriadcoin
+2014-10-15T02:33:08  *** Takeshi_ <Takeshi_!sid37825@gateway/web/irccloud.com/x-zkbeaxrxovuepnys> has joined #myriadcoin
+2014-10-15T02:33:49  *** Takeshi_ is now known as Takeshi
+2014-10-15T03:04:38  *** Cornholi0 <Cornholi0!Cornholio@ip70-189-180-177.lv.lv.cox.net> has joined #myriadcoin
+2014-10-15T03:04:55  *** Cornholi0 <Cornholi0!Cornholio@ip70-189-180-177.lv.lv.cox.net> has left #myriadcoin
+2014-10-15T03:23:31  *** DigiByteDev <DigiByteDev!~jared@103.253.8.62> has joined #myriadcoin
+2014-10-15T11:22:45  *** DigiByteDev <DigiByteDev!~jared@103.253.8.62> has quit IRC (Quit: DigiByteDev)
+2014-10-15T11:23:16  *** DigiByteDev <DigiByteDev!~jared@103.253.8.62> has joined #myriadcoin
+2014-10-15T11:23:37  *** DigiByteDev <DigiByteDev!~jared@103.253.8.62> has quit IRC (Client Quit)

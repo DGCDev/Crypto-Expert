@@ -1,0 +1,113 @@
+2014-09-16T00:23:14  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #1001
+2014-09-16T00:23:23  <ahmed_> @help
+2014-09-16T00:23:23  <CryptoExpert> ahmed_: (help [<plugin>] [<command>]) -- This command gives a useful description of what <command> does. <plugin> is only necessary if the command is in more than one plugin. You may also want to use the 'list' command to list all available plugins and commands. 
+2014-09-16T00:58:51  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #1001
+2014-09-16T00:58:55  <ahmed_> @help
+2014-09-16T00:58:55  <CryptoExpert> ahmed_: (help [<plugin>] [<command>]) -- This command gives a useful description of what <command> does. <plugin> is only necessary if the command is in more than one plugin. You may also want to use the 'list' command to list all available plugins and commands. 
+2014-09-16T00:58:59  <ahmed_> @whoami
+2014-09-16T00:58:59  <CryptoExpert> ahmed_: I don't recognize you. You can message me either of these two commands: "user identify <username> <password>" to log in or "user register <username> <password>" to register.
+2014-09-16T00:59:07  <ahmed_> user identify ahmed_ ahmed123
+2014-09-16T00:59:10  <ahmed_> @user identify ahmed_ ahmed123
+2014-09-16T00:59:10  <CryptoExpert> ahmed_: Error: That operation cannot be done in a channel.
+2014-09-16T01:09:58  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #1001
+2014-09-16T01:14:28  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #1001
+2014-09-16T17:59:44  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #1001
+2014-09-17T20:40:43  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #1001
+2014-09-18T16:25:59  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #1001
+2014-09-18T19:35:30  *** ahmed_ is now known as BitJohn
+2014-09-18T19:37:23  *** BitJohn is now known as ahmed_
+2014-09-18T19:37:34  *** ahmed_ is now known as Mintpal-Joe
+2014-09-18T19:41:00  *** Mintpal-Joe is now known as ahmed_
+2014-09-18T23:03:40  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #1001
+2014-09-19T00:39:16  *** ahmed_ is now known as ahmed_ZzZz
+2014-09-19T01:15:51  *** CryptoExpert` <CryptoExpert`!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #1001
+2014-09-19T01:16:35  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has quit IRC (Ping timeout: 260 seconds)
+2014-09-19T01:16:35  *** CryptoExpert` is now known as CryptoExpert
+2014-09-19T13:01:48  *** ahmed_ZzZz is now known as ahmed_university
+2014-09-19T18:07:11  *** ahmed_university is now known as ahmed_
+2014-09-19T19:29:25  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #1001
+2014-09-20T01:06:08  *** ahmed_ is now known as ahmed_ZzZz
+2014-09-20T06:51:11  *** ahmed_ZzZz <ahmed_ZzZz!uid14086@gateway/web/irccloud.com/x-drbweoeucifdewgy> has quit IRC (Read error: Connection reset by peer)
+2014-09-20T07:22:16  *** ahmed_ <ahmed_!uid14086@gateway/web/irccloud.com/x-ryukmfeojoiziwjx> has joined #1001
+2014-09-20T08:39:48  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #1001
+2014-09-20T18:01:44  *** ahmed_ is now known as guest9919
+2014-09-20T18:02:09  *** guest9919 is now known as ub3rl33t
+2014-09-20T18:06:23  *** ub3rl33t is now known as larrabo
+2014-09-20T18:07:35  *** larrabo is now known as eightbitcoder
+2014-09-20T18:08:48  *** eightbitcoder is now known as ahmed_
+2014-09-20T18:12:25  *** ahmed_ is now known as ChenSeav
+2014-09-20T18:27:11  *** ChenSeav is now known as ahmed_
+2014-09-20T21:49:41  *** CryptoExpert` <CryptoExpert`!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #1001
+2014-09-20T21:49:42  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has quit IRC (Ping timeout: 272 seconds)
+2014-09-20T21:49:43  *** CryptoExpert` is now known as CryptoExpert
+2014-09-20T23:55:47  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #1001
+2014-09-21T02:56:47  *** ahmed_ is now known as ahmed_ZzZz
+2014-09-21T03:06:26  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #1001
+2014-09-21T14:41:58  *** ahmed_ZzZz is now known as ahmed_
+2014-09-21T22:08:16  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #1001
+2014-09-22T00:13:15  *** ahmed_ is now known as ahmed_ZzZz
+2014-09-22T03:11:28  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #1001
+2014-09-22T03:11:29  -sendak.freenode.net- [freenode-info] why register and identify? your IRC nick is how people know you. http://freenode.net/faq.shtml#nicksetup
+2014-09-22T16:11:06  *** ahmed_ZzZz is now known as ahmed_
+2014-09-23T03:03:23  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #1001
+2014-09-23T03:43:34  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #1001
+2014-09-23T07:10:28  *** CryptoExpert` <CryptoExpert`!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #1001
+2014-09-23T07:10:29  *** CryptoExpert` is now known as CryptoExpert
+2014-09-23T10:15:27  *** CryptoExpert` <CryptoExpert`!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #1001
+2014-09-23T10:15:28  *** CryptoExpert` is now known as CryptoExpert
+2014-09-23T13:07:50  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #1001
+2014-09-23T18:11:34  *** CryptoExpert` <CryptoExpert`!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #1001
+2014-09-23T18:11:35  *** CryptoExpert` is now known as CryptoExpert
+2014-09-24T14:52:28  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #1001
+2014-09-24T23:48:53  *** ahmed_ is now known as ahmed_ZzZz
+2014-09-25T09:03:12  *** ahmed_ZzZz is now known as ahmed_
+2014-09-26T01:12:26  *** ahmed_ is now known as ahmed_ZzZz
+2014-09-26T16:13:58  *** ahmed_ZzZz is now known as ahmed_
+2014-09-27T00:29:17  *** ahmed_ is now known as ahmed_ZzZz
+2014-09-27T02:38:00  *** ahmed_ZzZz <ahmed_ZzZz!uid14086@gateway/web/irccloud.com/x-ryukmfeojoiziwjx> has quit IRC (Ping timeout: 272 seconds)
+2014-09-27T05:36:08  *** ahmed_ZzZz <ahmed_ZzZz!sid14086@gateway/web/irccloud.com/x-jklintepbutdgjwn> has joined #1001
+2014-09-27T08:25:42  *** ahmed_ZzZz <ahmed_ZzZz!sid14086@gateway/web/irccloud.com/x-jklintepbutdgjwn> has quit IRC (K-Lined)
+2014-09-27T10:46:36  *** ahmed_ZzZz <ahmed_ZzZz!sid14086@gateway/web/irccloud.com/x-lctgswubzuhzbtlo> has joined #1001
+2014-09-27T18:26:31  *** ahmed_ZzZz is now known as ahmed_
+2014-09-27T21:55:50  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #1001
+2014-09-28T00:47:02  *** CryptoExpert` <CryptoExpert`!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #1001
+2014-09-28T00:47:02  -cameron.freenode.net- [freenode-info] please register your nickname...don't forget to auto-identify! http://freenode.net/faq.shtml#nicksetup
+2014-09-28T00:48:35  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has quit IRC (Read error: Connection reset by peer)
+2014-09-28T00:48:35  *** CryptoExpert` is now known as CryptoExpert
+2014-09-28T22:54:40  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #1001
+2014-09-28T23:58:18  *** ahmed_ is now known as ahmed_ZzZz
+2014-09-29T11:03:47  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #1001
+2014-09-29T11:22:23  *** ahmed_ZzZz is now known as ahmed_uni
+2014-09-29T12:00:03  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #1001
+2014-09-29T13:18:32  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #1001
+2014-09-29T23:18:06  *** ahmed_uni is now known as ahmed_
+2014-09-30T05:03:42  *** CryptoExpert` <CryptoExpert`!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #1001
+2014-09-30T05:05:06  *** CryptoExpert` is now known as CryptoExpert
+2014-09-30T10:55:04  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #1001
+2014-09-30T15:00:27  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #1001
+2014-09-30T15:00:27  -sendak.freenode.net- [freenode-info] why register and identify? your IRC nick is how people know you. http://freenode.net/faq.shtml#nicksetup
+2014-10-02T20:24:15  *** CryptoExpert` <CryptoExpert`!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #1001
+2014-10-02T20:24:16  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has quit IRC (Read error: Connection reset by peer)
+2014-10-02T20:24:16  *** CryptoExpert` is now known as CryptoExpert
+2014-10-05T01:05:04  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #1001
+2014-10-05T16:24:58  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #1001
+2014-10-06T03:35:37  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #1001
+2014-10-06T07:47:50  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #1001
+2014-10-06T07:47:50  -verne.freenode.net- [freenode-info] why register and identify? your IRC nick is how people know you. http://freenode.net/faq.shtml#nicksetup
+2014-10-06T11:12:49  *** CryptoExpert` <CryptoExpert`!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #1001
+2014-10-06T11:12:50  *** CryptoExpert` is now known as CryptoExpert
+2014-10-07T08:52:51  *** ahmed_ is now known as ahmed_airport
+2014-10-07T09:01:29  *** ahmed_airport is now known as Aforis
+2014-10-07T09:02:22  *** Aforis is now known as Howie
+2014-10-07T09:03:19  *** Howie is now known as educatedwarrior_
+2014-10-07T09:04:54  *** educatedwarrior_ is now known as ahmed_
+2014-10-07T19:17:13  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #1001
+2014-10-08T07:58:50  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #1001
+2014-10-08T12:13:38  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #1001
+2014-10-08T16:16:42  *** ahmed_ is now known as ahmed_vegas
+2014-10-08T19:19:32  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #1001
+2014-10-08T19:19:32  -verne.freenode.net- [freenode-info] help freenode weed out clonebots -- please register your IRC nick and auto-identify: http://freenode.net/faq.shtml#nicksetup
+2014-10-09T23:11:24  *** ahmedbodi <ahmedbodi!18788a9c@gateway/web/cgi-irc/kiwiirc.com/ip.24.120.138.156> has joined #1001
+2014-10-09T23:11:44  *** ahmedbodi <ahmedbodi!18788a9c@gateway/web/cgi-irc/kiwiirc.com/ip.24.120.138.156> has quit IRC (Client Quit)
+2014-10-13T13:21:58  *** CryptoExpert <CryptoExpert!~CryptoExp@host-212-159-185-14.static.as13285.net> has joined #1001
+2014-10-13T21:06:11  *** ahmed_vegas is now known as ahmed_

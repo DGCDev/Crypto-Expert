@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Supybot WebStats</title>
+        <link rel="stylesheet" media="screen" type="text/css" title="Design" href="/default.css" />
+        <link rel="stylesheet" media="screen" type="text/css" title="Design" href="/webstats/design.css" />
+    </head>
+    <body >
+<h1>Stats about %(channel)s channel</h1>
+
+<p><a href="/webstats/global/%(escaped_channel)s/">View global stats</a></p>
+<p><a href="/webstats/links/%(escaped_channel)s/">View links</a></p>
+
+%(table)s
+
+<p>%(pagination)s</p>
+
+        <p id="footer">
+            <a href="https://github.com/ProgVal/Limnoria">Limnoria</a> and
+            <a href="https://github.com/ProgVal/Supybot-plugins/tree/master/WebStats/">WebStats</a> powered.<br />
+            Libre software available under BSD licence.<br />
+            Page generated at %(date)s.
+        </p>
+    </body>
+</html>

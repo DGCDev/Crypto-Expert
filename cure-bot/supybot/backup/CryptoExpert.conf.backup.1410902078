@@ -1,0 +1,5989 @@
+###
+# Determines the bot's default nick.
+#
+# Default value: supybot
+###
+supybot.nick: CryptoExpert
+
+###
+# Determines what alternative nicks will be used if the primary nick
+# (supybot.nick) isn't available. A %s in this nick is replaced by the
+# value of supybot.nick when used. If no alternates are given, or if all
+# are used, the supybot.nick will be perturbed appropriately until an
+# unused nick is found.
+#
+# Default value: %s` %s_
+###
+supybot.nick.alternates: %s` %s_
+
+###
+# Determines the bot's ident string, if the server doesn't provide one
+# by default.
+#
+# Default value: limnoria
+###
+supybot.ident: CryptoExpert
+
+###
+# Determines the real name which the bot sends to the server. A standard
+# real name using the current version of the bot will be generated if
+# this is left empty.
+#
+# Default value: 
+###
+supybot.user: CryptoExpert
+
+###
+# Determines what networks the bot will connect to.
+#
+# Default value:  
+###
+supybot.networks: lfnet freenode
+
+###
+# Determines what password will be used on freenode. Yes, we know that
+# technically passwords are server-specific and not network-specific,
+# but this is the best we can do right now.
+#
+# Default value: 
+###
+supybot.networks.freenode.password: 
+
+###
+# Space-separated list of servers the bot will connect to for freenode.
+# Each will be tried in order, wrapping back to the first when the cycle
+# is completed.
+#
+# Default value: 
+###
+supybot.networks.freenode.servers: chat.freenode.net:6667
+
+###
+# Space-separated list of channels the bot will join only on freenode.
+#
+# Default value:  
+###
+supybot.networks.freenode.channels: ##digitalcoin ##myriadcoin #1001 #digitalcoin #foundationdgc #fridaynightunix #myriadcoin
+
+###
+# Determines what key (if any) will be used to join the channel.
+#
+# Default value: 
+###
+supybot.networks.freenode.channels.key: 
+
+###
+# Determines whether the bot will attempt to connect with SSL sockets to
+# freenode.
+#
+# Default value: False
+###
+supybot.networks.freenode.ssl: False
+
+###
+# Determines what certificate file (if any) the bot will use to connect
+# with SSL sockets to freenode.
+#
+# Default value: 
+###
+supybot.networks.freenode.certfile: 
+
+###
+# Determines what nick the bot will use on this network. If empty,
+# defaults to supybot.nick.
+#
+# Default value: 
+###
+supybot.networks.freenode.nick: 
+
+###
+# Determines the bot's ident string, if the server doesn't provide one
+# by default. If empty, defaults to supybot.ident.
+#
+# Default value: 
+###
+supybot.networks.freenode.ident: 
+
+###
+# Determines the real name which the bot sends to the server. If empty,
+# defaults to supybot.user
+#
+# Default value: 
+###
+supybot.networks.freenode.user: 
+
+###
+# Determines what user modes the bot will request from the server when
+# it first connects. If empty, defaults to supybot.protocols.irc.umodes
+#
+# Default value: 
+###
+supybot.networks.freenode.umodes: 
+
+###
+# Determines what SASL username will be used on freenode. This should be
+# the bot's account name. Due to the way SASL works, you can't use any
+# grouped nick.
+#
+# Default value: 
+###
+supybot.networks.freenode.sasl.username: 
+
+###
+# Determines what SASL password will be used on freenode.
+#
+# Default value: 
+###
+supybot.networks.freenode.sasl.password: 
+
+###
+# If not empty, determines the hostname of the socks proxy that will be
+# used to connect to this network.
+#
+# Default value: 
+###
+supybot.networks.freenode.socksproxy: 
+
+###
+# Determines what password will be used on lfnet. Yes, we know that
+# technically passwords are server-specific and not network-specific,
+# but this is the best we can do right now.
+#
+# Default value: 
+###
+supybot.networks.lfnet.password: 
+
+###
+# Space-separated list of servers the bot will connect to for lfnet.
+# Each will be tried in order, wrapping back to the first when the cycle
+# is completed.
+#
+# Default value: 
+###
+supybot.networks.lfnet.servers: irc.lfnet.org:6667
+
+###
+# Space-separated list of channels the bot will join only on lfnet.
+#
+# Default value:  
+###
+supybot.networks.lfnet.channels:  
+
+###
+# Determines what key (if any) will be used to join the channel.
+#
+# Default value: 
+###
+supybot.networks.lfnet.channels.key: 
+
+###
+# Determines whether the bot will attempt to connect with SSL sockets to
+# lfnet.
+#
+# Default value: False
+###
+supybot.networks.lfnet.ssl: False
+
+###
+# Determines what certificate file (if any) the bot will use to connect
+# with SSL sockets to lfnet.
+#
+# Default value: 
+###
+supybot.networks.lfnet.certfile: 
+
+###
+# Determines what nick the bot will use on this network. If empty,
+# defaults to supybot.nick.
+#
+# Default value: 
+###
+supybot.networks.lfnet.nick: 
+
+###
+# Determines the bot's ident string, if the server doesn't provide one
+# by default. If empty, defaults to supybot.ident.
+#
+# Default value: 
+###
+supybot.networks.lfnet.ident: 
+
+###
+# Determines the real name which the bot sends to the server. If empty,
+# defaults to supybot.user
+#
+# Default value: 
+###
+supybot.networks.lfnet.user: 
+
+###
+# Determines what user modes the bot will request from the server when
+# it first connects. If empty, defaults to supybot.protocols.irc.umodes
+#
+# Default value: 
+###
+supybot.networks.lfnet.umodes: 
+
+###
+# Determines what SASL username will be used on lfnet. This should be
+# the bot's account name. Due to the way SASL works, you can't use any
+# grouped nick.
+#
+# Default value: 
+###
+supybot.networks.lfnet.sasl.username: 
+
+###
+# Determines what SASL password will be used on lfnet.
+#
+# Default value: 
+###
+supybot.networks.lfnet.sasl.password: 
+
+###
+# If not empty, determines the hostname of the socks proxy that will be
+# used to connect to this network.
+#
+# Default value: 
+###
+supybot.networks.lfnet.socksproxy: 
+
+###
+# Determines how urls should be formatted.
+#
+# Default value: <%s>
+###
+supybot.reply.format.url: <%s>
+
+###
+# Determines how timestamps printed for human reading should be
+# formatted. Refer to the Python documentation for the time module to
+# see valid formatting characters for time formats.
+#
+# Default value: %Y-%m-%d %H:%M:%S%z
+###
+supybot.reply.format.time: %Y-%m-%d %H:%M:%S%z
+
+###
+# Determines whether elapsed times will be given as "1 day, 2 hours, 3
+# minutes, and 15 seconds" or as "1d 2h 3m 15s".
+#
+# Default value: False
+###
+supybot.reply.format.time.elapsed.short: False
+
+###
+# Determines the absolute maximum length of the bot's reply -- no reply
+# will be passed through the bot with a length greater than this.
+#
+# Default value: 131072
+###
+supybot.reply.maximumLength: 131072
+
+###
+# Determines whether the bot will break up long messages into chunks and
+# allow users to use the 'more' command to get the remaining chunks.
+#
+# Default value: True
+###
+supybot.reply.mores: True
+
+###
+# Determines what the maximum number of chunks (for use with the 'more'
+# command) will be.
+#
+# Default value: 50
+###
+supybot.reply.mores.maximum: 50
+
+###
+# Determines how long individual chunks will be. If set to 0, uses our
+# super-tweaked, get-the-most-out-of-an-individual-message default.
+#
+# Default value: 0
+###
+supybot.reply.mores.length: 0
+
+###
+# Determines how many mores will be sent instantly (i.e., without the
+# use of the more command, immediately when they are formed). Defaults
+# to 1, which means that a more command will be required for all but the
+# first chunk.
+#
+# Default value: 1
+###
+supybot.reply.mores.instant: 1
+
+###
+# Determines whether the bot will send multi-message replies in a single
+# message. This defaults to True in order to prevent the bot from
+# flooding. If this is set to False the bot will send multi-message
+# replies on multiple lines.
+#
+# Default value: True
+###
+supybot.reply.oneToOne: True
+
+###
+# Determines whether the bot will reply with an error message when it is
+# addressed but not given a valid command. If this value is False, the
+# bot will remain silent, as long as no other plugins override the
+# normal behavior.
+#
+# Default value: True
+###
+supybot.reply.whenNotCommand: True
+
+###
+# Determines whether error messages that result from bugs in the bot
+# will show a detailed error message (the uncaught exception) or a
+# generic error message.
+#
+# Default value: False
+###
+supybot.reply.error.detailed: True
+
+###
+# Determines whether the bot will send error messages to users in
+# private. You might want to do this in order to keep channel traffic to
+# minimum. This can be used in combination with
+# supybot.reply.error.withNotice.
+#
+# Default value: False
+###
+supybot.reply.error.inPrivate: False
+
+###
+# Determines whether the bot will send error messages to users via
+# NOTICE instead of PRIVMSG. You might want to do this so users can
+# ignore NOTICEs from the bot and not have to see error messages; or you
+# might want to use it in combination with supybot.reply.errorInPrivate
+# so private errors don't open a query window in most IRC clients.
+#
+# Default value: False
+###
+supybot.reply.error.withNotice: False
+
+###
+# Determines whether the bot will send an error message to users who
+# attempt to call a command for which they do not have the necessary
+# capability. You may wish to make this True if you don't want users to
+# understand the underlying security system preventing them from running
+# certain commands.
+#
+# Default value: False
+###
+supybot.reply.error.noCapability: False
+
+###
+# Determines whether the bot will reply privately when replying in a
+# channel, rather than replying to the whole channel.
+#
+# Default value: False
+###
+supybot.reply.inPrivate: False
+
+###
+# Determines whether the bot will reply with a notice when replying in a
+# channel, rather than replying with a privmsg as normal.
+#
+# Default value: False
+###
+supybot.reply.withNotice: False
+
+###
+# Determines whether the bot will reply with a notice when it is sending
+# a private message, in order not to open a /query window in clients.
+# This can be overridden by individual users via the user configuration
+# variable reply.withNoticeWhenPrivate.
+#
+# Default value: True
+###
+supybot.reply.withNoticeWhenPrivate: True
+
+###
+# Determines whether the bot will always prefix the user's nick to its
+# reply to that user's command.
+#
+# Default value: True
+###
+supybot.reply.withNickPrefix: True
+
+###
+# Determines whether the bot should attempt to reply to all messages
+# even if they don't address it (either via its nick or a prefix
+# character). If you set this to True, you almost certainly want to set
+# supybot.reply.whenNotCommand to False.
+#
+# Default value: False
+###
+supybot.reply.whenNotAddressed: False
+
+###
+# Determines whether the bot will allow you to send channel-related
+# commands outside of that channel. Sometimes people find it confusing
+# if a channel-related command (like Filter.outfilter) changes the
+# behavior of the channel but was sent outside the channel itself.
+#
+# Default value: False
+###
+supybot.reply.requireChannelCommandsToBeSentInChannel: False
+
+###
+# Supybot normally replies with the full help whenever a user misuses a
+# command. If this value is set to True, the bot will only reply with
+# the syntax of the command (the first line of the help) rather than the
+# full help.
+#
+# Default value: False
+###
+supybot.reply.showSimpleSyntax: False
+
+###
+# Determines what prefix characters the bot will reply to. A prefix
+# character is a single character that the bot will use to determine
+# what messages are addressed to it; when there are no prefix characters
+# set, it just uses its nick. Each character in this string is
+# interpreted individually; you can have multiple prefix chars
+# simultaneously, and if any one of them is used as a prefix the bot
+# will assume it is being addressed.
+#
+# Default value: 
+###
+supybot.reply.whenAddressedBy.chars: @
+
+###
+# Determines what strings the bot will reply to when they are at the
+# beginning of the message. Whereas prefix.chars can only be one
+# character (although there can be many of them), this variable is a
+# space-separated list of strings, so you can set something like '@@ ??'
+# and the bot will reply when a message is prefixed by either @@ or ??.
+#
+# Default value:  
+###
+supybot.reply.whenAddressedBy.strings:  
+
+###
+# Determines whether the bot will reply when people address it by its
+# nick, rather than with a prefix character.
+#
+# Default value: True
+###
+supybot.reply.whenAddressedBy.nick: True
+
+###
+# Determines whether the bot will reply when people address it by its
+# nick at the end of the message, rather than at the beginning.
+#
+# Default value: False
+###
+supybot.reply.whenAddressedBy.nick.atEnd: False
+
+###
+# Determines what extra nicks the bot will always respond to when
+# addressed by, even if its current nick is something else.
+#
+# Default value:  
+###
+supybot.reply.whenAddressedBy.nicks:  
+
+###
+# Determines whether the bot will unidentify someone when that person
+# changes their nick. Setting this to True will cause the bot to track
+# such changes. It defaults to False for a little greater security.
+#
+# Default value: False
+###
+supybot.followIdentificationThroughNickChanges: False
+
+###
+# Determines whether the bot will always join a channel when it's
+# invited. If this value is False, the bot will only join a channel if
+# the user inviting it has the 'admin' capability (or if it's explicitly
+# told to join the channel using the Admin.join command).
+#
+# Default value: False
+###
+supybot.alwaysJoinOnInvite: False
+
+###
+# Determines what message the bot replies with when a command succeeded.
+# If this configuration variable is empty, no success message will be
+# sent.
+###
+supybot.replies.success: The operation succeeded.
+
+###
+# Determines what error message the bot gives when it wants to be
+# ambiguous.
+###
+supybot.replies.error: An error has occurred and has been logged. Please\
+                       contact this bot\'s administrator for more\
+                       information.
+
+###
+# Determines what error message the bot gives to the owner when it wants
+# to be ambiguous.
+###
+supybot.replies.errorOwner: An error has occurred and has been logged. Check\
+                            the logs for more information.
+
+###
+# Determines what message the bot replies with when someone tries to use
+# a command that requires being identified or having a password and
+# neither credential is correct.
+###
+supybot.replies.incorrectAuthentication: Your hostmask doesn\'t match or\
+                                         your password is wrong.
+
+###
+# Determines what error message the bot replies with when someone tries
+# to accessing some information on a user the bot doesn't know about.
+###
+supybot.replies.noUser: I can\'t find %s in my user database. If you didn\'t\
+                        give a user name, then I might not know what your\
+                        user is, and you\'ll need to identify before this\
+                        command might work.
+
+###
+# Determines what error message the bot replies with when someone tries
+# to do something that requires them to be registered but they're not
+# currently recognized.
+###
+supybot.replies.notRegistered: You must be registered to use this command.\
+                               If you are already registered, you must\
+                               either identify (using the identify command)\
+                               or add a hostmask matching your current\
+                               hostmask (using the "hostmask add" command).
+
+###
+# Determines what error message is given when the bot is telling someone
+# they aren't cool enough to use the command they tried to use.
+###
+supybot.replies.noCapability: You don\'t have the %s capability. If you\
+                              think that you should have this capability, be\
+                              sure that you are identified before trying\
+                              again. The \'whoami\' command can tell you if\
+                              you\'re identified.
+
+###
+# Determines what generic error message is given when the bot is telling
+# someone that they aren't cool enough to use the command they tried to
+# use, and the author of the code calling errorNoCapability didn't
+# provide an explicit capability for whatever reason.
+###
+supybot.replies.genericNoCapability: You\'re missing some capability you\
+                                     need. This could be because you\
+                                     actually possess the anti-capability\
+                                     for the capability that\'s required of\
+                                     you, or because the channel provides\
+                                     that anti-capability by default, or\
+                                     because the global capabilities include\
+                                     that anti-capability. Or, it could be\
+                                     because the channel or\
+                                     supybot.capabilities.default is set to\
+                                     False, meaning that no commands are\
+                                     allowed unless explicitly in your\
+                                     capabilities. Either way, you can\'t do\
+                                     what you want to do.
+
+###
+# Determines what error messages the bot sends to people who try to do
+# things in a channel that really should be done in private.
+###
+supybot.replies.requiresPrivacy: That operation cannot be done in a channel.
+
+###
+# Determines what message the bot sends when it thinks you've
+# encountered a bug that the developers don't know about.
+###
+supybot.replies.possibleBug: This may be a bug. If you think it is, please\
+                             file a bug report at\
+                             <https://github.com/ProgVal/Limnoria/issues>.
+
+###
+# A floating point number of seconds to throttle snarfed URLs, in order
+# to prevent loops between two bots snarfing the same URLs and having
+# the snarfed URL in the output of the snarf message.
+#
+# Default value: 10.0
+###
+supybot.snarfThrottle: 10.0
+
+###
+# Determines the number of seconds between running the upkeep function
+# that flushes (commits) open databases, collects garbage, and records
+# some useful statistics at the debugging level.
+#
+# Default value: 3600
+###
+supybot.upkeepInterval: 3600
+
+###
+# Determines whether the bot will periodically flush data and
+# configuration files to disk. Generally, the only time you'll want to
+# set this to False is when you want to modify those configuration files
+# by hand and don't want the bot to flush its current version over your
+# modifications. Do note that if you change this to False inside the
+# bot, your changes won't be flushed. To make this change permanent, you
+# must edit the registry yourself.
+#
+# Default value: True
+###
+supybot.flush: True
+
+###
+# Determines what characters are valid for quoting arguments to commands
+# in order to prevent them from being tokenized.
+#
+# Default value: "
+###
+supybot.commands.quotes: "
+
+###
+# Determines whether the bot will allow nested commands, which rule. You
+# definitely should keep this on.
+#
+# Default value: True
+###
+supybot.commands.nested: True
+
+###
+# Determines what the maximum number of nested commands will be; users
+# will receive an error if they attempt commands more nested than this.
+#
+# Default value: 10
+###
+supybot.commands.nested.maximum: 10
+
+###
+# Supybot allows you to specify what brackets are used for your nested
+# commands. Valid sets of brackets include [], <>, {}, and (). [] has
+# strong historical motivation, but <> or () might be slightly superior
+# because they cannot occur in a nick. If this string is empty, nested
+# commands will not be allowed in this channel.
+#
+# Default value: []
+###
+supybot.commands.nested.brackets: []
+
+###
+# Supybot allows nested commands. Enabling this option will allow nested
+# commands with a syntax similar to UNIX pipes, for example: 'bot: foo |
+# bar'.
+#
+# Default value: False
+###
+supybot.commands.nested.pipeSyntax: False
+
+###
+# Determines what commands have default plugins set, and which plugins
+# are set to be the default for each of those commands.
+###
+supybot.commands.defaultPlugins.addcapability: Admin
+supybot.commands.defaultPlugins.capabilities: User
+supybot.commands.defaultPlugins.disable: Owner
+supybot.commands.defaultPlugins.enable: Owner
+supybot.commands.defaultPlugins.help: Misc
+supybot.commands.defaultPlugins.ignore: Admin
+
+###
+# Determines what plugins automatically get precedence over all other
+# plugins when selecting a default plugin for a command. By default,
+# this includes the standard loaded plugins. You probably shouldn't
+# change this if you don't know what you're doing; if you do know what
+# you're doing, then also know that this set is case-sensitive.
+#
+# Default value: Admin Misc User Owner Config Channel
+###
+supybot.commands.defaultPlugins.importantPlugins: Admin Misc User Owner Config Channel
+supybot.commands.defaultPlugins.list: Misc
+supybot.commands.defaultPlugins.reload: Owner
+supybot.commands.defaultPlugins.removecapability: Admin
+supybot.commands.defaultPlugins.unignore: Admin
+
+###
+# Determines what commands are currently disabled. Such commands will
+# not appear in command lists, etc. They will appear not even to exist.
+#
+# Default value:  
+###
+supybot.commands.disabled:  
+
+###
+# Determines the interval used for the history storage.
+#
+# Default value: 60
+###
+supybot.abuse.flood.interval: 60
+
+###
+# Determines whether the bot will defend itself against command-
+# flooding.
+#
+# Default value: True
+###
+supybot.abuse.flood.command: True
+
+###
+# Determines how many commands users are allowed per minute. If a user
+# sends more than this many commands in any 60 second period, they will
+# be ignored for supybot.abuse.flood.command.punishment seconds.
+#
+# Default value: 12
+###
+supybot.abuse.flood.command.maximum: 12
+
+###
+# Determines how many seconds the bot will ignore users who flood it
+# with commands.
+#
+# Default value: 300
+###
+supybot.abuse.flood.command.punishment: 300
+
+###
+# Determines whether the bot will defend itself against invalid command-
+# flooding.
+#
+# Default value: True
+###
+supybot.abuse.flood.command.invalid: True
+
+###
+# Determines how many invalid commands users are allowed per minute. If
+# a user sends more than this many invalid commands in any 60 second
+# period, they will be ignored for
+# supybot.abuse.flood.command.invalid.punishment seconds. Typically,
+# this value is lower than supybot.abuse.flood.command.maximum, since
+# it's far less likely (and far more annoying) for users to flood with
+# invalid commands than for them to flood with valid commands.
+#
+# Default value: 5
+###
+supybot.abuse.flood.command.invalid.maximum: 5
+
+###
+# Determines how many seconds the bot will ignore users who flood it
+# with invalid commands. Typically, this value is higher than
+# supybot.abuse.flood.command.punishment, since it's far less likely
+# (and far more annoying) for users to flood with invalid commands than
+# for them to flood with valid commands.
+#
+# Default value: 600
+###
+supybot.abuse.flood.command.invalid.punishment: 600
+
+###
+# Determines whether the bot will notify people that they're being
+# ignored for invalid command flooding.
+#
+# Default value: True
+###
+supybot.abuse.flood.command.invalid.notify: True
+
+###
+# Determines whether the bot will defend itself against CTCP flooding.
+#
+# Default value: True
+###
+supybot.abuse.flood.ctcp: True
+
+###
+# Determines how many CTCP messages (not including actions) the bot will
+# reply to from a given user in a minute. If a user sends more than this
+# many CTCP messages in a 60 second period, the bot will ignore CTCP
+# messages from this user for supybot.abuse.flood.ctcp.punishment
+# seconds.
+#
+# Default value: 5
+###
+supybot.abuse.flood.ctcp.maximum: 5
+
+###
+# Determines how many seconds the bot will ignore CTCP messages from
+# users who flood it with CTCP messages.
+#
+# Default value: 300
+###
+supybot.abuse.flood.ctcp.punishment: 300
+
+###
+# Determines the default length of time a driver should block waiting
+# for input.
+#
+# Default value: 1.0
+###
+supybot.drivers.poll: 1.0
+
+###
+# Determines what driver module the bot will use. The default is Socket
+# which is simple and stable and supports SSL. Twisted doesn't work if
+# the IRC server which you are connecting to has IPv6 (most of them do).
+#
+# Default value: default
+###
+supybot.drivers.module: default
+
+###
+# Determines the maximum time the bot will wait before attempting to
+# reconnect to an IRC server. The bot may, of course, reconnect earlier
+# if possible.
+#
+# Default value: 300.0
+###
+supybot.drivers.maxReconnectWait: 300.0
+
+###
+# Determines what directory configuration data is put into.
+#
+# Default value: conf
+###
+supybot.directories.conf: /home/ahmedbodi/Documents/IRC/cure-bot/supybot/conf
+
+###
+# Determines what directory data is put into.
+#
+# Default value: data
+###
+supybot.directories.data: /home/ahmedbodi/Documents/IRC/cure-bot/supybot/data
+
+###
+# Determines what directory temporary files are put into.
+#
+# Default value: tmp
+###
+supybot.directories.data.tmp: /home/ahmedbodi/Documents/IRC/cure-bot/supybot/data/tmp
+
+###
+# Determines what directory files of the web server (templates, custom
+# images, ...) are put into.
+#
+# Default value: web
+###
+supybot.directories.data.web: /home/ahmedbodi/Documents/IRC/cure-bot/supybot/data/web
+
+###
+# Determines what directory backup data is put into. Set it to /dev/null
+# to disable backup (it is a special value, so it also works on Windows
+# and systems without /dev/null).
+#
+# Default value: backup
+###
+supybot.directories.backup: /home/ahmedbodi/Documents/IRC/cure-bot/supybot/backup
+
+###
+# Determines what directories the bot will look for plugins in. Accepts
+# a comma-separated list of strings. This means that to add another
+# directory, you can nest the former value and add a new one. E.g. you
+# can say: bot: 'config supybot.directories.plugins [config
+# supybot.directories.plugins], newPluginDirectory'.
+#
+# Default value:  
+###
+supybot.directories.plugins: /home/ahmedbodi/Documents/IRC/cure-bot/supybot/plugins
+
+###
+# Determines what directory the bot will store its logfiles in.
+#
+# Default value: logs
+###
+supybot.directories.log: /home/ahmedbodi/Documents/IRC/cure-bot/supybot/logs
+
+###
+# Determines what plugins will be loaded.
+#
+# Default value:  
+###
+supybot.plugins: Web Git Ctcp Trigger Internet Trivia Math MoobotFactoids ERepublik factoids Scheduler Services News Cryptsy infobot StdoutCapture Plugin URL Kickme Eureka listener anonymous WebDoc BitcoinCentralMonitor herals attackprotector gui Conditional herald Brainfuck Pinglist Poll Random Network automode GUI conditional Wikipedia Insult Reply ChannelStats Topic Coffee coinpan String Infobot NickAuth Utilities Listener internet LinkRelay math Status ChannelStatus BadWords Herals Dunno ChannelLogger QuoteGrabs Herald GitHub Karma Uno Coinditional admin TwitterStream games Biography Owner Seen Coinpan HuntNFish NoisyKarma misc Note Cobe coinditional Config Website git Relay Glob2Chan Mathbomb User PluginDownloader AKa Debian Google Fortune Anonymous Success AutoMode Polls Filter WikiTrans Time WebStats AttackProtector Twitter Misc Nickometer Unix PingTime I18nPlaceholder Notify Dict Open Market channelstatus brainfuck Factoids Scheme biography filter Cleverbot Format ctcp Quote Timebomb AutoTrans Channel NickCapture Debomatic limiter SilencePlugin BitcoinData cleverbot Admin Later Poker Seeks Alias Holdem Games Praise Aka Protector ShrinkUrl github WebLogs Todo later eureka autotrans Limiter linkrelay RSS
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Admin: False
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Admin.public: True
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Aka: False
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Aka.public: True
+
+###
+# The maximum number of words allowed in a command name. Setting this to
+# an high value may slow down your bot on long commands.
+#
+# Default value: 5
+###
+supybot.plugins.Aka.maximumWordsInName: 5
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Alias: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Alias.public: True
+supybot.plugins.Alias.aliases.price: coin_price $*
+supybot.plugins.Alias.aliases.price.locked: False
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Anonymous: False
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Anonymous.public: True
+
+###
+# Determines whether the bot should require people trying to use this
+# plugin to be in the channel they wish to anonymously send to.
+#
+# Default value: True
+###
+supybot.plugins.Anonymous.requirePresenceInChannel: True
+
+###
+# Determines whether the bot should require people trying to use this
+# plugin to be registered.
+#
+# Default value: True
+###
+supybot.plugins.Anonymous.requireRegistration: True
+
+###
+# Determines what capability (if any) the bot should require people
+# trying to use this plugin to have.
+#
+# Default value: 
+###
+supybot.plugins.Anonymous.requireCapability: 
+
+###
+# Determines whether the bot will require targets of the "say" command
+# to be public (i.e., channels). If this is True, the bot will allow
+# people to use the "say" command to send private messages to other
+# users.
+#
+# Default value: False
+###
+supybot.plugins.Anonymous.allowPrivateTarget: False
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.AttackProtector: False
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.AttackProtector.public: True
+
+###
+# Determines whether or not AttackProtector is enabled on this channel.
+#
+# Default value: True
+###
+supybot.plugins.AttackProtector.enable: True
+
+###
+# If a user has this capability, they won't be punished by
+# AttackProtector
+#
+# Default value: nopunish
+###
+supybot.plugins.AttackProtector.exempt: nopunish
+
+###
+# The kick message used when a user abuses the channel. $kind will be
+# replaced with the kind of attack.
+#
+# Default value: $kind flood detected
+###
+supybot.plugins.AttackProtector.kickmessage: $kind flood detected
+
+###
+# Determines how long (in seconds) the plugin will wait before being
+# enabled. A too low value makes the bot believe that its incoming
+# messages 'flood' on connection is an attack.
+#
+# Default value: 10
+###
+supybot.plugins.AttackProtector.delay: 10
+
+###
+# In the format XpY, where X is the number of kicked per Y seconds that
+# triggers the punishment.
+#
+# Default value: 5p60
+###
+supybot.plugins.AttackProtector.kicked.detection: 5p60
+
+###
+# Determines the punishment applied when user has been kicked multiple
+# times.
+#
+# Default value: kban
+###
+supybot.plugins.AttackProtector.kicked.punishment: kban
+
+###
+# The kick message used when a user abuses the channel with this kind of
+# flood. If empty, defaults to
+# supybot.plugins.AttackProtector.kickmessage.
+#
+# Default value: 
+###
+supybot.plugins.AttackProtector.kicked.kickmessage: 
+
+###
+# In the format XpY, where X is the number of groupmessage per Y seconds
+# that triggers the punishment.
+#
+# Default value: 20p20
+###
+supybot.plugins.AttackProtector.groupmessage.detection: 20p20
+
+###
+# Determines the punishment applied when a groupmessage flood is
+# detected.
+#
+# Default value: mode+m
+###
+supybot.plugins.AttackProtector.groupmessage.punishment: mode+m
+
+###
+# The kick message used when a user abuses the channel with this kind of
+# flood. If empty, defaults to
+# supybot.plugins.AttackProtector.kickmessage.
+#
+# Default value: 
+###
+supybot.plugins.AttackProtector.groupmessage.kickmessage: 
+
+###
+# In the format XpY, where X is the number of part per Y seconds that
+# triggers the punishment.
+#
+# Default value: 4p5
+###
+supybot.plugins.AttackProtector.part.detection: 4p5
+
+###
+# Determines the punishment applied when a part flood is detected.
+#
+# Default value: ban
+###
+supybot.plugins.AttackProtector.part.punishment: ban
+
+###
+# The kick message used when a user abuses the channel with this kind of
+# flood. If empty, defaults to
+# supybot.plugins.AttackProtector.kickmessage.
+#
+# Default value: 
+###
+supybot.plugins.AttackProtector.part.kickmessage: 
+
+###
+# In the format XpY, where X is the number of message per Y seconds that
+# triggers the punishment.
+#
+# Default value: 10p20
+###
+supybot.plugins.AttackProtector.message.detection: 10p20
+
+###
+# Determines the punishment applied when a message flood is detected.
+#
+# Default value: kick
+###
+supybot.plugins.AttackProtector.message.punishment: kick
+
+###
+# The kick message used when a user abuses the channel with this kind of
+# flood. If empty, defaults to
+# supybot.plugins.AttackProtector.kickmessage.
+#
+# Default value: 
+###
+supybot.plugins.AttackProtector.message.kickmessage: 
+
+###
+# In the format XpY, where X is the number of knock per Y seconds that
+# triggers the punishment.
+#
+# Default value: 5p20
+###
+supybot.plugins.AttackProtector.knock.detection: 5p20
+
+###
+# Determines the punishment applied when a knock flood is detected.
+#
+# Default value: mode+K
+###
+supybot.plugins.AttackProtector.knock.punishment: mode+K
+
+###
+# The kick message used when a user abuses the channel with this kind of
+# flood. If empty, defaults to
+# supybot.plugins.AttackProtector.kickmessage.
+#
+# Default value: 
+###
+supybot.plugins.AttackProtector.knock.kickmessage: 
+
+###
+# In the format XpY, where X is the number of join per Y seconds that
+# triggers the punishment.
+#
+# Default value: 5p10
+###
+supybot.plugins.AttackProtector.join.detection: 5p10
+
+###
+# Determines the punishment applied when a join flood is detected.
+#
+# Default value: ban
+###
+supybot.plugins.AttackProtector.join.punishment: ban
+
+###
+# The kick message used when a user abuses the channel with this kind of
+# flood. If empty, defaults to
+# supybot.plugins.AttackProtector.kickmessage.
+#
+# Default value: 
+###
+supybot.plugins.AttackProtector.join.kickmessage: 
+
+###
+# In the format XpY, where X is the number of groupknock per Y seconds
+# that triggers the punishment.
+#
+# Default value: 7p20
+###
+supybot.plugins.AttackProtector.groupknock.detection: 7p20
+
+###
+# Determines the punishment applied when a groupknock flood is detected.
+#
+# Default value: mode+K
+###
+supybot.plugins.AttackProtector.groupknock.punishment: mode+K
+
+###
+# The kick message used when a user abuses the channel with this kind of
+# flood. If empty, defaults to
+# supybot.plugins.AttackProtector.kickmessage.
+#
+# Default value: 
+###
+supybot.plugins.AttackProtector.groupknock.kickmessage: 
+
+###
+# In the format XpY, where X is the number of nick per Y seconds that
+# triggers the punishment.
+#
+# Default value: 7p300
+###
+supybot.plugins.AttackProtector.nick.detection: 7p300
+
+###
+# Determines the punishment applied when a nick flood is detected.
+#
+# Default value: ban
+###
+supybot.plugins.AttackProtector.nick.punishment: ban
+
+###
+# The kick message used when a user abuses the channel with this kind of
+# flood. If empty, defaults to
+# supybot.plugins.AttackProtector.kickmessage.
+#
+# Default value: 
+###
+supybot.plugins.AttackProtector.nick.kickmessage: 
+
+###
+# In the format XpY, where X is the number of grouppart per Y seconds
+# that triggers the punishment.
+#
+# Default value: 20p10
+###
+supybot.plugins.AttackProtector.grouppart.detection: 20p10
+
+###
+# Determines the punishment applied when a grouppart flood is detected.
+#
+# Default value: mode+i
+###
+supybot.plugins.AttackProtector.grouppart.punishment: mode+i
+
+###
+# The kick message used when a user abuses the channel with this kind of
+# flood. If empty, defaults to
+# supybot.plugins.AttackProtector.kickmessage.
+#
+# Default value: 
+###
+supybot.plugins.AttackProtector.grouppart.kickmessage: 
+
+###
+# In the format XpY, where X is the number of groupjoin per Y seconds
+# that triggers the punishment.
+#
+# Default value: 20p10
+###
+supybot.plugins.AttackProtector.groupjoin.detection: 20p10
+
+###
+# Determines the punishment applied when a groupjoin flood is detected.
+#
+# Default value: mode+i
+###
+supybot.plugins.AttackProtector.groupjoin.punishment: mode+i
+
+###
+# The kick message used when a user abuses the channel with this kind of
+# flood. If empty, defaults to
+# supybot.plugins.AttackProtector.kickmessage.
+#
+# Default value: 
+###
+supybot.plugins.AttackProtector.groupjoin.kickmessage: 
+
+###
+# In the format XpY, where X is the number of groupnick per Y seconds
+# that triggers the punishment.
+#
+# Default value: 20p10
+###
+supybot.plugins.AttackProtector.groupnick.detection: 20p10
+
+###
+# Determines the punishment applied when a groupnick flood is detected.
+#
+# Default value: mode+N
+###
+supybot.plugins.AttackProtector.groupnick.punishment: mode+N
+
+###
+# The kick message used when a user abuses the channel with this kind of
+# flood. If empty, defaults to
+# supybot.plugins.AttackProtector.kickmessage.
+#
+# Default value: 
+###
+supybot.plugins.AttackProtector.groupnick.kickmessage: 
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.AutoMode: False
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.AutoMode.public: True
+
+###
+# Determines whether this plugin is enabled.
+#
+# Default value: True
+###
+supybot.plugins.AutoMode.enable: True
+
+###
+# Determines whether this plugin will automode owners even if they don't
+# have op/halfop/voice/whatever capability.
+#
+# Default value: False
+###
+supybot.plugins.AutoMode.owner: False
+
+###
+# Determines whether the bot will check for 'alternative capabilities'
+# (ie. autoop, autohalfop, autovoice) in addition to/instead of classic
+# ones.
+#
+# Default value: False
+###
+supybot.plugins.AutoMode.alternativeCapabilities: False
+
+###
+# Determines whether the bot will "fall through" to halfop/voicing when
+# auto-opping is turned off but auto-halfopping/voicing are turned on.
+#
+# Default value: True
+###
+supybot.plugins.AutoMode.fallthrough: True
+
+###
+# Determines whether the bot will automatically op people with the
+# <channel>,op capability when they join the channel.
+#
+# Default value: False
+###
+supybot.plugins.AutoMode.op: False
+
+###
+# Determines whether the bot will automatically halfop people with the
+# <channel>,halfop capability when they join the channel.
+#
+# Default value: False
+###
+supybot.plugins.AutoMode.halfop: False
+
+###
+# Determines whether the bot will automatically voice people with the
+# <channel>,voice capability when they join the channel.
+#
+# Default value: False
+###
+supybot.plugins.AutoMode.voice: False
+
+###
+# Determines whether the bot will automatically ban people who join the
+# channel and are on the banlist.
+#
+# Default value: True
+###
+supybot.plugins.AutoMode.ban: True
+
+###
+# Determines how many seconds the bot will automatically ban a person
+# when banning.
+#
+# Default value: 86400
+###
+supybot.plugins.AutoMode.ban.period: 86400
+
+###
+# Determines how many seconds the bot will wait before applying a mode.
+# Has no effect on bans.
+#
+# Default value: 0
+###
+supybot.plugins.AutoMode.delay: 0
+
+###
+# Extra modes that will be applied to a user. Example syntax: user1+o-v
+# user2+v user3-v
+#
+# Default value:  
+###
+supybot.plugins.AutoMode.extra:  
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.AutoTrans: False
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.AutoTrans.public: True
+
+###
+# A list of people who want to have a translated version of messages in
+# a channel if the messages are not in their native language. Format:
+# nick1:lang1 nick2:lang2.
+#
+# Default value:  
+###
+supybot.plugins.AutoTrans.queries:  
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.BadWords: False
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.BadWords.public: True
+
+###
+# Determines what words are considered to be 'bad' so the bot won't say
+# them.
+#
+# Default value:  
+###
+supybot.plugins.BadWords.words:  
+
+###
+# Determines whether the bot will require bad words to be independent
+# words, or whether it will censor them within other words. For
+# instance, if 'darn' is a bad word, then if this is true, 'darn' will
+# be censored, but 'darnit' will not. You probably want this to be
+# false. After changing this setting, the BadWords regexp needs to be
+# regenerated by adding/removing a word to the list, or reloading the
+# plugin.
+#
+# Default value: False
+###
+supybot.plugins.BadWords.requireWordBoundaries: False
+
+###
+# Determines what characters will replace bad words; a chunk of these
+# characters matching the size of the replaced bad word will be used to
+# replace the bad words you've configured.
+#
+# Default value: !@#&
+###
+supybot.plugins.BadWords.nastyChars: !@#&
+
+###
+# Determines the manner in which bad words will be replaced.
+# 'nastyCharacters' (the default) will replace a bad word with the same
+# number of 'nasty characters' (like those used in comic books;
+# configurable by supybot.plugins.BadWords.nastyChars). 'simple' will
+# replace a bad word with a simple strings (regardless of the length of
+# the bad word); this string is configurable via
+# supybot.plugins.BadWords.simpleReplacement.
+#
+# Default value: nastyCharacters
+###
+supybot.plugins.BadWords.replaceMethod: nastyCharacters
+
+###
+# Determines what word will replace bad words if the replacement method
+# is 'simple'.
+#
+# Default value: [CENSORED]
+###
+supybot.plugins.BadWords.simpleReplacement: [CENSORED]
+
+###
+# Determines whether the bot will strip formatting characters from
+# messages before it checks them for bad words. If this is False, it
+# will be relatively trivial to circumvent this plugin's filtering. If
+# it's True, however, it will interact poorly with other plugins that do
+# coloring or bolding of text.
+#
+# Default value: True
+###
+supybot.plugins.BadWords.stripFormatting: True
+
+###
+# Determines whether the bot will kick people with a warning when they
+# use bad words.
+#
+# Default value: False
+###
+supybot.plugins.BadWords.kick: False
+
+###
+# Determines the kick message used by the bot when kicking users for
+# saying bad words.
+###
+supybot.plugins.BadWords.kick.message: You have been kicked for using a word\
+                                       prohibited in the presence of this\
+                                       bot. Please use more appropriate\
+                                       language in the future.
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Biography: False
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Biography.public: True
+
+###
+# Determines what capability (if any) is required to change fields of
+# another user.
+#
+# Default value: admin
+###
+supybot.plugins.Biography.requireCapability: admin
+
+###
+# Comma-separated list of fields that can be stored. Order matters when
+# displayed
+#
+# Default value: email, facebook, twitter
+###
+supybot.plugins.Biography.fields: email, facebook, twitter
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.BitcoinCentralMonitor: False
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.BitcoinCentralMonitor.public: True
+
+###
+# List of channels that should receive monitoring output.
+#
+# Default value:  
+###
+supybot.plugins.BitcoinCentralMonitor.channels:  
+
+###
+# Seconds between BitcoinCentral site polls.
+#
+# Default value: 10
+###
+supybot.plugins.BitcoinCentralMonitor.pollinterval: 10
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.BitcoinData: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.BitcoinData.public: True
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Brainfuck: False
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Brainfuck.public: True
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Channel: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Channel.public: True
+
+###
+# Determines whether the bot will always try to rejoin a channel
+# whenever it's kicked from the channel.
+#
+# Default value: True
+###
+supybot.plugins.Channel.alwaysRejoin: True
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.ChannelLogger: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.ChannelLogger.public: True
+
+###
+# Determines whether logging is enabled.
+#
+# Default value: True
+###
+supybot.plugins.ChannelLogger.enable: True
+
+###
+# Determines whether channel logfiles will be flushed anytime they're
+# written to, rather than being buffered by the operating system.
+#
+# Default value: True
+###
+supybot.plugins.ChannelLogger.flushImmediately: True
+
+###
+# Determines wether joins and parts are logged
+#
+# Default value: True
+###
+supybot.plugins.ChannelLogger.showJoinParts: True
+
+###
+# Determines whether formatting characters (such as bolding, color,
+# etc.) are removed when writing the logs to disk.
+#
+# Default value: True
+###
+supybot.plugins.ChannelLogger.stripFormatting: True
+
+###
+# Determines whether the logs for this channel are timestamped with the
+# timestamp in supybot.log.timestampFormat.
+#
+# Default value: True
+###
+supybot.plugins.ChannelLogger.timestamp: True
+
+###
+# Determines what string a message should be prefixed with in order not
+# to be logged. If you don't want any such prefix, just set it to the
+# empty string.
+#
+# Default value: [nolog]
+###
+supybot.plugins.ChannelLogger.noLogPrefix: [nolog]
+
+###
+# Determines whether the bot will automatically rotate the logs for this
+# channel. The bot will rotate logs when the timestamp for the log
+# changes. The timestamp is set according to the 'filenameTimestamp'
+# configuration variable.
+#
+# Default value: False
+###
+supybot.plugins.ChannelLogger.rotateLogs: False
+
+###
+# Determines how to represent the timestamp used for the filename in
+# rotated logs. When this timestamp changes, the old logfiles will be
+# closed and a new one started. The format characters for the timestamp
+# are in the time.strftime docs at python.org. In order for your logs to
+# be rotated, you'll also have to enable
+# supybot.plugins.ChannelLogger.rotateLogs.
+#
+# Default value: %Y-%m-%d
+###
+supybot.plugins.ChannelLogger.filenameTimestamp: %Y-%m-%d
+
+###
+# Determines whether the bot will partition its channel logs into
+# separate directories based on different criteria.
+#
+# Default value: True
+###
+supybot.plugins.ChannelLogger.directories: True
+
+###
+# Determines whether the bot will use a network directory if using
+# directories.
+#
+# Default value: True
+###
+supybot.plugins.ChannelLogger.directories.network: True
+
+###
+# Determines whether the bot will use a channel directory if using
+# directories.
+#
+# Default value: True
+###
+supybot.plugins.ChannelLogger.directories.channel: True
+
+###
+# Determines whether the bot will use a timestamp (determined by
+# supybot.plugins.ChannelLogger.directories.timestamp.format) if using
+# directories.
+#
+# Default value: False
+###
+supybot.plugins.ChannelLogger.directories.timestamp: False
+
+###
+# Determines what timestamp format will be used in the directory
+# structure for channel logs if
+# supybot.plugins.ChannelLogger.directories.timestamp is True.
+#
+# Default value: %B
+###
+supybot.plugins.ChannelLogger.directories.timestamp.format: %B
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.ChannelStats: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.ChannelStats.public: True
+
+###
+# Determines whether the bot will keep channel statistics on itself,
+# possibly skewing the channel stats (especially in cases where the bot
+# is relaying between channels on a network).
+#
+# Default value: True
+###
+supybot.plugins.ChannelStats.selfStats: True
+
+###
+# Determines what words (i.e., pieces of text with no spaces in them)
+# are considered 'smileys' for the purposes of stats-keeping.
+#
+# Default value: :) ;) ;] :-) :-D :D :P :p (= =)
+###
+supybot.plugins.ChannelStats.smileys: :) ;) ;] :-) :-D :D :P :p (= =)
+
+###
+# Determines what words (i.e., pieces of text with no spaces in them)
+# are considered 'frowns' for the purposes of stats-keeping.
+#
+# Default value: :| :-/ :-\ :\ :/ :( :-( :'(
+###
+supybot.plugins.ChannelStats.frowns: :| :-/ :-\\ :\\ :/ :( :-( :\'(
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.ChannelStatus: False
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.ChannelStatus.public: True
+
+###
+# Determines whether or not this channel will be publicly listed on the
+# web server.
+#
+# Default value: False
+###
+supybot.plugins.ChannelStatus.listed: False
+
+###
+# Determines whether or not the list of users in this channel will be
+# listed.
+#
+# Default value: False
+###
+supybot.plugins.ChannelStatus.nicks: False
+
+###
+# Determines whether or not the topic of this channel will be displayed.
+#
+# Default value: True
+###
+supybot.plugins.ChannelStatus.topic: True
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Cleverbot: False
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Cleverbot.public: True
+
+###
+# bot ID
+#
+# Default value: 9c1423d9be345c5c
+###
+supybot.plugins.Cleverbot.bot: 9c1423d9be345c5c
+
+###
+# bot name
+#
+# Default value: AaronBot
+###
+supybot.plugins.Cleverbot.name: AaronBot
+
+###
+# Determine whether the bot should respond to errors.
+#
+# Default value: True
+###
+supybot.plugins.Cleverbot.react: True
+
+###
+# Determine whether the bot should respond to private chat errors.
+#
+# Default value: True
+###
+supybot.plugins.Cleverbot.reactprivate: True
+
+###
+# Determine whether the Cleverbot response is enabled or not
+#
+# Default value: False
+###
+supybot.plugins.Cleverbot.enable: False
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Cobe: False
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Cobe.public: True
+
+###
+# Regex to ignore when learning text. Perfect for ignoring commands!.
+#
+# Default value: ^[.@!$%]
+###
+supybot.plugins.Cobe.ignoreRegex: ^[.@!$%]
+
+###
+# Keep the bot from learning URLs?
+#
+# Default value: True
+###
+supybot.plugins.Cobe.stripUrls: True
+
+###
+# Strip all nicks, including the bots, when learning? This replaces a
+# nick with the keyword MAGIC_NICK to use for random highlighting.
+#
+# Default value: False
+###
+supybot.plugins.Cobe.stripNicks: False
+
+###
+# Determines the percent of messages the bot will answer.
+#
+# Default value: 0
+###
+supybot.plugins.Cobe.probability: 0
+
+###
+# Determines the percent of messages adressed to the bot the bot will
+# answer, to the 0.01%. The maximum is 10000/10000
+#
+# Default value: 10000
+###
+supybot.plugins.Cobe.probabilityWhenAddressed: 10000
+
+###
+# Seconds to wait in a channel before speaking again.
+#
+# Default value: 10
+###
+supybot.plugins.Cobe.waitTimeBetweenSpeaking: 10
+
+###
+# If directly addressed, should we ignore the wait time?
+#
+# Default value: True
+###
+supybot.plugins.Cobe.ignoreWaitTimeIfAddressed: True
+
+###
+# Delay responding for 2 to 4 seconds in order to seem more human?
+#
+# Default value: False
+###
+supybot.plugins.Cobe.responseDelay: False
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Coffee: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Coffee.public: True
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Coinditional: False
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Coinditional.public: True
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Coinpan: False
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Coinpan.public: True
+
+###
+# Determines whether Coinpan is enabled on this channel
+#
+# Default value: False
+###
+supybot.plugins.Coinpan.enable: False
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Conditional: False
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Conditional.public: True
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Config: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Config.public: True
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Cryptsy: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Cryptsy.public: True
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Ctcp: False
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Ctcp.public: True
+
+###
+# Determines how many seconds the bot will wait after getting a version
+# command (not a CTCP VERSION, but an actual call of the command in this
+# plugin named "version") before replying with the results it has
+# collected.
+#
+# Default value: 10
+###
+supybot.plugins.Ctcp.versionWait: 10
+
+###
+# Determines what will be sent when a USERINFO query is received.
+#
+# Default value: 
+###
+supybot.plugins.Ctcp.userinfo: 
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Debian: False
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Debian.public: True
+
+###
+# Determines whether the plugin will use bold in the responses to some
+# of its commands.
+#
+# Default value: True
+###
+supybot.plugins.Debian.bold: True
+
+###
+# Determines the default branch, ie. the branch selected if --branch is
+# not given.
+#
+# Default value: stable
+###
+supybot.plugins.Debian.defaults.file.branch: stable
+
+###
+# Determines the default mode, ie. the mode selected if --mode is not
+# given.
+#
+# Default value: path
+###
+supybot.plugins.Debian.defaults.file.mode: path
+
+###
+# Determines the default section, ie. the section selected if --section
+# is not given.
+#
+# Default value: any
+###
+supybot.plugins.Debian.defaults.file.section: any
+
+###
+# Determines the default architecture, ie. the architecture selected if
+# --arch is not given.
+#
+# Default value: any
+###
+supybot.plugins.Debian.defaults.file.arch: any
+
+###
+# Determines the default branch, ie. the branch selected if --branch is
+# not given.
+#
+# Default value: all
+###
+supybot.plugins.Debian.defaults.version.branch: all
+
+###
+# Determines the default section, ie. the section selected if --section
+# is not given.
+#
+# Default value: all
+###
+supybot.plugins.Debian.defaults.version.section: all
+
+###
+# Determines the default 'searchon', ie. where to search if --searchon
+# is not given.
+#
+# Default value: names
+###
+supybot.plugins.Debian.defaults.version.searchon: names
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Debomatic: False
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Debomatic.public: True
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Dict: False
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Dict.public: True
+
+###
+# Determines what server the bot will retrieve definitions from.
+#
+# Default value: dict.org
+###
+supybot.plugins.Dict.server: dict.org
+
+###
+# Determines the default dictionary the bot will ask for definitions in.
+# If this value is '*' (without the quotes) the bot will use all
+# dictionaries to define words.
+#
+# Default value: 
+###
+supybot.plugins.Dict.default: 
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Dunno: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Dunno.public: True
+
+###
+# Determines whether the bot will prefix the nick of the user giving an
+# invalid command to the "dunno" response.
+#
+# Default value: True
+###
+supybot.plugins.Dunno.prefixNick: True
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.ERepublik: False
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.ERepublik.public: True
+
+###
+# The API key.
+#
+# Default value: 
+###
+supybot.plugins.ERepublik.apikey: 
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Eureka: False
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Eureka.public: True
+
+###
+# Determines the format used by the bot to display the score of a user.
+#
+# Default value: $nick ($score)
+###
+supybot.plugins.Eureka.format.score: $nick ($score)
+
+###
+# Determines the string between two user scores.
+#
+# Default value:  // 
+###
+supybot.plugins.Eureka.format.separator: //
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Factoids: False
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Factoids.public: True
+
+###
+# Determines whether the Factoids plugins will be browsable on the HTTP
+# server.
+#
+# Default value: False
+###
+supybot.plugins.Factoids.web.enable: False
+
+###
+# Determines whether factoids can be displayed via the web server.
+#
+# Default value: False
+###
+supybot.plugins.Factoids.web.channel: False
+
+###
+# Only allows a user with voice or above on a channel to use the
+# command.
+#
+# Default value: False
+###
+supybot.plugins.Factoids.requireVoice: False
+
+###
+# Determines what separator must be used in the learn command. Defaults
+# to 'is' -- learn <key> is <value>. Users might want to change this to
+# something else, so it's configurable.
+#
+# Default value: is
+###
+supybot.plugins.Factoids.learnSeparator: is
+
+###
+# Determines whether the bot will reply with the single matching factoid
+# if only one factoid matches when using the search command.
+#
+# Default value: True
+###
+supybot.plugins.Factoids.showFactoidIfOnlyOneMatch: True
+
+###
+# Determines whether the bot will reply to invalid commands by searching
+# for a factoid; basically making the whatis unnecessary when you want
+# all factoids for a given key.
+#
+# Default value: True
+###
+supybot.plugins.Factoids.replyWhenInvalidCommand: True
+
+###
+# If you try to look up a nonexistent factoid, this setting make the bot
+# try to find some possible matching keys through several approximate
+# matching algorithms and return a list of matching keys, before giving
+# up.
+#
+# Default value: True
+###
+supybot.plugins.Factoids.replyApproximateSearchKeys: True
+
+###
+# Determines the format of the response given when a factoid's value is
+# requested. All the standard substitutes apply, in addition to "$key"
+# for the factoid's key and "$value" for the factoid's value.
+#
+# Default value: $value
+###
+supybot.plugins.Factoids.format: $value
+
+###
+# Determines whether we keep updating the usage count for each factoid,
+# for popularity ranking.
+#
+# Default value: True
+###
+supybot.plugins.Factoids.keepRankInfo: True
+
+###
+# Determines the number of factoid keys returned by the factrank
+# command.
+#
+# Default value: 20
+###
+supybot.plugins.Factoids.rankListLength: 20
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Filter: False
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Filter.public: True
+
+###
+# Determines whether or not to replace letters in the output of spellit.
+#
+# Default value: True
+###
+supybot.plugins.Filter.spellit.replaceLetters: True
+
+###
+# Determines whether or not to replace punctuation in the output of
+# spellit.
+#
+# Default value: True
+###
+supybot.plugins.Filter.spellit.replacePunctuation: True
+
+###
+# Determines whether or not to replace numbers in the output of spellit.
+#
+# Default value: True
+###
+supybot.plugins.Filter.spellit.replaceNumbers: True
+
+###
+# Determines the minimum number of a letters in a word before it will be
+# shrunken by the shrink command/filter.
+#
+# Default value: 4
+###
+supybot.plugins.Filter.shrink.minimum: 4
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Format: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Format.public: True
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Fortune: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Fortune.public: True
+
+###
+# The list of known databases.
+#
+# Default value:  
+###
+supybot.plugins.Fortune.databases:  
+
+###
+# The set of databases commands will look in if they have no argument.
+#
+# Default value:  
+###
+supybot.plugins.Fortune.defaults.databases:  
+
+###
+# Determines whether newline characters in fortunes will be stripped.
+#
+# Default value: True
+###
+supybot.plugins.Fortune.removeNewline: True
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.GUI: False
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.GUI.public: True
+
+###
+# The host the server will bind.
+#
+# Default value: 127.0.0.1
+###
+supybot.plugins.GUI.host: 127.0.0.1
+
+###
+# The port the server will bind.
+#
+# Default value: 14789
+###
+supybot.plugins.GUI.port: 14789
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Games: False
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Games.public: True
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Git: False
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Git.public: True
+
+###
+# The path to the repository configuration file.
+#
+# Default value: git.ini
+###
+supybot.plugins.Git.configFile: git.ini
+
+###
+# The path where local copies of repositories will be kept.
+#
+# Default value: git_repositories
+###
+supybot.plugins.Git.repoDir: git_repositories
+
+###
+# The frequency (in seconds) repositories will be polled for changes.
+# Set to zero to disable polling.
+#
+# Default value: 120
+###
+supybot.plugins.Git.pollPeriod: 120
+
+###
+# How many commits are displayed at once from each repository.
+#
+# Default value: 5
+###
+supybot.plugins.Git.maxCommitsAtOnce: 5
+
+###
+# Look for SHAs in user messages written to the channel, and reply with
+# the commit description if one is found.
+#
+# Default value: True
+###
+supybot.plugins.Git.shaSnarfing: True
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.GitHub: False
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.GitHub.public: True
+
+###
+# The URL of the GitHub API to use. You probably don't need to edit it,
+# but I let it there, just in case.
+#
+# Default value: https://api.github.com
+###
+supybot.plugins.GitHub.api.url: https://api.github.com
+
+###
+# You shouldn't edit this configuration variable yourself, unless you
+# know what you do. Use '@Github announce add' or '@Github announce
+# remove' instead.
+#
+# Default value: 
+###
+supybot.plugins.GitHub.announces: 
+
+###
+# Format for push events.
+#
+# Default value: echo $repository__owner__name/$repository__name (in $ref__branch): $__commit__author__name committed $__commit__message__firstline $__commit__url__tiny
+###
+supybot.plugins.GitHub.format.push: echo $repository__owner__name/\x02$repository__name\x02 (in \x02$ref__branch\x02): $__commit__author__name committed \x02$__commit__message__firstline\x02 $__commit__url__tiny
+
+###
+# Format for commit comment events.
+#
+# Default value: echo $repository__owner__name/$repository__name (in $ref__branch): $__comment__user__login commented on commit $__commit__message__firstline $comment__html_url__tiny
+###
+supybot.plugins.GitHub.format.commit_comment: echo $repository__owner__name/\x02$repository__name\x02 (in \x02$ref__branch\x02): $__comment__user__login commented on commit \x02$__commit__message__firstline\x02 $comment__html_url__tiny
+
+###
+# Format for issue events.
+#
+# Default value: echo $repository__owner__login/$repository__name: $sender__login $action issue #$issue__number: $issue__title $issue__html_url
+###
+supybot.plugins.GitHub.format.issues: echo $repository__owner__login/\x02$repository__name\x02: \x02$sender__login\x02 $action issue #$issue__number: \x02$issue__title\x02 $issue__html_url
+
+###
+# Format for issue comment events.
+#
+# Default value: echo $repository__owner__login/$repository__name: $sender__login $action comment on issue #$issue__number: $issue__title $issue__url__tiny
+###
+supybot.plugins.GitHub.format.issue_comment: echo $repository__owner__login/\x02$repository__name\x02: \x02$sender__login\x02 $action comment on issue #$issue__number: \x02$issue__title\x02 $issue__url__tiny
+
+###
+# Format for status events.
+#
+# Default value: echo $repository__owner__login/$repository__name: Status for commit "$commit__commit__message__firstline" by $commit__commit__committer__name: $description $target_url__tiny
+###
+supybot.plugins.GitHub.format.status: echo $repository__owner__login/\x02$repository__name\x02: Status for commit "\x02$commit__commit__message__firstline\x02" by \x02$commit__commit__committer__name\x02: \x02$description\x02 $target_url__tiny
+
+###
+# Format for pullrequest events.
+#
+# Default value: echo $repository__owner__login/$repository__name: $sender__login $action pull request #$number (to $pull_request__base__ref): $pull_request__title $pull_request__html_url__tiny
+###
+supybot.plugins.GitHub.format.pull_request: echo $repository__owner__login/\x02$repository__name\x02: \x02$sender__login\x02 $action pull request #$number (to \x02$pull_request__base__ref\x02): \x02$pull_request__title\x02 $pull_request__html_url__tiny
+
+###
+# Format for pull_request_review_comment events.
+#
+# Default value: echo $repository__owner__login/$repository__name: $comment__user__login reviewed pull request #$number (to $pull_request__base__ref): $pull_request__title $pull_request__html_url__tiny
+###
+supybot.plugins.GitHub.format.pull_request_review_comment: echo $repository__owner__login/\x02$repository__name\x02: \x02$comment__user__login\x02 reviewed pull request #$number (to \x02$pull_request__base__ref\x02): \x02$pull_request__title\x02 $pull_request__html_url__tiny
+
+###
+# Format for create events.
+#
+# Default value: 
+###
+supybot.plugins.GitHub.format.create: 
+
+###
+# Format for delete events.
+#
+# Default value: 
+###
+supybot.plugins.GitHub.format.delete: 
+
+###
+# Format for deployment events.
+#
+# Default value: 
+###
+supybot.plugins.GitHub.format.deployment: 
+
+###
+# Format for deployment_status events.
+#
+# Default value: 
+###
+supybot.plugins.GitHub.format.deployment_status: 
+
+###
+# Format for download events.
+#
+# Default value: 
+###
+supybot.plugins.GitHub.format.download: 
+
+###
+# Format for follow events.
+#
+# Default value: 
+###
+supybot.plugins.GitHub.format.follow: 
+
+###
+# Format for fork events.
+#
+# Default value: 
+###
+supybot.plugins.GitHub.format.fork: 
+
+###
+# Format for fork_apply events.
+#
+# Default value: 
+###
+supybot.plugins.GitHub.format.fork_apply: 
+
+###
+# Format for gist events.
+#
+# Default value: 
+###
+supybot.plugins.GitHub.format.gist: 
+
+###
+# Format for gollum events.
+#
+# Default value: 
+###
+supybot.plugins.GitHub.format.gollum: 
+
+###
+# Format for member events.
+#
+# Default value: 
+###
+supybot.plugins.GitHub.format.member: 
+
+###
+# Format for public events.
+#
+# Default value: 
+###
+supybot.plugins.GitHub.format.public: 
+
+###
+# Format for release events.
+#
+# Default value: 
+###
+supybot.plugins.GitHub.format.release: 
+
+###
+# Format for team_add events.
+#
+# Default value: 
+###
+supybot.plugins.GitHub.format.team_add: 
+
+###
+# Format for watch events.
+#
+# Default value: 
+###
+supybot.plugins.GitHub.format.watch: 
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Glob2Chan: False
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Glob2Chan.public: True
+
+###
+# List of nick that doesn't get the welcome message.
+#
+# Default value: 
+###
+supybot.plugins.Glob2Chan.nowelcome: 
+
+###
+# List of nick that are notified when someone calls @ask4game.
+#
+# Default value: 
+###
+supybot.plugins.Glob2Chan.gamers: 
+
+###
+# List of nick that are notified when someone calls @ask4help.
+#
+# Default value: 
+###
+supybot.plugins.Glob2Chan.helpers: 
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Google: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Google.public: True
+
+###
+# Determines the URL that will be sent to Google for the Referer field
+# of the search requests. If this value is empty, a Referer will be
+# generated in the following format: http://$server/$botName
+#
+# Default value: 
+###
+supybot.plugins.Google.referer: 
+
+###
+# Determines the base URL used for requests.
+#
+# Default value: google.com
+###
+supybot.plugins.Google.baseUrl: google.com
+
+###
+# Determines whether the search snarfer is enabled. If so, messages
+# (even unaddressed ones) beginning with the word 'google' will result
+# in the first URL Google returns being sent to the channel.
+#
+# Default value: False
+###
+supybot.plugins.Google.searchSnarfer: True
+
+###
+# Determines whether the word 'google' in the bot's output will be made
+# colorful (like Google's logo).
+#
+# Default value: False
+###
+supybot.plugins.Google.colorfulFilter: False
+
+###
+# Determines whether results are bolded.
+#
+# Default value: True
+###
+supybot.plugins.Google.bold: True
+
+###
+# Determines whether results are sent in different lines or all in the
+# same one.
+#
+# Default value: False
+###
+supybot.plugins.Google.oneToOne: False
+
+###
+# Determines the maximum number of results returned from the google
+# command.
+#
+# Default value: 8
+###
+supybot.plugins.Google.maximumResults: 8
+
+###
+# Determines what default language is used in searches. If left empty,
+# no specific language will be requested.
+#
+# Default value: lang_en
+###
+supybot.plugins.Google.defaultLanguage: lang_en
+
+###
+# Determines what level of search filtering to use by default. 'active'
+# - most filtering, 'moderate' - default filtering, 'off' - no filtering
+#
+# Default value: moderate
+###
+supybot.plugins.Google.searchFilter: moderate
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Herald: False
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Herald.public: True
+
+###
+# Determines whether messages will be sent to the channel when a
+# recognized user joins; basically enables or disables the plugin.
+#
+# Default value: True
+###
+supybot.plugins.Herald.heralding: True
+
+###
+# Determines what capability (if any) is required to add/change/remove
+# the herald of another user.
+#
+# Default value: 
+###
+supybot.plugins.Herald.requireCapability: 
+
+###
+# Determines the minimum number of seconds between heralds.
+#
+# Default value: 600
+###
+supybot.plugins.Herald.throttle: 600
+
+###
+# Determines the minimum number of seconds after parting that the bot
+# will not herald the person when they rejoin.
+#
+# Default value: 0
+###
+supybot.plugins.Herald.throttle.afterPart: 0
+
+###
+# Determines the minimum number of seconds after a netsplit that the bot
+# will not herald the users that split.
+#
+# Default value: 60
+###
+supybot.plugins.Herald.throttle.afterSplit: 60
+
+###
+# Sets the default herald to use. If a user has a personal herald
+# specified, that will be used instead. If set to the empty string, the
+# default herald will be disabled.
+#
+# Default value: 
+###
+supybot.plugins.Herald.default: 
+
+###
+# Determines whether the default herald will be sent as a NOTICE instead
+# of a PRIVMSG.
+#
+# Default value: True
+###
+supybot.plugins.Herald.default.notice: True
+
+###
+# Determines whether the default herald will be sent publicly.
+#
+# Default value: False
+###
+supybot.plugins.Herald.default.public: False
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Herals: False
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Herals.public: True
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Holdem: False
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Holdem.public: True
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.HuntNFish: False
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.HuntNFish.public: True
+
+###
+# Determines what form of weight, metric or imperial, is used by the
+# plugin. Options are lb and kg.
+#
+# Default value: lb
+###
+supybot.plugins.HuntNFish.WeightType: lb
+
+###
+# Turns on and off the hunt and fish commands.
+#
+# Default value: True
+###
+supybot.plugins.HuntNFish.enable: True
+
+###
+# Percent of chance of success
+#
+# Default value: 0
+###
+supybot.plugins.HuntNFish.successRate: 0
+
+###
+# How long the pause between hunts and fishes should be.
+#
+# Default value: 0
+###
+supybot.plugins.HuntNFish.timeout: 0
+
+###
+# How long the pause between hunts and fishes should be for a channel.
+#
+# Default value: 0
+###
+supybot.plugins.HuntNFish.channelTimeout: 0
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.I18nPlaceholder: False
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.I18nPlaceholder.public: True
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Infobot: False
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Infobot.public: True
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Insult: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Insult.public: True
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Internet: False
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Internet.public: True
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Karma: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Karma.public: True
+
+###
+# Determines whether the bot will output shorter versions of the karma
+# output when requesting a single thing's karma.
+#
+# Default value: False
+###
+supybot.plugins.Karma.simpleOutput: False
+
+###
+# Determines whether the bot will reply with a success message when
+# something's karma is increased or decreased.
+#
+# Default value: False
+###
+supybot.plugins.Karma.response: False
+
+###
+# Determines how many highest/lowest karma things are shown when karma
+# is called with no arguments.
+#
+# Default value: 3
+###
+supybot.plugins.Karma.rankingDisplay: 3
+
+###
+# Determines how many karma things are shown when the most command is
+# called.
+#
+# Default value: 25
+###
+supybot.plugins.Karma.mostDisplay: 25
+
+###
+# Determines whether users can adjust the karma of their nick.
+#
+# Default value: False
+###
+supybot.plugins.Karma.allowSelfRating: False
+
+###
+# Determines whether the bot will increase/decrease karma without being
+# addressed.
+#
+# Default value: True
+###
+supybot.plugins.Karma.allowUnaddressedKarma: True
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Kickme: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Kickme.public: True
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Later: False
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Later.public: True
+
+###
+# Determines the maximum number of messages to be queued for a user. If
+# this value is 0, there is no maximum.
+#
+# Default value: 0
+###
+supybot.plugins.Later.maximum: 0
+
+###
+# Determines whether users will be notified in the first place in which
+# they're seen, or in private.
+#
+# Default value: False
+###
+supybot.plugins.Later.private: False
+
+###
+# Determines whether users will be notified upon joining any channel the
+# bot is in, or only upon sending a message.
+#
+# Default value: False
+###
+supybot.plugins.Later.tellOnJoin: False
+
+###
+# Determines the maximum number of days that a message will remain
+# queued for a user. After this time elapses, the message will be
+# deleted. If this value is 0, there is no maximum.
+#
+# Default value: 30
+###
+supybot.plugins.Later.messageExpiry: 30
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Limiter: False
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Limiter.public: True
+
+###
+# Determines whether the bot will maintain the channel limit to be
+# slightly above the current number of people in the channel, in order
+# to make clone/drone attacks harder.
+#
+# Default value: False
+###
+supybot.plugins.Limiter.enable: False
+
+###
+# Determines the minimum number of free spots that will be saved when
+# limits are being enforced. This should always be smaller than
+# supybot.plugins.Limiter.limit.maximumExcess.
+#
+# Default value: 5
+###
+supybot.plugins.Limiter.minimumExcess: 5
+
+###
+# Determines the maximum number of free spots that will be saved when
+# limits are being enforced. This should always be larger than
+# supybot.plugins.Limiter.limit.minimumExcess.
+#
+# Default value: 10
+###
+supybot.plugins.Limiter.maximumExcess: 10
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.LinkRelay: False
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.LinkRelay.public: True
+
+###
+# Determines whether the bot will color Relayed PRIVMSGs so as to make
+# the messages easier to read.
+#
+# Default value: True
+###
+supybot.plugins.LinkRelay.color: True
+
+###
+# Determines whether the bot will synchronize topics between networks in
+# the channels it Relays.
+#
+# Default value: True
+###
+supybot.plugins.LinkRelay.topicSync: True
+
+###
+# Determines whether the bot will Relay the hostmask of the person
+# joining or parting the channel when he or she joins or parts.
+#
+# Default value: True
+###
+supybot.plugins.LinkRelay.hostmasks: True
+
+###
+# Determines whether the bot will relay the nick of the person sending a
+# message.
+#
+# Default value: True
+###
+supybot.plugins.LinkRelay.nicks: True
+
+###
+# Determines whether the bot will include the network in Relayed
+# PRIVMSGs; if you're only Relaying between two networks, it's somewhat
+# redundant, and you may wish to save the space.
+#
+# Default value: True
+###
+supybot.plugins.LinkRelay.includeNetwork: True
+
+###
+# Determines whether the bot will use PRIVMSGs (privmsg), NOTICEs
+# (notice), for non-PRIVMSG Relay messages (i.e., joins, parts, nicks,
+# quits, modes, etc.), or whether it won't relay such messages (nothing)
+#
+# Default value: privmsg
+###
+supybot.plugins.LinkRelay.nonPrivmsgs: privmsg
+
+###
+# You shouldn't edit this configuration variable yourself unless you
+# know what you do. Use @LinkRelay {add|remove} instead.
+#
+# Default value: 
+###
+supybot.plugins.LinkRelay.relays: 
+
+###
+# You shouldn't edit this configuration variable yourself unless you
+# know what you do. Use @LinkRelay (no)substitute instead.
+#
+# Default value: 
+###
+supybot.plugins.LinkRelay.substitutes: 
+
+###
+# Color used for relaying 02.
+#
+# Default value: 02
+###
+supybot.plugins.LinkRelay.colors.info: 02
+
+###
+# Color used for relaying 14.
+#
+# Default value: 14
+###
+supybot.plugins.LinkRelay.colors.nick: 14
+
+###
+# Color used for relaying 14.
+#
+# Default value: 14
+###
+supybot.plugins.LinkRelay.colors.part: 14
+
+###
+# Color used for relaying 14.
+#
+# Default value: 14
+###
+supybot.plugins.LinkRelay.colors.join: 14
+
+###
+# Color used for relaying 14.
+#
+# Default value: 14
+###
+supybot.plugins.LinkRelay.colors.mode: 14
+
+###
+# Color used for relaying 14.
+#
+# Default value: 14
+###
+supybot.plugins.LinkRelay.colors.truncated: 14
+
+###
+# Color used for relaying 14.
+#
+# Default value: 14
+###
+supybot.plugins.LinkRelay.colors.quit: 14
+
+###
+# Color used for relaying 14.
+#
+# Default value: 14
+###
+supybot.plugins.LinkRelay.colors.kick: 14
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Listener: False
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Listener.public: True
+
+###
+# JSON-formatted relays. Do not edit this configuration variable unless
+# you know what you are doing.
+#
+# Default value: []
+###
+supybot.plugins.Listener.relays: []
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Market: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Market.public: True
+
+###
+# Number of seconds to cache the full depth data from mtgox, to avoid
+# getting banned.
+#
+# Default value: 245
+###
+supybot.plugins.Market.fullDepthCachePeriod: 245
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Math: False
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Math.public: True
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Mathbomb: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Mathbomb.public: True
+
+###
+# The set of possible mathbomb wire colors
+#
+# Default value: AliceBlue AntiqueWhite Aqua Aquamarine Azure Beige Bisque Black BlanchedAlmond Blue BlueViolet Brown BurlyWood CadetBlue Chartreuse Chocolate Coral CornflowerBlue Cornsilk Crimson Cyan DarkBlue DarkCyan DarkGoldenRod DarkGray DarkGreen DarkKhaki DarkMagenta DarkOliveGreen DarkOrange DarkOrchid DarkRed DarkSalmon DarkSeaGreen DarkSlateBlue DarkSlateGray DarkTurquoise DarkViolet DeepPink DeepSkyBlue DimGray DodgerBlue FireBrick FloralWhite ForestGreen Fuchsia Gainsboro GhostWhite Gold GoldenRod Gray Green GreenYellow HoneyDew HotPink IndianRed Indigo Ivory Khaki Lavender LavenderBlush LawnGreen LemonChiffon LightBlue LightCoral LightCyan LightGoldenRodYellow LightGrey LightGreen LightPink LightSalmon LightSeaGreen LightSkyBlue LightSlateGray LightSteelBlue LightYellow Lime LimeGreen Linen Magenta Maroon MediumAquaMarine MediumBlue MediumOrchid MediumPurple MediumSeaGreen MediumSlateBlue MediumSpringGreen MediumTurquoise MediumVioletRed MidnightBlue MintCream MistyRose Moccasin NavajoWhite Navy OldLace Olive OliveDrab Orange OrangeRed Orchid PaleGoldenRod PaleGreen PaleTurquoise PaleVioletRed PapayaWhip PeachPuff Peru Pink Plum PowderBlue Purple Red RosyBrown RoyalBlue SaddleBrown Salmon SandyBrown SeaGreen SeaShell Sienna Silver SkyBlue SlateBlue SlateGray Snow SpringGreen SteelBlue Tan Teal Thistle Tomato Turquoise Violet Wheat White WhiteSmoke Yellow YellowGreen
+###
+supybot.plugins.Mathbomb.colors: AliceBlue AntiqueWhite Aqua Aquamarine Azure Beige Bisque Black BlanchedAlmond Blue BlueViolet Brown BurlyWood CadetBlue Chartreuse Chocolate Coral CornflowerBlue Cornsilk Crimson Cyan DarkBlue DarkCyan DarkGoldenRod DarkGray DarkGreen DarkKhaki DarkMagenta DarkOliveGreen DarkOrange DarkOrchid DarkRed DarkSalmon DarkSeaGreen DarkSlateBlue DarkSlateGray DarkTurquoise DarkViolet DeepPink DeepSkyBlue DimGray DodgerBlue FireBrick FloralWhite ForestGreen Fuchsia Gainsboro GhostWhite Gold GoldenRod Gray Green GreenYellow HoneyDew HotPink IndianRed Indigo Ivory Khaki Lavender LavenderBlush LawnGreen LemonChiffon LightBlue LightCoral LightCyan LightGoldenRodYellow LightGrey LightGreen LightPink LightSalmon LightSeaGreen LightSkyBlue LightSlateGray LightSteelBlue LightYellow Lime LimeGreen Linen Magenta Maroon MediumAquaMarine MediumBlue MediumOrchid MediumPurple MediumSeaGreen MediumSlateBlue MediumSpringGreen MediumTurquoise MediumVioletRed MidnightBlue MintCream MistyRose Moccasin NavajoWhite Navy OldLace Olive OliveDrab Orange OrangeRed Orchid PaleGoldenRod PaleGreen PaleTurquoise PaleVioletRed PapayaWhip PeachPuff Peru Pink Plum PowderBlue Purple Red RosyBrown RoyalBlue SaddleBrown Salmon SandyBrown SeaGreen SeaShell Sienna Silver SkyBlue SlateBlue SlateGray Snow SpringGreen SteelBlue Tan Teal Thistle Tomato Turquoise Violet Wheat White WhiteSmoke Yellow YellowGreen
+
+###
+# The set of possible mathbomb wire colors when there are few wires
+#
+# Default value: red orange yellow green blue purple pink black brown gray white
+###
+supybot.plugins.Mathbomb.shortcolors: red orange yellow green blue purple pink black brown gray white
+
+###
+# A list of nicks who should be excluded from being randombombed
+#
+# Default value:  
+###
+supybot.plugins.Mathbomb.exclusions:  
+
+###
+# Determines whether mathbombs are allowed in the channel.
+#
+# Default value: False
+###
+supybot.plugins.Mathbomb.allowBombs: True
+
+###
+# Determines the minimum number of wires a mathbomb will have.
+#
+# Default value: 2
+###
+supybot.plugins.Mathbomb.minWires: 2
+
+###
+# Determines the maximum number of wires a mathbomb will have.
+#
+# Default value: 4
+###
+supybot.plugins.Mathbomb.maxWires: 4
+
+###
+# Determines the minimum time of a mathbomb timer, in seconds.
+#
+# Default value: 45
+###
+supybot.plugins.Mathbomb.minTime: 45
+
+###
+# Determines the maximum time of a mathbomb timer, in seconds.
+#
+# Default value: 70
+###
+supybot.plugins.Mathbomb.maxTime: 70
+
+###
+# Determines the minimum time of a randombomb timer, which should in
+# general be greater than the minimum targeted bomb time, to allow
+# someone who's not paying attention to respond.
+#
+# Default value: 60
+###
+supybot.plugins.Mathbomb.minRandombombTime: 60
+
+###
+# Determines the maximum time of a randombomb timer, which should in
+# general be greater than the maxiumum targeted bomb time, to allow
+# someone who's not paying attention to respond.
+#
+# Default value: 120
+###
+supybot.plugins.Mathbomb.maxRandombombTime: 120
+
+###
+# Determines whether an ASCII art bomb should be shown on detonation, or
+# a simple message.
+#
+# Default value: True
+###
+supybot.plugins.Mathbomb.showArt: True
+
+###
+# Determines whether only active users should be randombombed
+#
+# Default value: False
+###
+supybot.plugins.Mathbomb.bombActiveUsers: False
+
+###
+# Determines whether channel joins should count as activity for
+# randombombs
+#
+# Default value: False
+###
+supybot.plugins.Mathbomb.joinIsActivity: False
+
+###
+# Allow the bot to bomb itself?
+#
+# Default value: False
+###
+supybot.plugins.Mathbomb.allowSelfBombs: False
+
+###
+# The number of minutes before someone is counted as idle for
+# randombombs, if idle-checking is enabled.
+#
+# Default value: 60
+###
+supybot.plugins.Mathbomb.idleTime: 60
+
+###
+# Determines whether the correct wire will be shown when a bomb
+# detonates.
+#
+# Default value: False
+###
+supybot.plugins.Mathbomb.showCorrectWire: False
+
+###
+# Determines whether debugging info will be shown.
+#
+# Default value: False
+###
+supybot.plugins.Mathbomb.debug: False
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Misc: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Misc.public: True
+
+###
+# Determines how many messages the bot will issue when using the 'more'
+# command.
+#
+# Default value: 1
+###
+supybot.plugins.Misc.mores: 1
+
+###
+# Determines whether the bot will list private plugins with the list
+# command if given the --private switch. If this is disabled, non-owner
+# users should be unable to see what private plugins are loaded.
+#
+# Default value: True
+###
+supybot.plugins.Misc.listPrivatePlugins: True
+
+###
+# Determines whether the bot will list unloaded plugins with the list
+# command if given the --unloaded switch. If this is disabled, non-owner
+# users should be unable to see what unloaded plugins are available.
+#
+# Default value: True
+###
+supybot.plugins.Misc.listUnloadedPlugins: True
+
+###
+# Determines the format string for timestamps in the Misc.last command.
+# Refer to the Python documentation for the time module to see what
+# formats are accepted. If you set this variable to the empty string,
+# the timestamp will not be shown.
+#
+# Default value: [%H:%M:%S]
+###
+supybot.plugins.Misc.timestampFormat: [%H:%M:%S]
+
+###
+# Determines whether or not the timestamp will be included in the output
+# of last when it is part of a nested command
+#
+# Default value: False
+###
+supybot.plugins.Misc.last.nested.includeTimestamp: False
+
+###
+# Determines whether or not the nick will be included in the output of
+# last when it is part of a nested command
+#
+# Default value: False
+###
+supybot.plugins.Misc.last.nested.includeNick: False
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.MoobotFactoids: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.MoobotFactoids.public: True
+
+###
+# Determines whether or not the factoid value will be shown when a
+# listkeys search returns only one factoid key.
+#
+# Default value: True
+###
+supybot.plugins.MoobotFactoids.showFactoidIfOnlyOneMatch: True
+
+###
+# Determines how many items are shown when the 'most' command is called.
+#
+# Default value: 10
+###
+supybot.plugins.MoobotFactoids.mostCount: 10
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Network: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Network.public: True
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.News: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.News.public: True
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.NickAuth: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.NickAuth.public: True
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.NickCapture: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.NickCapture.public: True
+
+###
+# Determines whether the bot will check occasionally if its preferred
+# nick is in use via the ISON command.
+#
+# Default value: True
+###
+supybot.plugins.NickCapture.ison: True
+
+###
+# Determines how often (in seconds) the bot will check whether its nick
+# ISON.
+#
+# Default value: 600
+###
+supybot.plugins.NickCapture.ison.period: 600
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Nickometer: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Nickometer.public: True
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.NoisyKarma: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.NoisyKarma.public: True
+
+###
+# Messages shown for things with positive karma. For a given karma, the
+# message with the closest key to the karma will be selected, among
+# messages with a key greater than the karma.
+#
+# Default value: {}
+###
+supybot.plugins.NoisyKarma.messages.positive: {}
+
+###
+# Messages shown for things with negative karma. For a given absolute
+# karma, the message with the closest key to the karma will be selected,
+# among messages with an absolute key greater than the absolute karma
+#
+# Default value: {}
+###
+supybot.plugins.NoisyKarma.messages.negative: {}
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Note: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Note.public: True
+
+###
+# Determines whether the bot will notify people of their new messages
+# when they join the channel. Normally it will notify them when they
+# send a message to the channel, since oftentimes joins are the result
+# of netsplits and not the actual presence of the user.
+#
+# Default value: False
+###
+supybot.plugins.Note.notify.onJoin: False
+
+###
+# Determines whether the bot will repeatedly notify people of their new
+# messages when they join the channel. That means when they join the
+# channel, the bot will tell them they have unread messages, even if
+# it's told them before.
+#
+# Default value: False
+###
+supybot.plugins.Note.notify.onJoin.repeatedly: False
+
+###
+# Determines the upper limit for automatically sending messages instead
+# of notifications. I.e., if this value is 2 and there are 2 new
+# messages to notify a user about, instead of sending a notification
+# message, the bot will simply send those new messages. If there are 3
+# new messages, however, the bot will send a notification message.
+#
+# Default value: 0
+###
+supybot.plugins.Note.notify.autoSend: 0
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Notify: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Notify.public: True
+
+###
+# Address for the IRC notification server to listen on
+#
+# Default value: 0.0.0.0
+###
+supybot.plugins.Notify.server_address: 0.0.0.0
+
+###
+# Port for the IRC notification server to listen on
+#
+# Default value: 5050
+###
+supybot.plugins.Notify.server_port: 5050
+
+###
+# Use notices instead of privmsgs
+#
+# Default value: False
+###
+supybot.plugins.Notify.use_notice: False
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Open: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Open.public: True
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Owner: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Owner.public: True
+
+###
+# Determines what quit message will be used by default. If the quit
+# command is called without a quit message, this will be used. If this
+# value is empty, the nick of the person giving the quit command will be
+# used.
+#
+# Default value: 
+###
+supybot.plugins.Owner.quitMsg: 
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.PingTime: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.PingTime.public: True
+
+###
+# Determines whether this plugin should be enabled.
+#
+# Default value: False
+###
+supybot.plugins.PingTime.enable: False
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Pinglist: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Pinglist.public: True
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Plugin: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Plugin.public: True
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.PluginDownloader: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.PluginDownloader.public: True
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Poker: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Poker.public: True
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Poll: False
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Poll.public: True
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Polls: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Polls.public: True
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Praise: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Praise.public: True
+
+###
+# Determines whether the bot will show the ids of a praise when the
+# praise is given.
+#
+# Default value: False
+###
+supybot.plugins.Praise.showIds: False
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Protector: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Protector.public: True
+
+###
+# Determines whether this plugin is enabled in a given channel.
+#
+# Default value: False
+###
+supybot.plugins.Protector.enable: False
+
+###
+# Determines what nicks the bot will consider to be immune from
+# enforcement. These nicks will not even have their actions watched by
+# this plugin. In general, only the ChanServ for this network will be in
+# this list.
+#
+# Default value:  
+###
+supybot.plugins.Protector.immune:  
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Quote: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Quote.public: True
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.QuoteGrabs: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.QuoteGrabs.public: True
+
+###
+# Determines whether the bot will randomly grab possibly-suitable quotes
+# on occasion. The suitability of a given message is determined by ...
+#
+# Default value: False
+###
+supybot.plugins.QuoteGrabs.randomGrabber: False
+
+###
+# Determines about how many seconds, on average, should elapse between
+# random grabs. This is only an average value; grabs can happen from any
+# time after half this time until never, although that's unlikely to
+# occur.
+#
+# Default value: 864000
+###
+supybot.plugins.QuoteGrabs.randomGrabber.averageTimeBetweenGrabs: 864000
+
+###
+# Determines the minimum number of words in a message for it to be
+# considered for random grabbing.
+#
+# Default value: 3
+###
+supybot.plugins.QuoteGrabs.randomGrabber.minimumWords: 3
+
+###
+# Determines the minimum number of characters in a message for it to be
+# considered for random grabbing.
+#
+# Default value: 8
+###
+supybot.plugins.QuoteGrabs.randomGrabber.minimumCharacters: 8
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.RSS: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.RSS.public: True
+
+###
+# Determines what feeds should be accessible as commands.
+#
+# Default value:  
+###
+supybot.plugins.RSS.feeds:  
+
+###
+# Determines what string is used to separate headlines in new feeds.
+#
+# Default value:  | 
+###
+supybot.plugins.RSS.headlineSeparator:  | 
+
+###
+# The format the bot will use for displaying headlines of a RSS feed
+# that is triggered manually. In addition to fields defined by
+# feedparser ($published (the entry date), $title, $link, $description,
+# $id, etc.), the following variables can be used: $feed_name, $date
+# (parsed date, as defined in supybot.reply.format.time)
+#
+# Default value: $date: $title <$link>
+###
+supybot.plugins.RSS.format: $date: $title <$link>
+
+###
+# The format the bot will use for displaying headlines of a RSS feed
+# that is announced. See supybot.plugins.RSS.format for the available
+# variables.
+#
+# Default value: News from $feed_name: $title <$link>
+###
+supybot.plugins.RSS.announceFormat: News from $feed_name: $title <$link>
+
+###
+# Determines which RSS feeds should be announced in the channel; valid
+# input is a list of strings (either registered RSS feeds or RSS feed
+# URLs) separated by spaces.
+#
+# Default value:  
+###
+supybot.plugins.RSS.announce:  
+
+###
+# Indicates how many seconds the bot will wait between retrieving RSS
+# feeds; requests made within this period will return cached results.
+#
+# Default value: 1800
+###
+supybot.plugins.RSS.waitPeriod: 1800
+
+###
+# Determines whether feed items should be sorted by their update
+# timestamp or kept in the same order as they appear in a feed.
+#
+# Default value: asInFeed
+###
+supybot.plugins.RSS.sortFeedItems: asInFeed
+
+###
+# Indicates how many headlines an rss feed will output by default, if no
+# number is provided.
+#
+# Default value: 1
+###
+supybot.plugins.RSS.defaultNumberOfHeadlines: 1
+
+###
+# Indicates how many headlines an rss feed will output when it is first
+# added to announce for a channel.
+#
+# Default value: 5
+###
+supybot.plugins.RSS.initialAnnounceHeadlines: 5
+
+###
+# Space separated list of strings, lets you filter headlines to those
+# containing one or more items in this whitelist.
+#
+# Default value:  
+###
+supybot.plugins.RSS.keywordWhitelist:  
+
+###
+# Space separated list of strings, lets you filter headlines to those
+# not containing any items in this blacklist.
+#
+# Default value:  
+###
+supybot.plugins.RSS.keywordBlacklist:  
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Random: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Random.public: True
+
+###
+# The maximum amount of coins that can be flipped
+#
+# Default value: 50000
+###
+supybot.plugins.Random.maxCoins: 50000
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Relay: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Relay.public: True
+
+###
+# Determines whether the bot will color relayed PRIVMSGs so as to make
+# the messages easier to read.
+#
+# Default value: True
+###
+supybot.plugins.Relay.color: True
+
+###
+# Determines whether the bot will synchronize topics between networks in
+# the channels it relays.
+#
+# Default value: True
+###
+supybot.plugins.Relay.topicSync: True
+
+###
+# Determines whether the bot will relay the hostmask of the person
+# joining or parting the channel when they join or part.
+#
+# Default value: True
+###
+supybot.plugins.Relay.hostmasks: True
+
+###
+# Determines whether the bot will include the network in relayed
+# PRIVMSGs; if you're only relaying between two networks, it's somewhat
+# redundant, and you may wish to save the space.
+#
+# Default value: True
+###
+supybot.plugins.Relay.includeNetwork: True
+
+###
+# Determines whether the bot will detect other bots relaying and respond
+# by kickbanning them.
+#
+# Default value: True
+###
+supybot.plugins.Relay.punishOtherRelayBots: True
+
+###
+# Determines which channels the bot will relay in.
+#
+# Default value:  
+###
+supybot.plugins.Relay.channels:  
+
+###
+# Determines whether the bot will always join the channel(s) it relays
+# for on all networks the bot is connected to.
+#
+# Default value: False
+###
+supybot.plugins.Relay.channels.joinOnAllNetworks: False
+
+###
+# Determines what hostmasks will not be relayed on a channel.
+#
+# Default value:  
+###
+supybot.plugins.Relay.ignores:  
+
+###
+# Determines whether the bot will used NOTICEs rather than PRIVMSGs for
+# non-PRIVMSG relay messages (i.e., joins, parts, nicks, quits, modes,
+# etc.)
+#
+# Default value: False
+###
+supybot.plugins.Relay.noticeNonPrivmsgs: False
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Reply: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Reply.public: True
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Scheduler: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Scheduler.public: True
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Scheme: False
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Scheme.public: True
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Seeks: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Seeks.public: True
+
+###
+# The Seeks server that this plugin will use.
+#
+# Default value: http://www.seeks.fr/search?expansion=1&action=expand&output=json&q=
+###
+supybot.plugins.Seeks.url: http://www.seeks.fr/search?expansion=1&action=expand&output=json&q=
+
+###
+# The character(s) to use between search results.
+#
+# Default value: /
+###
+supybot.plugins.Seeks.separator: /
+
+###
+# The format used to display each result.
+#
+# Default value: %(url)s - %(seeks_score)s
+###
+supybot.plugins.Seeks.format: %(url)s - %(seeks_score)s
+
+###
+# The number of results to display.
+#
+# Default value: 5
+###
+supybot.plugins.Seeks.number: 5
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Seen: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Seen.public: True
+
+###
+# The minimum non-wildcard characters required to perform a 'seen'
+# request. Of course, it only applies if there is a wildcard in the
+# request.
+#
+# Default value: 2
+###
+supybot.plugins.Seen.minimumNonWildcard: 2
+
+###
+# Determines whether the last message will be displayed with @seen.
+# Useful for keeping messages from a channel private.
+#
+# Default value: True
+###
+supybot.plugins.Seen.showLastMessage: True
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Services: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Services.public: True
+
+###
+# Determines what nicks the bot will use with services.
+#
+# Default value:  
+###
+supybot.plugins.Services.nicks:  
+
+###
+# Determines what networks this plugin will be disabled on.
+#
+# Default value: QuakeNet
+###
+supybot.plugins.Services.disabledNetworks: QuakeNet
+
+###
+# Determines whether the bot will not join any channels until it is
+# identified. This may be useful, for instances, if you have a vhost
+# that isn't set until you're identified, or if you're joining +r
+# channels that won't allow you to join unless you identify.
+#
+# Default value: False
+###
+supybot.plugins.Services.noJoinsUntilIdentified: False
+
+###
+# Determines how many seconds the bot will wait between successive GHOST
+# attempts.
+#
+# Default value: 60
+###
+supybot.plugins.Services.ghostDelay: 60
+
+###
+# Determines what nick the 'NickServ' service has.
+#
+# Default value: NickServ
+###
+supybot.plugins.Services.NickServ: NickServ
+
+###
+# Determines what nick the 'ChanServ' service has.
+#
+# Default value: ChanServ
+###
+supybot.plugins.Services.ChanServ: ChanServ
+
+###
+# Determines what password the bot will use with ChanServ.
+#
+# Default value: 
+###
+supybot.plugins.Services.ChanServ.password: 
+
+###
+# Determines whether the bot will request to get opped by the ChanServ
+# when it joins the channel.
+#
+# Default value: False
+###
+supybot.plugins.Services.ChanServ.op: False
+
+###
+# Determines whether the bot will request to get half-opped by the
+# ChanServ when it joins the channel.
+#
+# Default value: False
+###
+supybot.plugins.Services.ChanServ.halfop: False
+
+###
+# Determines whether the bot will request to get voiced by the ChanServ
+# when it joins the channel.
+#
+# Default value: False
+###
+supybot.plugins.Services.ChanServ.voice: False
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.ShrinkUrl: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.ShrinkUrl.public: True
+
+###
+# Determines whether the shrink snarfer is enabled. This snarfer will
+# watch for URLs in the channel, and if they're sufficiently long (as
+# determined by supybot.plugins.ShrinkUrl.minimumLength) it will post a
+# smaller URL from either ln-s.net or tinyurl.com, as denoted in
+# supybot.plugins.ShrinkUrl.default.
+#
+# Default value: False
+###
+supybot.plugins.ShrinkUrl.shrinkSnarfer: False
+
+###
+# Determines whether the snarfer will show the domain of the URL being
+# snarfed along with the shrunken URL.
+#
+# Default value: True
+###
+supybot.plugins.ShrinkUrl.shrinkSnarfer.showDomain: True
+
+###
+# The minimum length a URL must be before the bot will shrink it.
+#
+# Default value: 48
+###
+supybot.plugins.ShrinkUrl.minimumLength: 48
+
+###
+# Determines what URLs are to be snarfed; URLs matching the regexp given
+# will not be snarfed. Give the empty string if you have no URLs that
+# you'd like to exclude from being snarfed.
+#
+# Default value: 
+###
+supybot.plugins.ShrinkUrl.nonSnarfingRegexp: 
+
+###
+# Determines whether the bot will shrink the URLs of outgoing messages
+# if those URLs are longer than supybot.plugins.ShrinkUrl.minimumLength.
+#
+# Default value: False
+###
+supybot.plugins.ShrinkUrl.outFilter: False
+
+###
+# Determines what website the bot will use when shrinking a URL.
+#
+# Default value: x0
+###
+supybot.plugins.ShrinkUrl.default: x0
+
+###
+# Determines whether this plugin will bold certain portions of its
+# replies.
+#
+# Default value: True
+###
+supybot.plugins.ShrinkUrl.bold: True
+
+###
+# If set to a non-empty value, specifies the list of services to rotate
+# through for the shrinkSnarfer and outFilter.
+#
+# Default value:  
+###
+supybot.plugins.ShrinkUrl.serviceRotation:  
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.SilencePlugin: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.SilencePlugin.public: True
+
+###
+# List of plugins that should be muted.
+#
+# Default value:  
+###
+supybot.plugins.SilencePlugin.outblacklist:  
+
+###
+# List of plugins that should not get any command.
+#
+# Default value:  
+###
+supybot.plugins.SilencePlugin.inblacklist:  
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Status: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Status.public: True
+
+###
+# Determines whether the cpu command will list the time taken by
+# children as well as the bot's process.
+#
+# Default value: True
+###
+supybot.plugins.Status.cpu.children: True
+
+###
+# Determines whether the cpu command will provide the number of threads
+# spawned and active.
+#
+# Default value: False
+###
+supybot.plugins.Status.cpu.threads: False
+
+###
+# Determines whether the cpu command will report the amount of memory
+# being used by the bot.
+#
+# Default value: True
+###
+supybot.plugins.Status.cpu.memory: True
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.StdoutCapture: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.StdoutCapture.public: True
+
+###
+# Default pastebin. The pastebin has to support the LodgeIt API.
+#
+# Default value: http://paste.progval.net/
+###
+supybot.plugins.StdoutCapture.pastebin: http://paste.progval.net/
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.String: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.String.public: True
+
+###
+# Determines the maximum size of a string given to the levenshtein
+# command. The levenshtein command uses an O(m*n) algorithm, which means
+# that with strings of length 256, it can take 1.5 seconds to finish;
+# with strings of length 384, though, it can take 4 seconds to finish,
+# and with strings of much larger lengths, it takes more and more time.
+# Using nested commands, strings can get quite large, hence this
+# variable, to limit the size of arguments passed to the levenshtein
+# command.
+#
+# Default value: 256
+###
+supybot.plugins.String.levenshtein.max: 256
+
+###
+# Determines the maximum time, in seconds, that a regular expression is
+# given to execute before being terminated. Since there is a possibility
+# that user input for the re command can cause it to eat up large
+# amounts of ram or cpu time, it's a good idea to keep this low. Most
+# normal regexps should not take very long at all.
+#
+# Default value: 0.1
+###
+supybot.plugins.String.re.timeout: 0.1
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Success: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Success.public: True
+
+###
+# Determines whether the bot will prefix the nick of the user giving an
+# invalid command to the success response.
+#
+# Default value: True
+###
+supybot.plugins.Success.prefixNick: True
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Time: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Time.public: True
+
+###
+# Determines the format string for timestamps. Refer to the Python
+# documentation for the time module to see what formats are accepted. If
+# you set this variable to the empty string, the timestamp will not be
+# shown.
+#
+# Default value: %Y-%m-%d %H:%M:%S%z
+###
+supybot.plugins.Time.format: %Y-%m-%d %H:%M:%S%z
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Timebomb: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Timebomb.public: True
+
+###
+# The set of possible timebomb wire colors
+#
+# Default value: AliceBlue AntiqueWhite Aqua Aquamarine Azure Beige Bisque Black BlanchedAlmond Blue BlueViolet Brown BurlyWood CadetBlue Chartreuse Chocolate Coral CornflowerBlue Cornsilk Crimson Cyan DarkBlue DarkCyan DarkGoldenRod DarkGray DarkGreen DarkKhaki DarkMagenta DarkOliveGreen DarkOrange DarkOrchid DarkRed DarkSalmon DarkSeaGreen DarkSlateBlue DarkSlateGray DarkTurquoise DarkViolet DeepPink DeepSkyBlue DimGray DodgerBlue FireBrick FloralWhite ForestGreen Fuchsia Gainsboro GhostWhite Gold GoldenRod Gray Green GreenYellow HoneyDew HotPink IndianRed Indigo Ivory Khaki Lavender LavenderBlush LawnGreen LemonChiffon LightBlue LightCoral LightCyan LightGoldenRodYellow LightGrey LightGreen LightPink LightSalmon LightSeaGreen LightSkyBlue LightSlateGray LightSteelBlue LightYellow Lime LimeGreen Linen Magenta Maroon MediumAquaMarine MediumBlue MediumOrchid MediumPurple MediumSeaGreen MediumSlateBlue MediumSpringGreen MediumTurquoise MediumVioletRed MidnightBlue MintCream MistyRose Moccasin NavajoWhite Navy OldLace Olive OliveDrab Orange OrangeRed Orchid PaleGoldenRod PaleGreen PaleTurquoise PaleVioletRed PapayaWhip PeachPuff Peru Pink Plum PowderBlue Purple Red RosyBrown RoyalBlue SaddleBrown Salmon SandyBrown SeaGreen SeaShell Sienna Silver SkyBlue SlateBlue SlateGray Snow SpringGreen SteelBlue Tan Teal Thistle Tomato Turquoise Violet Wheat White WhiteSmoke Yellow YellowGreen
+###
+supybot.plugins.Timebomb.colors: AliceBlue AntiqueWhite Aqua Aquamarine Azure Beige Bisque Black BlanchedAlmond Blue BlueViolet Brown BurlyWood CadetBlue Chartreuse Chocolate Coral CornflowerBlue Cornsilk Crimson Cyan DarkBlue DarkCyan DarkGoldenRod DarkGray DarkGreen DarkKhaki DarkMagenta DarkOliveGreen DarkOrange DarkOrchid DarkRed DarkSalmon DarkSeaGreen DarkSlateBlue DarkSlateGray DarkTurquoise DarkViolet DeepPink DeepSkyBlue DimGray DodgerBlue FireBrick FloralWhite ForestGreen Fuchsia Gainsboro GhostWhite Gold GoldenRod Gray Green GreenYellow HoneyDew HotPink IndianRed Indigo Ivory Khaki Lavender LavenderBlush LawnGreen LemonChiffon LightBlue LightCoral LightCyan LightGoldenRodYellow LightGrey LightGreen LightPink LightSalmon LightSeaGreen LightSkyBlue LightSlateGray LightSteelBlue LightYellow Lime LimeGreen Linen Magenta Maroon MediumAquaMarine MediumBlue MediumOrchid MediumPurple MediumSeaGreen MediumSlateBlue MediumSpringGreen MediumTurquoise MediumVioletRed MidnightBlue MintCream MistyRose Moccasin NavajoWhite Navy OldLace Olive OliveDrab Orange OrangeRed Orchid PaleGoldenRod PaleGreen PaleTurquoise PaleVioletRed PapayaWhip PeachPuff Peru Pink Plum PowderBlue Purple Red RosyBrown RoyalBlue SaddleBrown Salmon SandyBrown SeaGreen SeaShell Sienna Silver SkyBlue SlateBlue SlateGray Snow SpringGreen SteelBlue Tan Teal Thistle Tomato Turquoise Violet Wheat White WhiteSmoke Yellow YellowGreen
+
+###
+# The set of possible timebomb wire colors when there are few wires
+#
+# Default value: red orange yellow green blue purple pink black brown gray white
+###
+supybot.plugins.Timebomb.shortcolors: red orange yellow green blue purple pink black brown gray white
+
+###
+# A list of nicks who should be excluded from being randombombed
+#
+# Default value:  
+###
+supybot.plugins.Timebomb.exclusions:  
+
+###
+# Determines whether timebombs are allowed in the channel.
+#
+# Default value: False
+###
+supybot.plugins.Timebomb.allowBombs: True
+
+###
+# Determines the minimum number of wires a timebomb will have.
+#
+# Default value: 2
+###
+supybot.plugins.Timebomb.minWires: 2
+
+###
+# Determines the maximum number of wires a timebomb will have.
+#
+# Default value: 4
+###
+supybot.plugins.Timebomb.maxWires: 4
+
+###
+# Determines the minimum time of a timebomb timer, in seconds.
+#
+# Default value: 45
+###
+supybot.plugins.Timebomb.minTime: 45
+
+###
+# Determines the maximum time of a timebomb timer, in seconds.
+#
+# Default value: 70
+###
+supybot.plugins.Timebomb.maxTime: 70
+
+###
+# Determines the minimum time of a randombomb timer, which should in
+# general be greater than the minimum targeted bomb time, to allow
+# someone who's not paying attention to respond.
+#
+# Default value: 60
+###
+supybot.plugins.Timebomb.minRandombombTime: 60
+
+###
+# Determines the maximum time of a randombomb timer, which should in
+# general be greater than the maxiumum targeted bomb time, to allow
+# someone who's not paying attention to respond.
+#
+# Default value: 120
+###
+supybot.plugins.Timebomb.maxRandombombTime: 120
+
+###
+# Determines whether an ASCII art bomb should be shown on detonation, or
+# a simple message.
+#
+# Default value: True
+###
+supybot.plugins.Timebomb.showArt: True
+
+###
+# Determines whether only active users should be randombombed
+#
+# Default value: False
+###
+supybot.plugins.Timebomb.bombActiveUsers: False
+
+###
+# Determines whether channel joins should count as activity for
+# randombombs
+#
+# Default value: False
+###
+supybot.plugins.Timebomb.joinIsActivity: False
+
+###
+# Allow the bot to bomb itself?
+#
+# Default value: False
+###
+supybot.plugins.Timebomb.allowSelfBombs: False
+
+###
+# The number of minutes before someone is counted as idle for
+# randombombs, if idle-checking is enabled.
+#
+# Default value: 60
+###
+supybot.plugins.Timebomb.idleTime: 60
+
+###
+# Determines whether the correct wire will be shown when a bomb
+# detonates.
+#
+# Default value: False
+###
+supybot.plugins.Timebomb.showCorrectWire: False
+
+###
+# Determines whether debugging info will be shown.
+#
+# Default value: False
+###
+supybot.plugins.Timebomb.debug: False
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Todo: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Todo.public: True
+
+###
+# Determines whether users can read the todo-list of another user.
+#
+# Default value: False
+###
+supybot.plugins.Todo.allowThirdpartyReader: False
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Topic: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Topic.public: True
+
+###
+# Determines what separator is used between individually added topics in
+# the channel topic.
+#
+# Default value:  | 
+###
+supybot.plugins.Topic.separator:  | 
+
+###
+# Determines what format is used to add topics in the topic. All the
+# standard substitutes apply, in addition to "$topic" for the topic
+# itself.
+#
+# Default value: $topic
+###
+supybot.plugins.Topic.format: $topic
+
+###
+# Determines whether the bot will recognize the TOPICLEN value sent to
+# it by the server and thus refuse to send TOPICs longer than the
+# TOPICLEN. These topics are likely to be truncated by the server
+# anyway, so this defaults to True.
+#
+# Default value: True
+###
+supybot.plugins.Topic.recognizeTopiclen: True
+
+###
+# Determines what the default topic for the channel is. This is used by
+# the default command to set this topic.
+#
+# Default value: 
+###
+supybot.plugins.Topic.default: 
+
+###
+# Determines whether the bot will set the topic every time it joins, or
+# only if the topic is empty.
+#
+# Default value: False
+###
+supybot.plugins.Topic.alwaysSetOnJoin: False
+
+###
+# Determines the number of previous topics to keep around in case the
+# undo command is called.
+#
+# Default value: 10
+###
+supybot.plugins.Topic.undo.max: 10
+
+###
+# Determines the capabilities required (if any) to make any topic
+# changes, (everything except for read-only operations). Use
+# 'channel,capab' for channel-level capabilities. Note that absence of
+# an explicit anticapability means user has capability.
+#
+# Default value: channel,op; channel,halfop
+###
+supybot.plugins.Topic.requireManageCapability: channel,op; channel,halfop
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Trigger: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Trigger.public: True
+
+###
+# Command triggered by joins
+#
+# Default value: 
+###
+supybot.plugins.Trigger.triggers.join: 
+
+###
+# Command triggered by parts
+#
+# Default value: 
+###
+supybot.plugins.Trigger.triggers.part: 
+
+###
+# Command triggered by privmsgs
+#
+# Default value: 
+###
+supybot.plugins.Trigger.triggers.privmsg: 
+
+###
+# Command triggered by notices
+#
+# Default value: 
+###
+supybot.plugins.Trigger.triggers.notice: 
+
+###
+# Command triggered by highlights
+#
+# Default value: 
+###
+supybot.plugins.Trigger.triggers.highlight: 
+
+###
+# Command triggered by nicks
+#
+# Default value: 
+###
+supybot.plugins.Trigger.triggers.nick: 
+
+###
+# Command triggered by quits
+#
+# Default value: 
+###
+supybot.plugins.Trigger.triggers.quit: 
+
+###
+# Command triggered by kicks
+#
+# Default value: 
+###
+supybot.plugins.Trigger.triggers.kick: 
+
+###
+# Command triggered on connect. This shouldn't be a Supybot command, but
+# an IRC command (as given to ircquote).
+#
+# Default value: 
+###
+supybot.plugins.Trigger.triggers.connect: 
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Trivia: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Trivia.public: True
+
+###
+# The character used for a blank when displaying hints
+#
+# Default value: *
+###
+supybot.plugins.Trivia.blankChar: *
+
+###
+# The number of hints to be given for each question
+#
+# Default value: 3
+###
+supybot.plugins.Trivia.numHints: 3
+
+###
+# The number of seconds to allow for each question
+#
+# Default value: 90
+###
+supybot.plugins.Trivia.timeout: 90
+
+###
+# The fraction of the answer that should be revealed with each hint
+#
+# Default value: 0.25
+###
+supybot.plugins.Trivia.hintPercentage: 0.25
+
+###
+# The flexibility of the trivia answer checker. One typo will be allowed
+# for every __ characters.
+#
+# Default value: 8
+###
+supybot.plugins.Trivia.flexibility: 8
+
+###
+# The mIRC color to use for trivia questions
+#
+# Default value: 10
+###
+supybot.plugins.Trivia.color: 10
+
+###
+# The number of questions that can go unanswered before the trivia stops
+# automatically.
+#
+# Default value: 6
+###
+supybot.plugins.Trivia.inactiveShutoff: 6
+
+###
+# The path to the scores file. If it doesn't exist, it will be created.
+#
+# Default value: scores.txt
+###
+supybot.plugins.Trivia.scoreFile: scores.txt
+
+###
+# The path to the questions file. If it doesn't exist, it will be
+# created.
+#
+# Default value: questions.txt
+###
+supybot.plugins.Trivia.questionFile: questions.txt
+
+###
+# The default number of questions to be asked in a round of trivia.
+#
+# Default value: 10
+###
+supybot.plugins.Trivia.defaultRoundLength: 10
+
+###
+# The separator used between the questions and answers in your trivia
+# file.
+#
+# Default value: *
+###
+supybot.plugins.Trivia.questionFileSeparator: *
+
+###
+# This will determine whether or not the bot will randomize the trivia
+# questions.
+#
+# Default value: True
+###
+supybot.plugins.Trivia.randomize: True
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Twitter: False
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Twitter.public: True
+
+###
+# Determines whether or not the name of the user posting a tweet will be
+# shown prefixed.
+#
+# Default value: True
+###
+supybot.plugins.Twitter.prefixusername: True
+
+###
+# The Twitter Access Token key for the bot's account (running
+# get_access_token.py is a way to get it)
+#
+# Default value: 
+###
+supybot.plugins.Twitter.accounts.bot.key: 
+
+###
+# The Twitter Access Token secret for the bot's account (running
+# get_access_token.py is a way to get it)
+#
+# Default value: 
+###
+supybot.plugins.Twitter.accounts.bot.secret: 
+
+###
+# The URL to the base API URL (by default, it is Twitter.com, but you
+# can use it for twitter-compatible services, such as
+# identica/statusnet.
+#
+# Default value: https://api.twitter.com/1.1
+###
+supybot.plugins.Twitter.accounts.bot.api: https://api.twitter.com/1.1
+
+###
+# The Twitter Access Token key for this channel's account (running
+# get_access_token.py is a way to get it)
+#
+# Default value: 
+###
+supybot.plugins.Twitter.accounts.channel.key: 
+
+###
+# The Twitter Access Token secret for this channel's account (running
+# get_access_token.py is a way to get it)
+#
+# Default value: 
+###
+supybot.plugins.Twitter.accounts.channel.secret: 
+
+###
+# The URL to the base API URL (by default, it is Twitter.com, but you
+# can use it for twitter-compatible services, such as
+# identica/statusnet.
+#
+# Default value: https://api.twitter.com/1.1
+###
+supybot.plugins.Twitter.accounts.channel.api: https://api.twitter.com/1.1
+
+###
+# The consumer key of the application.
+#
+# Default value: bItq1HZhBGyx5Y8ardIeQ
+###
+supybot.plugins.Twitter.consumer.key: bItq1HZhBGyx5Y8ardIeQ
+
+###
+# The consumer secret of the application.
+#
+# Default value: qjC6Ye6xSMM3XPLR3LLeMqOP4ri0rgoYFT2si1RpY
+###
+supybot.plugins.Twitter.consumer.secret: qjC6Ye6xSMM3XPLR3LLeMqOP4ri0rgoYFT2si1RpY
+
+###
+# The interval (in seconds) between two fetches of new tweets from the
+# timeline. 0 (zero) disables this feature.
+#
+# Default value: 0
+###
+supybot.plugins.Twitter.announce.interval: 0
+
+###
+# Determines whether or not the ID of announced tweets will be
+# displayed.
+#
+# Default value: True
+###
+supybot.plugins.Twitter.announce.withid: True
+
+###
+# Determines whether or not the ID of announced tweets will be
+# displayed.
+#
+# Default value: True
+###
+supybot.plugins.Twitter.announce.withshortid: True
+
+###
+# Determines whether or not all tweets will be shown in one line.
+#
+# Default value: True
+###
+supybot.plugins.Twitter.announce.oneline: True
+
+###
+# Determines whether or not the bot will show retweets in addition to
+# native tweets.
+#
+# Default value: True
+###
+supybot.plugins.Twitter.announce.retweets: True
+
+###
+# Determines whether the bot will stream the timeline of the linked
+# account on the channel (only if
+# supybot.plugins.Twitter.announce.interval is greater than 0).
+#
+# Default value: True
+###
+supybot.plugins.Twitter.announce.timeline: True
+
+###
+# Determines whether the bot will stream mentions to the linked account
+# on the channel (only if supybot.plugins.Twitter.announce.interval is
+# greater than 0).
+#
+# Default value: True
+###
+supybot.plugins.Twitter.announce.mentions: True
+
+###
+# Determines users whose tweets will be announced on the channel.
+#
+# Default value:  
+###
+supybot.plugins.Twitter.announce.users:  
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.TwitterStream: False
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.TwitterStream.public: True
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.URL: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.URL.public: True
+
+###
+# Determines what URLs are not to be snarfed and stored in the database
+# for the channel; URLs matching the given regexp will not be snarfed.
+# Give the empty string if you have no URLs that you'd like to exclude
+# from being snarfed.
+#
+# Default value: 
+###
+supybot.plugins.URL.nonSnarfingRegexp: 
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Unix: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Unix.public: True
+
+###
+# Determines what command will be called for the fortune command.
+#
+# Default value: 
+###
+supybot.plugins.Unix.fortune.command: 
+
+###
+# Determines whether only short fortunes will be used if possible. This
+# sends the -s option to the fortune program.
+#
+# Default value: True
+###
+supybot.plugins.Unix.fortune.short: True
+
+###
+# Determines whether fortune will give equal weight to the different
+# fortune databases. If false, then larger databases will be given more
+# weight. This sends the -e option to the fortune program.
+#
+# Default value: True
+###
+supybot.plugins.Unix.fortune.equal: True
+
+###
+# Determines whether fortune will retrieve offensive fortunes along with
+# the normal fortunes. This sends the -a option to the fortune program.
+#
+# Default value: False
+###
+supybot.plugins.Unix.fortune.offensive: False
+
+###
+# Determines what specific file (if any) will be used with the fortune
+# command; if none is given, the system-wide default will be used. Do
+# note that this fortune file must be placed with the rest of your
+# system's fortune files.
+#
+# Default value:  
+###
+supybot.plugins.Unix.fortune.files:  
+
+###
+# Determines what command will be called for the spell command.
+#
+# Default value: /usr/bin/aspell
+###
+supybot.plugins.Unix.spell.command: /usr/bin/aspell
+
+###
+# Determines what aspell dictionary will be used for spell checking.
+#
+# Default value: en
+###
+supybot.plugins.Unix.spell.language: en
+
+###
+# Determines what command will be called for the wtf command.
+#
+# Default value: 
+###
+supybot.plugins.Unix.wtf.command: 
+
+###
+# Determines what command will be called for the ping command.
+#
+# Default value: /bin/ping
+###
+supybot.plugins.Unix.ping.command: /bin/ping
+
+###
+# Determines what command will be called for the uptime command.
+#
+# Default value: /usr/bin/uptime
+###
+supybot.plugins.Unix.sysuptime.command: /usr/bin/uptime
+
+###
+# Determines what command will be called for the uname command.
+#
+# Default value: /bin/uname
+###
+supybot.plugins.Unix.sysuname.command: /bin/uname
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Uno: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Uno.public: True
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.User: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.User.public: True
+
+###
+# Determines whether or not users are allowed to use GPG for
+# authentication.
+#
+# Default value: True
+###
+supybot.plugins.User.gpg.enable: True
+
+###
+# Determines the lifetime of a GPG authentication token (in seconds).
+#
+# Default value: 600
+###
+supybot.plugins.User.gpg.TokenTimeout: 600
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Utilities: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Utilities.public: True
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Web: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Web.public: True
+
+###
+# Determines whether the bot will output the HTML title of URLs it sees
+# in the channel.
+#
+# Default value: False
+###
+supybot.plugins.Web.titleSnarfer: False
+
+###
+# Determines whether the bot will notfiy the user about network
+# exceptions like hostnotfound, timeout ....
+#
+# Default value: False
+###
+supybot.plugins.Web.snarferReportIOExceptions: False
+
+###
+# Determines whether the domain name displayed by the snarfer will be
+# the original one (posted on IRC) or the target one (got after
+# following redirects, if any).
+#
+# Default value: False
+###
+supybot.plugins.Web.snarferShowTargetDomain: False
+
+###
+# Determines what URLs matching the given regexp will not be snarfed.
+# Give the empty string if you have no URLs that you'd like to exclude
+# from being snarfed.
+#
+# Default value: 
+###
+supybot.plugins.Web.nonSnarfingRegexp: 
+
+###
+# If set, bot will only fetch data from urls in the whitelist, i.e.
+# starting with http://domain/optionalpath/. This will apply to all
+# commands that retrieve data from user-supplied URLs, including fetch,
+# headers, title, doctype.
+#
+# Default value:  
+###
+supybot.plugins.Web.urlWhitelist:  
+
+###
+# Determines the maximum number of bytes the bot will download via the
+# 'fetch' command in this plugin.
+#
+# Default value: 0
+###
+supybot.plugins.Web.fetch.maximum: 0
+
+###
+# Determines the maximum number of seconds the bot will wait for the
+# site to respond, when using the 'fetch' command in this plugin. If 0,
+# will use socket.defaulttimeout
+#
+# Default value: 5
+###
+supybot.plugins.Web.fetch.timeout: 5
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.WebDoc: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.WebDoc.public: True
+
+###
+# Determines whether the name of the command will be displayed in the
+# same cell as the doc.
+#
+# Default value: False
+###
+supybot.plugins.WebDoc.withFullName: False
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.WebLogs: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.WebLogs.public: True
+
+###
+# Determines whether the web logs for this channel are available.
+#
+# Default value: False
+###
+supybot.plugins.WebLogs.enabled: False
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.WebStats: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.WebStats.public: True
+
+###
+# Determines whether the stats are enabled for this channel.
+#
+# Default value: False
+###
+supybot.plugins.WebStats.channel.enable: False
+
+###
+# Determines what language is used on the website
+#
+# Default value: en
+###
+supybot.plugins.WebStats.channel.language: en
+
+###
+# Space-separated list of nicks excluded from stats.
+#
+# Default value: 
+###
+supybot.plugins.WebStats.channel.excludenicks: 
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Website: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Website.public: True
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.WikiTrans: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.WikiTrans.public: True
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Wikipedia: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Wikipedia.public: True
+
+###
+# URL of the website from where you want to pull pages (usually: your
+# language's wikipedia)
+#
+# Default value: en.wikipedia.org
+###
+supybot.plugins.Wikipedia.url: en.wikipedia.org
+
+###
+# Determines whether the bot will always load important plugins (Admin,
+# Channel, Config, Misc, Owner, and User) regardless of what their
+# configured state is. Generally, if these plugins are configured not to
+# load, you didn't do it on purpose, and you still want them to load.
+# Users who don't want to load these plugins are smart enough to change
+# the value of this variable appropriately :)
+#
+# Default value: True
+###
+supybot.plugins.alwaysLoadImportant: True
+
+###
+# Determines what databases are available for use. If this value is not
+# configured (that is, if its value is empty) then sane defaults will be
+# provided.
+#
+# Default value: sqlalchemy sqlite3 anydbm dbm cdb flat pickle
+###
+supybot.databases: 
+
+###
+# Determines what filename will be used for the users database. This
+# file will go into the directory specified by the
+# supybot.directories.conf variable.
+#
+# Default value: users.conf
+###
+supybot.databases.users.filename: users.conf
+
+###
+# Determines how long it takes identification to time out. If the value
+# is less than or equal to zero, identification never times out.
+#
+# Default value: 0
+###
+supybot.databases.users.timeoutIdentification: 0
+
+###
+# Determines whether the bot will allow users to unregister their users.
+# This can wreak havoc with already-existing databases, so by default we
+# don't allow it. Enable this at your own risk. (Do also note that this
+# does not prevent the owner of the bot from using the unregister
+# command.)
+#
+# Default value: False
+###
+supybot.databases.users.allowUnregistration: False
+
+###
+# Determines what filename will be used for the ignores database. This
+# file will go into the directory specified by the
+# supybot.directories.conf variable.
+#
+# Default value: ignores.conf
+###
+supybot.databases.ignores.filename: ignores.conf
+
+###
+# Determines what filename will be used for the channels database. This
+# file will go into the directory specified by the
+# supybot.directories.conf variable.
+#
+# Default value: channels.conf
+###
+supybot.databases.channels.filename: channels.conf
+
+###
+# Determines whether database-based plugins that can be channel-specific
+# will be so. This can be overridden by individual channels. Do note
+# that the bot needs to be restarted immediately after changing this
+# variable or your db plugins may not work for your channel; also note
+# that you may wish to set
+# supybot.databases.plugins.channelSpecific.link appropriately if you
+# wish to share a certain channel's databases globally.
+#
+# Default value: True
+###
+supybot.databases.plugins.channelSpecific: True
+
+###
+# Determines what channel global (non-channel-specific) databases will
+# be considered a part of. This is helpful if you've been running
+# channel-specific for awhile and want to turn the databases for your
+# primary channel into global databases. If
+# supybot.databases.plugins.channelSpecific.link.allow prevents linking,
+# the current channel will be used. Do note that the bot needs to be
+# restarted immediately after changing this variable or your db plugins
+# may not work for your channel.
+#
+# Default value: #
+###
+supybot.databases.plugins.channelSpecific.link: #
+
+###
+# Determines whether another channel's global (non-channel-specific)
+# databases will be allowed to link to this channel's databases. Do note
+# that the bot needs to be restarted immediately after changing this
+# variable or your db plugins may not work for your channel.
+#
+# Default value: True
+###
+supybot.databases.plugins.channelSpecific.link.allow: True
+
+###
+# Determines whether CDB databases will be allowed as a database
+# implementation.
+#
+# Default value: True
+###
+supybot.databases.types.cdb: True
+
+###
+# Determines how often CDB databases will have their modifications
+# flushed to disk. When the number of modified records is greater than
+# this fraction of the total number of records, the database will be
+# entirely flushed to disk.
+#
+# Default value: 0.5
+###
+supybot.databases.types.cdb.maximumModifications: 0.5
+
+###
+# Determines what will be used as the default banmask style.
+#
+# Default value: host
+###
+supybot.protocols.irc.banmask: host
+
+###
+# Determines whether the bot will strictly follow the RFC; currently
+# this only affects what strings are considered to be nicks. If you're
+# using a server or a network that requires you to message a nick such
+# as services@this.network.server then you you should set this to False.
+#
+# Default value: True
+###
+supybot.protocols.irc.strictRfc: True
+
+###
+# Determines what certificate file (if any) the bot will use connect
+# with SSL sockets by default.
+#
+# Default value: 
+###
+supybot.protocols.irc.certfile: 
+
+###
+# Determines what user modes the bot will request from the server when
+# it first connects. Many people might choose +i; some networks allow
+# +x, which indicates to the auth services on those networks that you
+# should be given a fake host.
+#
+# Default value: 
+###
+supybot.protocols.irc.umodes: 
+
+###
+# Determines what vhost the bot will bind to before connecting a server
+# (IRC, HTTP, ...) via IPv4.
+#
+# Default value: 
+###
+supybot.protocols.irc.vhost: 
+
+###
+# Determines what vhost the bot will bind to before connecting a server
+# (IRC, HTTP, ...) via IPv6.
+#
+# Default value: 
+###
+supybot.protocols.irc.vhostv6: 
+
+###
+# Determines how many old messages the bot will keep around in its
+# history. Changing this variable will not take effect until the bot is
+# restarted.
+#
+# Default value: 1000
+###
+supybot.protocols.irc.maxHistoryLength: 1000
+
+###
+# A floating point number of seconds to throttle queued messages -- that
+# is, messages will not be sent faster than once per throttleTime
+# seconds.
+#
+# Default value: 1.0
+###
+supybot.protocols.irc.throttleTime: 1.0
+
+###
+# Determines whether the bot will send PINGs to the server it's
+# connected to in order to keep the connection alive and discover
+# earlier when it breaks. Really, this option only exists for debugging
+# purposes: you always should make it True unless you're testing some
+# strange server issues.
+#
+# Default value: True
+###
+supybot.protocols.irc.ping: True
+
+###
+# Determines the number of seconds between sending pings to the server,
+# if pings are being sent to the server.
+#
+# Default value: 120
+###
+supybot.protocols.irc.ping.interval: 120
+
+###
+# Determines whether the bot will refuse duplicated messages to be
+# queued for delivery to the server. This is a safety mechanism put in
+# place to prevent plugins from sending the same message multiple times;
+# most of the time it doesn't matter, unless you're doing certain kinds
+# of plugin hacking.
+#
+# Default value: False
+###
+supybot.protocols.irc.queuing.duplicates: False
+
+###
+# Determines how many seconds must elapse between JOINs sent to the
+# server.
+#
+# Default value: 0.0
+###
+supybot.protocols.irc.queuing.rateLimit.join: 0.0
+
+###
+# Determines how many bytes the bot will 'peek' at when looking through
+# a URL for a doctype or title or something similar. It'll give up after
+# it reads this many bytes, even if it hasn't found what it was looking
+# for.
+#
+# Default value: 4096
+###
+supybot.protocols.http.peekSize: 4096
+
+###
+# Determines what proxy all HTTP requests should go through. The value
+# should be of the form 'host:port'.
+#
+# Default value: 
+###
+supybot.protocols.http.proxy: 
+
+###
+# Space-separated list of IPv4 hosts the HTTP server will bind.
+#
+# Default value: 0.0.0.0
+###
+supybot.servers.http.hosts4: 0.0.0.0
+
+###
+# Space-separated list of IPv6 hosts the HTTP server will bind.
+#
+# Default value: 
+###
+supybot.servers.http.hosts6: 
+
+###
+# Determines what port the HTTP server will bind.
+#
+# Default value: 8080
+###
+supybot.servers.http.port: 8080
+
+###
+# Determines whether the server will stay alive if no plugin is using
+# it. This also means that the server will start even if it is not used.
+#
+# Default value: False
+###
+supybot.servers.http.keepAlive: False
+
+###
+# Determines the path of the file served as favicon to browsers.
+#
+# Default value: 
+###
+supybot.servers.http.favicon: 
+
+###
+# Determines whether the bot will ignore unidentified users by default.
+# Of course, that'll make it particularly hard for those users to
+# register or identify with the bot without adding their hostmasks, but
+# that's your problem to solve.
+#
+# Default value: False
+###
+supybot.defaultIgnore: False
+
+###
+# A string that is the external IP of the bot. If this is the empty
+# string, the bot will attempt to find out its IP dynamically (though
+# sometimes that doesn't work, hence this variable).
+#
+# Default value: 
+###
+supybot.externalIP: 
+
+###
+# Determines what the default timeout for socket objects will be. This
+# means that *all* sockets will timeout when this many seconds has gone
+# by (unless otherwise modified by the author of the code that uses the
+# sockets).
+#
+# Default value: 10
+###
+supybot.defaultSocketTimeout: 10
+
+###
+# Determines what file the bot should write its PID (Process ID) to, so
+# you can kill it more easily. If it's left unset (as is the default)
+# then no PID file will be written. A restart is required for changes to
+# this variable to take effect.
+#
+# Default value: 
+###
+supybot.pidFile: 
+
+###
+# Determines whether the bot will automatically thread all commands.
+#
+# Default value: False
+###
+supybot.debug.threadAllCommands: False
+
+###
+# Determines whether the bot will automatically flush all flushers
+# *very* often. Useful for debugging when you don't know what's breaking
+# or when, but think that it might be logged.
+#
+# Default value: False
+###
+supybot.debug.flushVeryOften: False
+
+###
+# Determines what the bot's logging format will be. The relevant
+# documentation on the available formattings is Python's documentation
+# on its logging module.
+#
+# Default value: %(levelname)s %(asctime)s %(name)s %(message)s
+###
+supybot.log.format: %(levelname)s %(asctime)s %(name)s %(message)s
+
+###
+# Determines what the minimum priority level logged to file will be. Do
+# note that this value does not affect the level logged to stdout; for
+# that, you should set the value of supybot.log.stdout.level. Valid
+# values are DEBUG, INFO, WARNING, ERROR, and CRITICAL, in order of
+# increasing priority.
+#
+# Default value: INFO
+###
+supybot.log.level: INFO
+
+###
+# Determines the format string for timestamps in logfiles. Refer to the
+# Python documentation for the time module to see what formats are
+# accepted. If you set this variable to the empty string, times will be
+# logged in a simple seconds-since-epoch format.
+#
+# Default value: %Y-%m-%dT%H:%M:%S
+###
+supybot.log.timestampFormat: %Y-%m-%dT%H:%M:%S
+
+###
+# Determines whether the bot will log to stdout.
+#
+# Default value: True
+###
+supybot.log.stdout: True
+
+###
+# Determines whether the bot's logs to stdout (if enabled) will be
+# colorized with ANSI color.
+#
+# Default value: False
+###
+supybot.log.stdout.colorized: False
+
+###
+# Determines whether the bot will wrap its logs when they're output to
+# stdout.
+#
+# Default value: True
+###
+supybot.log.stdout.wrap: True
+
+###
+# Determines what the bot's logging format will be. The relevant
+# documentation on the available formattings is Python's documentation
+# on its logging module.
+#
+# Default value: %(levelname)s %(asctime)s %(message)s
+###
+supybot.log.stdout.format: %(levelname)s %(asctime)s %(message)s
+
+###
+# Determines what the minimum priority level logged will be. Valid
+# values are DEBUG, INFO, WARNING, ERROR, and CRITICAL, in order of
+# increasing priority.
+#
+# Default value: INFO
+###
+supybot.log.stdout.level: INFO
+
+###
+# Determines whether the bot will separate plugin logs into their own
+# individual logfiles.
+#
+# Default value: False
+###
+supybot.log.plugins.individualLogfiles: False
+
+###
+# Determines what the bot's logging format will be. The relevant
+# documentation on the available formattings is Python's documentation
+# on its logging module.
+#
+# Default value: %(levelname)s %(asctime)s %(message)s
+###
+supybot.log.plugins.format: %(levelname)s %(asctime)s %(message)s
+
+###
+# Determines the bot's default language. Valid values are things like
+# en, fr, de, etc.
+#
+# Default value: 'en\n'
+###
+supybot.language: en
+
+###
+# These are the capabilities that are given to everyone by default. If
+# they are normal capabilities, then the user will have to have the
+# appropriate anti-capability if you want to override these
+# capabilities; if they are anti-capabilities, then the user will have
+# to have the actual capability to override these capabilities. See
+# docs/CAPABILITIES if you don't understand why these default to what
+# they do.
+#
+# Default value: -owner -admin -trusted
+###
+supybot.capabilities: -owner -admin -trusted
+
+###
+# Determines whether the bot by default will allow users to have a
+# capability. If this is disabled, a user must explicitly have the
+# capability for whatever command they wish to run.
+#
+# Default value: True
+###
+supybot.capabilities.default: True
+
+###
+# Determines what capabilities the bot will never tell to a non-admin
+# whether or not a user has them.
+#
+# Default value:  
+###
+supybot.capabilities.private:  

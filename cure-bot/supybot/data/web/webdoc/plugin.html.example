@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+ <html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Supybot web documentation</title>
+        <link rel="stylesheet" media="screen" type="text/css" title="Design" href="/default.css" />
+    </head>
+    <body class="puretable">
+<a href="../">Plugin list</a>
+
+<h1>%(plugin)s</h1>
+
+<p>%(description)s</p>
+
+<table>
+    <tr>
+        <th>Command</th>
+        <th>Help</th>
+    </tr>
+%(table)s
+</table>
+    </body>
+</html>
