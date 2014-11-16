@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: iobot
+Version: 0.1-3-g9d08-mod
+Summary: tornado ioloop based irc bot
+Home-page: https://github.com/nod/iobot
+Author: Jeremy Kelley
+Author-email: jeremy@33ad.org
+License: http://www.apache.org/licenses/LICENSE-2.0
+Description: UNKNOWN
+Platform: UNKNOWN
